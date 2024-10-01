@@ -1,0 +1,60 @@
+{
+	"name": "pronamic/pronamic-pay-doneren-met-mollie",
+	"description": "Pronamic Pay plugin with Mollie.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"automattic/jetpack-autoloader": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"roots/wordpress-core-installer": true
+		},
+		"platform": {
+			"php": "8.1"
+		},
+		"platform-check": false,
+		"sort-packages": true,
+		"wp-slug": "pronamic-pay-doneren-met-mollie"
+	},
+	"extra": {
+		"installer-paths": {
+			"packages/{$vendor}/{$name}": [
+				"vendor:pronamic",
+				"vendor:wp-pay",
+				"vendor:wp-pay-extensions",
+				"vendor:wp-pay-gateways",
+				"woocommerce/action-scheduler"
+			]
+		}
+	},
+	"require": {
+		"php": ">=8.1",
+		"automattic/jetpack-autoloader": "^3.0",
+		"composer/installers": "^2.2",
+		"woocommerce/action-scheduler": "^3.8",
+		"wp-pay-gateways/mollie": "^4.12",
+		"wp-pay/core": "^4.20"
+	},
+	"require-dev": {
+		"pronamic/pronamic-cli": "^1.1",
+		"pronamic/wp-coding-standards": "^2.2",
+		"roots/wordpress-no-content": "^6.4",
+		"wp-cli/wp-cli": "dev-main",
+		"wp-cli/wp-cli-bundle": "dev-main"
+	},
+	"scripts": {
+		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
+		"build": "vendor/bin/pronamic wp-build --text-domain-fixer=phpcs-text-domain-fixer.xml",
+		"translate": [
+			"@build",
+			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"
+		],
+		"version": "@build",
+		"release": [
+			"@build",
+			"vendor/bin/pronamic release-to-github",
+			"vendor/bin/pronamic release-to-pronamic"
+		]
+	}
+}

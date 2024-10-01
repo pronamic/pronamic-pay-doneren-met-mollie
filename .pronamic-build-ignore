@@ -1,0 +1,14 @@
+# Pronamic build ignore
+# https://github.com/pronamic/pronamic-cli/blob/main/exclude.txt
+
+# GitHub
+/.github/
+
+# Build
+/build/
+
+# Packages
+/packages/
+
+# PHP_CodeSniffer
+/phpcs-text-domain-fixer.xml
