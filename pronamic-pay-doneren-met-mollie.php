@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/pronamic-pay-doneren-met-mollie/
  * Description: Pronamic Pay plugin with Mollie.
  *
- * Version: 1.3.1
+ * Version: 1.0.0
  * Requires at least: 5.9
  * Requires PHP: 8.1
  *
