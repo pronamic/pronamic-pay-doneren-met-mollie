@@ -14,7 +14,7 @@
 	],
 	"mappings": {
 		"wp-content/plugins/pronamic-pay-doneren-met-mollie-dev": "./",
-		"wp-content/plugins/pronamic-pay-doneren-met-mollie": "./build/project/"
+		"wp-content/plugins/pronamic-pay-doneren-met-mollie": "./build/stage-2/"
 	},
 	"config": {
 		"PRONAMIC_PAY_DEBUG": true
