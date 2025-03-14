@@ -898,16 +898,16 @@
         },
         {
             "name": "wp-pay-gateways/mollie",
-            "version": "v4.14.2",
+            "version": "v4.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-mollie.git",
-                "reference": "277e224af781778441e8c7fcf1ae04e6b5a4a5ae"
+                "reference": "4f9432e3859b15a99ba9d6b14113323a0ee6ee6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/277e224af781778441e8c7fcf1ae04e6b5a4a5ae",
-                "reference": "277e224af781778441e8c7fcf1ae04e6b5a4a5ae",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/4f9432e3859b15a99ba9d6b14113323a0ee6ee6c",
+                "reference": "4f9432e3859b15a99ba9d6b14113323a0ee6ee6c",
                 "shasum": ""
             },
             "require": {
@@ -978,20 +978,20 @@
                 "issues": "https://github.com/wp-pay-gateways/mollie/issues",
                 "source": "https://github.com/wp-pay-gateways/mollie"
             },
-            "time": "2025-03-14T11:51:16+00:00"
+            "time": "2025-03-14T14:44:26+00:00"
         },
         {
             "name": "wp-pay/core",
-            "version": "v4.25.0",
+            "version": "v4.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "d8cce7e43584d0baa42e21093ed8c6fc10901e4b"
+                "reference": "1f1fcc856f905f8a46034966a5c68ba34c4d6292"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/d8cce7e43584d0baa42e21093ed8c6fc10901e4b",
-                "reference": "d8cce7e43584d0baa42e21093ed8c6fc10901e4b",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/1f1fcc856f905f8a46034966a5c68ba34c4d6292",
+                "reference": "1f1fcc856f905f8a46034966a5c68ba34c4d6292",
                 "shasum": ""
             },
             "require": {
@@ -1070,7 +1070,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2025-02-14T13:22:07+00:00"
+            "time": "2025-03-14T15:03:36+00:00"
         }
     ],
     "packages-dev": [
