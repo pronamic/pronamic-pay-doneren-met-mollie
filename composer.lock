@@ -982,16 +982,16 @@
         },
         {
             "name": "wp-pay/core",
-            "version": "v4.25.1",
+            "version": "v4.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "1f1fcc856f905f8a46034966a5c68ba34c4d6292"
+                "reference": "1722b887f7c3b3effd01919a52f9d00b7badda00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/1f1fcc856f905f8a46034966a5c68ba34c4d6292",
-                "reference": "1f1fcc856f905f8a46034966a5c68ba34c4d6292",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/1722b887f7c3b3effd01919a52f9d00b7badda00",
+                "reference": "1722b887f7c3b3effd01919a52f9d00b7badda00",
                 "shasum": ""
             },
             "require": {
@@ -1070,7 +1070,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2025-03-14T15:03:36+00:00"
+            "time": "2025-03-14T16:01:11+00:00"
         }
     ],
     "packages-dev": [
