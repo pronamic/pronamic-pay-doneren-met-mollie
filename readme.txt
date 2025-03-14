@@ -36,7 +36,7 @@ This plugin provides the link between WordPress and payment provider Mollie. To 
 == Installation ==
 
 1. To install this plugin you can follow the WordPress documentation section "[Installing Plugins](https://wordpress.org/documentation/article/manage-plugins/#installing-plugins-1)".
-2. After installation you can follow the manual "[How to connect Pronamic Pay to Ninja Forms](https://www.pronamicpay.com/en/manuals/how-to-connect-pronamic-pay-to-ninja-forms/)".
+2. After installation you can follow the manual "[How to connect Mollie to WordPress with Pronamic Pay](https://www.pronamicpay.com/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/)".
 
 == Changelog ==
 
