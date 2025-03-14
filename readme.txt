@@ -31,7 +31,7 @@ This plugin uses a number of external services to initiate payments. These are d
 
 #### Mollie API
 
-This plugin provides the link between WordPress and payment provider Mollie. To communicate with Mollie, this plugin connects to the Mollie API via [https://api.mollie.com/](https://api.mollie.com/). The documentation for the Mollie API can be found at [https://docs.mollie.com/](https://docs.mollie.com/), Mollie's user agreement can be found at [https://www.mollie.com/gb/user-agreement-v9](https://www.mollie.com/gb/user-agreement-v9). From your WordPress website, customer and payment data can be passed on to Mollie for setting up and processing payments.
+This plugin provides the link between WordPress and payment provider Mollie. To communicate with Mollie, this plugin connects to the Mollie API via [https://api.mollie.com/](https://api.mollie.com/). The documentation for the Mollie API can be found at [https://docs.mollie.com/](https://docs.mollie.com/), Mollie's user agreement can be found at [https://www.mollie.com/user-agreement](https://www.mollie.com/user-agreement). From your WordPress website, customer and payment data can be passed on to Mollie for setting up and processing payments.
 
 == Installation ==
 
