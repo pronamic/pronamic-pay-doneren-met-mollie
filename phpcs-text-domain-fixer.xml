@@ -8,6 +8,7 @@
 				<element value="pronamic_ideal" />
 				<element value="pronamic-datetime" />
 				<element value="pronamic-money" />
+				<element value="pronamic-pay-mollie" />
 			</property>
 
 			<property name="new_text_domain" value="pronamic-pay-doneren-met-mollie" />
