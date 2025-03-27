@@ -13,6 +13,8 @@
 .gitattributes
 .gitignore
 
+.pronamic-build-ignore
+
 .wp-env.json
 
 .travis.yml
