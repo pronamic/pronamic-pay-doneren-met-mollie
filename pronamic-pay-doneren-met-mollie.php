@@ -5,7 +5,7 @@
  * Description: Pronamic Pay plugin with Mollie.
  *
  * Version: 1.0.0
- * Requires at least: 5.9
+ * Requires at least: 6.6
  * Requires PHP: 8.1
  *
  * Author: Pronamic
