@@ -58,3 +58,7 @@ add_filter(
 		return $gateways;
 	}
 );
+
+$pronamic_forms_plugin = new \Pronamic\PronamicForms\Plugin();
+
+$pronamic_forms_plugin->setup();
