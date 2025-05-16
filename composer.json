@@ -32,6 +32,7 @@
 		"php": ">=8.2",
 		"automattic/jetpack-autoloader": "^5.0",
 		"composer/installers": "^2.2",
+		"pronamic/wp-pronamic-forms": "dev-main",
 		"woocommerce/action-scheduler": "^3.8",
 		"wp-pay-gateways/mollie": "^4.12",
 		"wp-pay/core": "^4.20"
@@ -40,8 +41,8 @@
 		"pronamic/pronamic-cli": "^1.1",
 		"pronamic/wp-coding-standards": "^2.2",
 		"roots/wordpress-no-content": "^6.4",
-		"wp-cli/wp-cli": "dev-main",
-		"wp-cli/wp-cli-bundle": "dev-main"
+		"wp-cli/dist-archive-command": "*",
+		"wp-cli/wp-cli-bundle": "*"
 	},
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
@@ -59,7 +60,8 @@
 		],
 		"translate": [
 			"@build",
-			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/"
+			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/",
+			"vendor/bin/wp i18n update-po ./languages/pronamic-pay-doneren-met-mollie.pot"
 		],
 		"version": "@build",
 		"release": [
