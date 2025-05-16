@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72955b79bcefa40b1a00c092f6aa5fc0",
+    "content-hash": "b5eae2836cdbadc4e507e2785594d185",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -730,6 +730,52 @@
                 "source": "https://github.com/pronamic/wp-pay-logos/tree/v2.2.3"
             },
             "time": "2025-02-13T12:45:52+00:00"
+        },
+        {
+            "name": "pronamic/wp-pronamic-forms",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/pronamic-forms.git",
+                "reference": "09f293dcaa1e325c067761b78196f1e409818ee3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/pronamic-forms/zipball/09f293dcaa1e325c067761b78196f1e409818ee3",
+                "reference": "09f293dcaa1e325c067761b78196f1e409818ee3",
+                "shasum": ""
+            },
+            "require": {
+                "automattic/jetpack-autoloader": "^5.0",
+                "php": "^8.2",
+                "pronamic/wp-pay-logos": "^2.2"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^2.1",
+                "phpstan/phpstan-strict-rules": "^2.0",
+                "pronamic/pronamic-cli": "dev-main",
+                "pronamic/wp-coding-standards": "^2.2",
+                "rector/rector": "^2.0",
+                "roots/wordpress-no-content": "^6.7",
+                "szepeviktor/phpstan-wordpress": "^2.0",
+                "wp-cli/dist-archive-command": "*",
+                "wp-cli/wp-cli-bundle": "*",
+                "wp-pay/core": "^4.21"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\PronamicForms\\": "php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/pronamic/pronamic-forms/issues",
+                "source": "https://github.com/pronamic/pronamic-forms/tree/main"
+            },
+            "time": "2025-05-16T13:24:55+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2060,6 +2106,55 @@
                 }
             ],
             "time": "2025-03-19T11:14:02+00:00"
+        },
+        {
+            "name": "inmarelibero/gitignore-checker",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inmarelibero/gitignore-checker.git",
+                "reference": "57cdaa05ceaadaabdb671162ad46e58a133ed9dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inmarelibero/gitignore-checker/zipball/57cdaa05ceaadaabdb671162ad46e58a133ed9dd",
+                "reference": "57cdaa05ceaadaabdb671162ad46e58a133ed9dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inmarelibero\\GitIgnoreChecker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuele Gaspari",
+                    "email": "inmarelibero@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP library to check if a path is ignored by GIT",
+            "keywords": [
+                "git",
+                "gitignore",
+                "vcs"
+            ],
+            "support": {
+                "issues": "https://github.com/inmarelibero/gitignore-checker/issues",
+                "source": "https://github.com/inmarelibero/gitignore-checker/tree/1.0.4"
+            },
+            "time": "2024-05-03T16:17:41+00:00"
         },
         {
             "name": "mck89/peast",
@@ -4557,6 +4652,68 @@
             "time": "2025-04-10T11:02:04+00:00"
         },
         {
+            "name": "wp-cli/dist-archive-command",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-cli/dist-archive-command.git",
+                "reference": "1d0adc4fa66374f6bf3f46e6034809d2d0b3cd14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/1d0adc4fa66374f6bf3f46e6034809d2d0b3cd14",
+                "reference": "1d0adc4fa66374f6bf3f46e6034809d2d0b3cd14",
+                "shasum": ""
+            },
+            "require": {
+                "inmarelibero/gitignore-checker": "^1.0.4",
+                "php": ">=7.4",
+                "wp-cli/wp-cli": "^2"
+            },
+            "require-dev": {
+                "wp-cli/extension-command": "^2",
+                "wp-cli/scaffold-command": "^2",
+                "wp-cli/wp-cli-tests": "^4"
+            },
+            "type": "wp-cli-package",
+            "extra": {
+                "readme": {
+                    "shields": [
+                        "[![Testing](https://github.com/wp-cli/dist-archive-command/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/dist-archive-command/actions/workflows/testing.yml)"
+                    ]
+                },
+                "commands": [
+                    "dist-archive"
+                ]
+            },
+            "autoload": {
+                "files": [
+                    "dist-archive-command.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "daniel@runcommand.io",
+                    "homepage": "https://runcommand.io"
+                }
+            ],
+            "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
+            "homepage": "https://github.com/wp-cli/dist-archive-command/",
+            "support": {
+                "issues": "https://github.com/wp-cli/dist-archive-command/issues",
+                "source": "https://github.com/wp-cli/dist-archive-command/tree/v3.0.1"
+            },
+            "time": "2024-05-08T13:55:57+00:00"
+        },
+        {
             "name": "wp-cli/embed-command",
             "version": "v2.0.18",
             "source": {
@@ -6190,16 +6347,16 @@
         },
         {
             "name": "wp-cli/wp-cli",
-            "version": "dev-main",
+            "version": "v2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "3ca317ad8b50ebaf9580373a383490a82b768f4a"
+                "reference": "03d30d4138d12b4bffd8b507b82e56e129e0523f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/3ca317ad8b50ebaf9580373a383490a82b768f4a",
-                "reference": "3ca317ad8b50ebaf9580373a383490a82b768f4a",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/03d30d4138d12b4bffd8b507b82e56e129e0523f",
+                "reference": "03d30d4138d12b4bffd8b507b82e56e129e0523f",
                 "shasum": ""
             },
             "require": {
@@ -6221,7 +6378,6 @@
                 "ext-readline": "Include for a better --prompt implementation",
                 "ext-zip": "Needed to support extraction of ZIP archives when doing downloads or updates"
             },
-            "default-branch": true,
             "bin": [
                 "bin/wp",
                 "bin/wp.bat"
@@ -6229,7 +6385,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.13.x-dev"
+                    "dev-main": "2.12.x-dev"
                 }
             },
             "autoload": {
@@ -6256,20 +6412,20 @@
                 "issues": "https://github.com/wp-cli/wp-cli/issues",
                 "source": "https://github.com/wp-cli/wp-cli"
             },
-            "time": "2025-05-07T02:59:24+00:00"
+            "time": "2025-05-07T01:16:12+00:00"
         },
         {
             "name": "wp-cli/wp-cli-bundle",
-            "version": "dev-main",
+            "version": "v2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli-bundle.git",
-                "reference": "2a6fa7f5b1b82467c8b0f6f96ce5459956c58ea4"
+                "reference": "d639a3dab65f4b935b21c61ea3662bf3258a03a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli-bundle/zipball/2a6fa7f5b1b82467c8b0f6f96ce5459956c58ea4",
-                "reference": "2a6fa7f5b1b82467c8b0f6f96ce5459956c58ea4",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli-bundle/zipball/d639a3dab65f4b935b21c61ea3662bf3258a03a5",
+                "reference": "d639a3dab65f4b935b21c61ea3662bf3258a03a5",
                 "shasum": ""
             },
             "require": {
@@ -6300,7 +6456,7 @@
                 "wp-cli/shell-command": "^2",
                 "wp-cli/super-admin-command": "^2",
                 "wp-cli/widget-command": "^2",
-                "wp-cli/wp-cli": "dev-main"
+                "wp-cli/wp-cli": "^2.12"
             },
             "require-dev": {
                 "roave/security-advisories": "dev-latest",
@@ -6309,7 +6465,6 @@
             "suggest": {
                 "psy/psysh": "Enhanced `wp shell` functionality"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -6331,7 +6486,7 @@
                 "issues": "https://github.com/wp-cli/wp-cli-bundle/issues",
                 "source": "https://github.com/wp-cli/wp-cli-bundle"
             },
-            "time": "2025-05-07T16:25:20+00:00"
+            "time": "2025-05-07T02:15:53+00:00"
         },
         {
             "name": "wp-cli/wp-config-transformer",
@@ -6452,8 +6607,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-cli/wp-cli": 20,
-        "wp-cli/wp-cli-bundle": 20
+        "pronamic/wp-pronamic-forms": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
