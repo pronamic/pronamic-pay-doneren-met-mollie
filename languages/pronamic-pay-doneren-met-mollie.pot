@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-16T14:05:16+00:00\n"
+"POT-Creation-Date: 2025-05-19T09:25:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: pronamic-pay-doneren-met-mollie\n"
@@ -776,51 +776,6 @@ msgctxt "money format"
 msgid "%1$s%2$s %3$s"
 msgstr ""
 
-#: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:16
-#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:16
-#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:16
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:16
-msgid "Your form has been submitted successfully."
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:22
-#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:22
-#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:22
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:22
-msgid "There was an error submitting your form."
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:27
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:152
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:46
-#: packages/wp-pay/core/views/meta-box-payment-info.php:499
-#: packages/wp-pay/core/views/meta-box-payment-lines.php:37
-msgid "Name"
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:31
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:158
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:457
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:47
-#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:510
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:498
-msgid "Email"
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:35
-msgid "Subject"
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:39
-#: packages/wp-pay/core/views/exception.php:20
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:121
-msgid "Message"
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:44
-msgid "Submit"
-msgstr ""
-
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:27
 msgctxt "Product configurator form pattern"
 msgid "Bookcase"
@@ -859,18 +814,6 @@ msgstr ""
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:55
 msgctxt "Product configurator form pattern"
 msgid "Billing details"
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:61
-msgid "First Name"
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:67
-msgid "Last Name"
-msgstr ""
-
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:73
-msgid "Email Address"
 msgstr ""
 
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:77
@@ -1065,12 +1008,6 @@ msgstr ""
 msgid "action failed: %s"
 msgstr ""
 
-#. translators: %s: amount of time
-#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:171
-#, php-format
-msgid "action marked as failed after %s seconds. Unknown error occurred. Check server, PHP and database error logs to diagnose cause."
-msgstr ""
-
 #. translators: 1: error message 2: filename 3: line
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:183
 #, php-format
@@ -1107,19 +1044,11 @@ msgstr ""
 msgid "There was a failure scheduling the next instance of this action: %s"
 msgstr ""
 
-#. translators: %d is a number (maximum length of action arguments).
-#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:377
-#, php-format
-msgid "ActionScheduler_Action::$args too long. To ensure the args column can be indexed, action args should not be more than %d characters when encoded as JSON."
-msgstr ""
-
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:455
 msgid "Complete"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:456
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:275
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:156
 msgid "Pending"
 msgstr ""
 
@@ -1186,21 +1115,10 @@ msgstr ""
 msgid "About Action Scheduler %s"
 msgstr ""
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:275
-msgid "Action Scheduler is a scalable, traceable job queue for background processing large sets of actions. Action Scheduler works by triggering an action hook to run at some time in the future. Scheduled actions can also be scheduled to run on a recurring schedule."
-msgstr ""
-
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:277
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:470
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:424
-#: packages/wp-pay/core/views/meta-box-payment-info.php:725
-#: packages/wp-pay/core/views/meta-box-payment-subscription.php:122
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:245
 msgid "Source"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:279
-msgid "Action Scheduler is currently being loaded from the following location. This can be useful when debugging, or if requested by the support team."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:282
@@ -1232,23 +1150,13 @@ msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:301
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:97
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:225
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:147
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:219
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:220
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:316
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:317
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:519
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:482
-#: packages/wp-pay/core/views/meta-box-gateway-payment-methods.php:35
-#: packages/wp-pay/core/views/meta-box-payment-info.php:44
-#: packages/wp-pay/core/views/meta-box-payment-subscription.php:52
-#: packages/wp-pay/core/views/meta-box-subscription-payments.php:112
 msgid "Status"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:301
-msgid "Action statuses are Pending, Complete, Canceled, Failed"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:302
@@ -1273,7 +1181,6 @@ msgstr ""
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:100
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:323
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:115
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:48
 #: packages/wp-pay/core/views/subscription-details.php:72
 msgid "Recurrence"
 msgstr ""
@@ -1344,83 +1251,12 @@ msgid "Process the action now as if it were run as part of a queue"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:133
-#: packages/wp-pay/core/views/meta-box-payment-update.php:89
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:105
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:175
 msgid "Cancel"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:134
 msgid "Cancel the action now to avoid it being run in future"
 msgstr ""
-
-#. translators: %s: amount of time
-#. translators: %s: number of years
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:144
-#: packages/wp-pay/core/src/Util.php:52
-#, php-format
-msgid "%s year"
-msgid_plural "%s years"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: amount of time
-#. translators: %s: number of months
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:149
-#: packages/wp-pay/core/src/Util.php:57
-#, php-format
-msgid "%s month"
-msgid_plural "%s months"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: amount of time
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:154
-#, php-format
-msgid "%s week"
-msgid_plural "%s weeks"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: amount of time
-#. translators: %s: number of days
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:159
-#: packages/wp-pay/core/src/Util.php:62
-#, php-format
-msgid "%s day"
-msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: amount of time
-#. translators: %s: number of hours
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:164
-#: packages/wp-pay/core/src/Util.php:67
-#, php-format
-msgid "%s hour"
-msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: amount of time
-#. translators: %s: number of minutes
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:169
-#: packages/wp-pay/core/src/Util.php:72
-#, php-format
-msgid "%s minute"
-msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: amount of time
-#. translators: %s: number of seconds
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:174
-#: packages/wp-pay/core/src/Util.php:77
-#, php-format
-msgid "%s second"
-msgid_plural "%s seconds"
-msgstr[0] ""
-msgstr[1] ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:224
 msgid "Now!"
@@ -1508,10 +1344,6 @@ msgstr ""
 msgid "Action Scheduler was unable to delete action %1$d. Reason: %2$s"
 msgstr ""
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:666
-msgid "Search hook, args and claim ID"
-msgstr ""
-
 #. Translators: %s is the exception message.
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_QueueCleaner.php:70
 #, php-format
@@ -1523,47 +1355,13 @@ msgid "Every minute"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
-msgid "Action Scheduler"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
 msgid "This section shows details of Action Scheduler."
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
-msgid "Version:"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
-msgid "Data store:"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
-msgid "Action Status"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
-msgid "Count"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:125
-msgid "Oldest Scheduled Date"
-msgstr ""
-
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:126
-msgid "Newest Scheduled Date"
 msgstr ""
 
 #. translators: %s: date interval
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:121
 #, php-format
 msgid "This data will be deleted in %s."
-msgstr ""
-
-#. translators: 1: next cleanup message 2: github issue URL
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:126
-#, php-format
-msgid "Action Scheduler has migrated data to custom tables; however, orphaned log entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn more &raquo;</a>"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:130
@@ -1586,12 +1384,6 @@ msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:490
 msgid "JSON partial matching not supported in your environment. Please check your MySQL/MariaDB version."
-msgstr ""
-
-#. translators: %s: provided value type
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:508
-#, php-format
-msgid "The value type for the JSON partial matching is not supported. Must be either integer, boolean, double or string. %s type provided."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:530
@@ -1717,29 +1509,10 @@ msgctxt "post"
 msgid "Failed"
 msgstr ""
 
-#. translators: %s: count
-#. translators: %s: count value
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:43
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:211
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:170
-#, php-format
-msgid "Failed <span class=\"count\">(%s)</span>"
-msgid_plural "Failed <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:56
 msgctxt "post"
 msgid "In-Progress"
 msgstr ""
-
-#. translators: %s: count
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:58
-#, php-format
-msgid "In-Progress <span class=\"count\">(%s)</span>"
-msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:24
 msgid "Scheduled actions are hooks triggered on a certain date and time."
@@ -1763,9 +1536,6 @@ msgid "Add New Scheduled Action"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
-#: packages/wp-pay/core/views/meta-box-payment-update.php:67
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:79
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:147
 msgid "Edit"
 msgstr ""
 
@@ -1981,10 +1751,6 @@ msgid_plural "%d actions deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:69
-msgid "There are too many concurrent batches, but the run is forced to continue."
-msgstr ""
-
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:71
 msgid "There are too many concurrent batches."
 msgstr ""
@@ -2072,7 +1838,7 @@ msgid "Caught exception while cancelling action \"%1$s\": %2$s"
 msgstr ""
 
 #: packages/wp-pay-gateways/mollie/pronamic-pay-mollie.php:51
-#: pronamic-pay-doneren-met-mollie.php:61
+#: pronamic-pay-doneren-met-mollie.php:54
 msgid "https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/"
 msgstr ""
 
@@ -2080,7 +1846,6 @@ msgstr ""
 #: packages/wp-pay-gateways/mollie/src/Admin.php:136
 #: packages/wp-pay-gateways/mollie/src/Admin.php:295
 #: packages/wp-pay-gateways/mollie/src/Admin.php:337
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:37
 msgid "Mollie"
 msgstr ""
 
@@ -2105,7 +1870,6 @@ msgid "Mollie Mandates"
 msgstr ""
 
 #: packages/wp-pay-gateways/mollie/src/Admin.php:164
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:218
 msgid "Mandates"
 msgstr ""
 
@@ -2128,7 +1892,6 @@ msgstr ""
 #: packages/wp-pay/core/src/Payments/PaymentsPrivacy.php:46
 #: packages/wp-pay/core/src/Payments/PaymentsPrivacy.php:62
 #: packages/wp-pay/core/src/Payments/PaymentsPrivacy.php:125
-#: packages/wp-pay/core/views/pointer-payments.php:16
 msgid "Payments"
 msgstr ""
 
@@ -2263,183 +2026,10 @@ msgstr ""
 msgid "Customer %s"
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:140
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:223
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:456
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:90
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:44
-#: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:77
-#: packages/wp-pay/core/views/meta-box-payment-info.php:66
-#: packages/wp-pay/core/views/meta-box-payment-lines.php:34
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:43
-msgid "ID"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:146
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:224
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:127
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:163
-#: packages/wp-pay/core/views/meta-box-payment-info.php:803
-msgid "Mode"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:148
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:255
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:133
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:45
-#: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:245
-#: packages/wp-pay/core/src/Admin/AdminModule.php:529
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:346
-#: packages/wp-pay/core/views/meta-box-payment-info.php:814
-msgid "Test"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:148
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:259
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:136
-#: packages/wp-pay/core/views/meta-box-payment-info.php:810
-msgid "Live"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:177
-#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:501
-msgid "Locale"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:195
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:105
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:96
-msgid "Link"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:226
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:170
-#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:405
-msgid "Method"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:227
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:193
-msgid "Details"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:228
-msgid "Mandate Reference"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:229
-msgid "Signature Date"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:230
-msgid "Created On"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:239
-msgid "No mandates found."
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:279
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:153
-#: packages/wp-pay/core/src/LicenseManager.php:409
-#: packages/wp-pay/core/views/meta-box-payment-info.php:491
-msgid "Valid"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:295
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:474
-msgid "Credit Card"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:299
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:475
-msgid "Direct Debit"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:320
-msgid "Card Holder"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:329
-msgid "Card Number"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:338
-msgid "Card Label"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:347
-msgid "Card Fingerprint"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:356
-msgid "Card Expiry Date"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:372
-#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:581
-msgid "Consumer Name"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:381
-msgid "Consumer Account"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:390
-#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:608
-msgid "Consumer BIC"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:451
-msgid "WordPress Users"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-customer.php:458
-msgid "Display Name"
-msgstr ""
-
 #. translators: %s: Mollie customer ID.
 #: packages/wp-pay-gateways/mollie/views/page-mandate.php:76
 #, php-format
 msgid "Mandate %s"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:93
-msgid "Customer ID"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:99
-msgid "Mandate ID"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:159
-#: packages/wp-pay/core/src/LicenseManager.php:412
-msgid "Invalid"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:176
-msgid "Direct debit"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:179
-msgid "Credit card"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:182
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:507
-msgid "PayPal"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:206
-msgid "Reference"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:212
-msgid "Signature date"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-mandate.php:218
-msgid "Created at"
 msgstr ""
 
 #. translators: %s: payment number
@@ -2448,50 +2038,13 @@ msgstr ""
 msgid "Payment %s"
 msgstr ""
 
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:126
 #: packages/wp-pay-gateways/mollie/views/page-payment.php:133
 msgid "Change Payment State"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:144
-msgid "Pronamic Pay Payment"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:169
-msgid "Metadata"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:182
-msgid "cURL"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/page-payment.php:193
-msgid "HTTPie"
 msgstr ""
 
 #: packages/wp-pay-gateways/mollie/views/user-profile.php:39
 msgctxt "mollie"
 msgid "Customers"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:76
-#: packages/wp-pay/core/views/meta-box-payment-info.php:494
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:132
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:144
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:151
-msgid "Yes"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:76
-#: packages/wp-pay/core/views/meta-box-payment-info.php:494
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:132
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:144
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:151
-msgid "No"
-msgstr ""
-
-#: packages/wp-pay-gateways/mollie/views/user-profile.php:102
-msgid "Mollie offers the possibility to register payers as a customer within the Mollie payment platform. This functionality remembers payment preferences to make future payments easier. The Mollie customers can be linked to WordPress users. This is a list of Mollie customers associated with this WordPress user. For subscriptions, a Mollie customer mandate can be used for recurring payments."
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminAboutPage.php:70
@@ -2503,7 +2056,6 @@ msgid "Welcome to Pronamic Pay"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminDashboard.php:64
-#: packages/wp-pay/core/views/page-dashboard.php:31
 msgid "Pronamic Pay Status"
 msgstr ""
 
@@ -2515,23 +2067,20 @@ msgstr ""
 msgid "Variant"
 msgstr ""
 
+#: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:77
+msgid "ID"
+msgstr ""
+
 #: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:78
 #: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:177
 #: packages/wp-pay/core/src/Admin/AdminModule.php:872
 #: packages/wp-pay/core/views/meta-box-gateway-config.php:82
-#: packages/wp-pay/core/views/pointer-dashboard.php:16
 msgid "Dashboard"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:79
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:234
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:325
-#: packages/wp-pay/core/views/meta-box-notes.php:37
-#: packages/wp-pay/core/views/meta-box-payment-info.php:27
-#: packages/wp-pay/core/views/meta-box-payment-refunds.php:29
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:35
-#: packages/wp-pay/core/views/meta-box-subscription-payments.php:118
-#: packages/wp-pay/core/views/redirect-via-html.php:79
 msgid "Date"
 msgstr ""
 
@@ -2543,10 +2092,10 @@ msgstr ""
 msgid "Configuration"
 msgstr ""
 
-#: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:516
-#: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:719
-#: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:737
-msgid "M j, Y @ H:i"
+#: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:245
+#: packages/wp-pay/core/src/Admin/AdminModule.php:529
+#: packages/wp-pay/core/views/meta-box-gateway-test.php:346
+msgid "Test"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:520
@@ -2612,10 +2161,8 @@ msgstr ""
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:502
 #: packages/wp-pay/core/src/Admin/AdminModule.php:827
 #: packages/wp-pay/core/src/Blocks/BlocksModule.php:53
-#: packages/wp-pay/core/src/HomeUrlController.php:90
 #: packages/wp-pay/core/src/LicenseManager.php:454
 #: packages/wp-pay/core/src/Payments/StatusChecker.php:155
-#: packages/wp-pay/core/views/notice-license.php:24
 #: packages/wp-pay/core/views/notice-license.php:32
 msgid "Pronamic Pay"
 msgstr ""
@@ -2691,10 +2238,6 @@ msgstr ""
 msgid "SHA1 hashing algorithm is available"
 msgstr ""
 
-#: packages/wp-pay/core/src/Admin/AdminHealth.php:315
-msgid "Payment gateways often use the SHA1 hashing algorithm, therefore Pronamic Pay advises to enable this hashing algorithm."
-msgstr ""
-
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:330
 msgid "SHA1 hashing algorithm is not available for Pronamic Pay"
 msgstr ""
@@ -2717,10 +2260,6 @@ msgstr ""
 msgid "%s extensions are compatible"
 msgstr ""
 
-#: packages/wp-pay/core/src/Admin/AdminHealth.php:489
-msgid "Pronamic Pay uses extensions to integrate with form, booking and other e-commerce plugins. All extensions support the currently activated plugin versions."
-msgstr ""
-
 #. translators: %s: plugin name
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:494
 #, php-format
@@ -2731,10 +2270,6 @@ msgstr ""
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:501
 #, php-format
 msgid "%s extensions might be incompatible"
-msgstr ""
-
-#: packages/wp-pay/core/src/Admin/AdminHealth.php:506
-msgid "Pronamic Pay uses extensions to integrate with form, booking and other e-commerce plugins. We have found that not all extensions are tested with or support the version of the currently activated plugins. Usually you can still accept payments, however if you experience payment issues it is advised to check the 'Plugins' page for available updates."
 msgstr ""
 
 #. translators: %s: order ID
@@ -2773,20 +2308,31 @@ msgstr ""
 #: packages/wp-pay/core/src/Admin/AdminModule.php:784
 #: packages/wp-pay/core/src/Admin/AdminModule.php:785
 #: packages/wp-pay/core/src/GatewayPostType.php:71
-#: packages/wp-pay/core/views/pointer-gateways.php:16
 msgid "Configurations"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminModule.php:791
 #: packages/wp-pay/core/src/Admin/AdminModule.php:792
-#: packages/wp-pay/core/views/pointer-settings.php:16
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:48
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-option/index.js:44
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:84
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:59
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:23
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:45
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:46
+#: packages/pronamic/wp-pronamic-forms/blocks-src/hidden-payment-amount/index.js:33
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/hidden-payment-amount/index.js:1
 msgid "Settings"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminModule.php:828
-#: packages/wp-pay/core/views/form.php:46
-#: packages/wp-pay/core/views/subscription-mandate.php:289
-#: packages/wp-pay/core/views/subscription-renew.php:98
 msgid "Pay"
 msgstr ""
 
@@ -2830,47 +2376,32 @@ msgstr ""
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:320
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:564
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:52
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:198
-#: packages/wp-pay/core/views/meta-box-payment-subscription.php:44
-#: packages/wp-pay/core/views/subscription-details.php:78
 msgid "Subscription"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:228
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:546
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:53
-#: packages/wp-pay/core/views/meta-box-subscription-payments.php:115
-#: packages/wp-pay/core/views/redirect-via-html.php:76
 msgid "Payment"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:229
-#: packages/wp-pay/core/views/meta-box-subscription-payments.php:116
 msgid "Transaction"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:230
-#: packages/wp-pay/core/views/meta-box-payment-info.php:176
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:62
 msgid "Gateway"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:231
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:484
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:489
-#: packages/wp-pay/core/views/meta-box-payment-info.php:82
-#: packages/wp-pay/core/views/meta-box-payment-refunds.php:32
-#: packages/wp-pay/core/views/meta-box-payment-subscription.php:73
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:51
-#: packages/wp-pay/core/views/redirect-via-html.php:91
 #: packages/wp-pay/core/views/subscription-details.php:27
 msgid "Description"
 msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:232
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:321
-#: packages/wp-pay/core/views/meta-box-payment-info.php:422
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:200
 msgid "Customer"
 msgstr ""
 
@@ -2878,14 +2409,6 @@ msgstr ""
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:322
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:422
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:445
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:145
-#: packages/wp-pay/core/views/meta-box-payment-info.php:90
-#: packages/wp-pay/core/views/meta-box-payment-refunds.php:30
-#: packages/wp-pay/core/views/meta-box-payment-subscription.php:81
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:99
-#: packages/wp-pay/core/views/meta-box-subscription-payments.php:117
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:47
-#: packages/wp-pay/core/views/redirect-via-html.php:94
 #: packages/wp-pay/core/views/subscription-details.php:40
 msgid "Amount"
 msgstr ""
@@ -3286,6 +2809,14 @@ msgstr ""
 msgid "In3"
 msgstr ""
 
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:474
+msgid "Credit Card"
+msgstr ""
+
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:475
+msgid "Direct Debit"
+msgstr ""
+
 #. translators: %s: payment method
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:478
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:483
@@ -3350,6 +2881,10 @@ msgstr ""
 msgid "Payconiq"
 msgstr ""
 
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:507
+msgid "PayPal"
+msgstr ""
+
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:508
 msgid "Przelewy24"
 msgstr ""
@@ -3396,7 +2931,6 @@ msgstr ""
 
 #: packages/wp-pay/core/src/GatewayPostType.php:58
 #: packages/wp-pay/core/src/GatewayPostType.php:60
-#: packages/wp-pay/core/src/HomeUrlController.php:121
 msgid "Payment Gateway Configurations"
 msgstr ""
 
@@ -3498,46 +3032,26 @@ msgstr ""
 msgid "Home URL setting to detect changes in the WordPress home URL."
 msgstr ""
 
-#. translators: 1: Pronamic Pay home URL option, 2: home URL
-#: packages/wp-pay/core/src/HomeUrlController.php:96
-#, php-format
-msgid "We noticed the WordPress home URL has changed from \"%1$s\" to \"%2$s\". Please verify the payment gateway settings. For example, you might want to switch between live and test mode or need to update an URL at the gateway to continue receiving payment status updates. Also keep an eye on pending payments to discover possible configuration issues."
-msgstr ""
-
-#: packages/wp-pay/core/src/HomeUrlController.php:113
-msgid "If you use subscriptions, you may want to update processing of recurring payments in the plugin debug settings to prevent duplicate payments being started in a development environment."
-msgstr ""
-
-#: packages/wp-pay/core/src/HomeUrlController.php:124
-msgid "Dismiss this notice."
-msgstr ""
-
-#: packages/wp-pay/core/src/HomeUrlController.php:147
-msgid "The security code (nonce) to verify the dismiss action expired or was invalid, please refresh and try again."
-msgstr ""
-
 #: packages/wp-pay/core/src/HomeUrlController.php:151
 msgid "You don’t have permission to do this."
-msgstr ""
-
-#: packages/wp-pay/core/src/HomeUrlController.php:157
-msgid "Unable to dismiss the home URL change because the home URL option could not be updated, please refresh and try again."
 msgstr ""
 
 #: packages/wp-pay/core/src/LicenseManager.php:90
 msgid "Support License Key"
 msgstr ""
 
-#. translators: 1: Pronamic Pay settings page URL, 2: The pronamicpay.com plugin page URL
-#: packages/wp-pay/core/src/LicenseManager.php:207
-#, php-format
-msgid "<strong>Pronamic Pay</strong> — You have not entered a valid <a href=\"%1$s\">support license key</a>, please <a href=\"%2$s\" target=\"_blank\">get your key at pronamicpay.com</a>."
-msgstr ""
-
 #. translators: 1: Pronamic Pay settings page URL, 2: The pronamicpay.com plugin page URL, 3: The pronamic.shop account page URL
 #: packages/wp-pay/core/src/LicenseManager.php:214
 #, php-format
 msgid "<strong>Pronamic Pay</strong> — You have not entered a valid <a href=\"%1$s\">support license key</a>. Please <a href=\"%2$s\" target=\"_blank\">get your key at pronamicpay.com</a> or login to <a href=\"%3$s\" target=\"_blank\">check your license status</a>."
+msgstr ""
+
+#: packages/wp-pay/core/src/LicenseManager.php:409
+msgid "Valid"
+msgstr ""
+
+#: packages/wp-pay/core/src/LicenseManager.php:412
+msgid "Invalid"
 msgstr ""
 
 #: packages/wp-pay/core/src/LicenseManager.php:415
@@ -3598,10 +3112,6 @@ msgstr ""
 
 #: packages/wp-pay/core/src/PagesController.php:59
 msgid "Payment Status Pages"
-msgstr ""
-
-#: packages/wp-pay/core/src/PagesController.php:85
-msgid "The page an user will get redirected to after payment, based on the payment status."
 msgstr ""
 
 #: packages/wp-pay/core/src/PagesController.php:103
@@ -3709,7 +3219,6 @@ msgid "Search Payments"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:61
-#: packages/wp-pay/core/views/meta-box-subscription-payments.php:104
 msgid "No payments found."
 msgstr ""
 
@@ -3797,79 +3306,10 @@ msgctxt "Payment status"
 msgid "Authorized"
 msgstr ""
 
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:133
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:131
-#, php-format
-msgid "Pending <span class=\"count\">(%s)</span>"
-msgid_plural "Pending <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:140
 msgctxt "Payment status"
 msgid "Reserved"
 msgstr ""
-
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:146
-#, php-format
-msgid "Reserved <span class=\"count\">(%s)</span>"
-msgid_plural "Reserved <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:159
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:183
-#, php-format
-msgid "On Hold <span class=\"count\">(%s)</span>"
-msgid_plural "On Hold <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:172
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:209
-#, php-format
-msgid "Completed <span class=\"count\">(%s)</span>"
-msgid_plural "Completed <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:185
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:144
-#, php-format
-msgid "Cancelled <span class=\"count\">(%s)</span>"
-msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:198
-#, php-format
-msgid "Refunded <span class=\"count\">(%s)</span>"
-msgid_plural "Refunded <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:224
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:157
-#, php-format
-msgid "Expired <span class=\"count\">(%s)</span>"
-msgid_plural "Expired <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Payments/PaymentPostType.php:237
-#, php-format
-msgid "Authorized <span class=\"count\">(%s)</span>"
-msgid_plural "Authorized <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:391
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:417
@@ -3878,6 +3318,10 @@ msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:398
 msgid "Key"
+msgstr ""
+
+#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:405
+msgid "Method"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:414
@@ -3890,14 +3334,11 @@ msgid "Issuer"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:439
-#: packages/wp-pay/core/views/meta-box-payment-info.php:74
 msgid "Order ID"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:447
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:473
-#: packages/wp-pay/core/views/meta-box-payment-info.php:141
-#: packages/wp-pay/core/views/redirect-via-html.php:86
 msgid "Transaction ID"
 msgstr ""
 
@@ -3906,7 +3347,6 @@ msgid "Entrance Code"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:462
-#: packages/wp-pay/core/views/meta-box-payment-info.php:857
 msgid "Action URL"
 msgstr ""
 
@@ -3919,13 +3359,23 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
+#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:501
+msgid "Locale"
+msgstr ""
+
+#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:510
+#: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:498
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:87
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "Email"
+msgstr ""
+
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:527
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:507
 msgid "Customer Name"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:536
-#: packages/wp-pay/core/views/meta-box-payment-info.php:507
 msgid "Address"
 msgstr ""
 
@@ -3945,6 +3395,10 @@ msgstr ""
 msgid "Telephone Number"
 msgstr ""
 
+#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:581
+msgid "Consumer Name"
+msgstr ""
+
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:590
 msgid "Consumer Account Number"
 msgstr ""
@@ -3953,12 +3407,15 @@ msgstr ""
 msgid "Consumer IBAN"
 msgstr ""
 
+#: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:608
+msgid "Consumer BIC"
+msgstr ""
+
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:617
 msgid "Consumer City"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:626
-#: packages/wp-pay/core/views/meta-box-payment-info.php:756
 msgid "Subscription ID"
 msgstr ""
 
@@ -3967,22 +3424,18 @@ msgid "Recurring Type"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:642
-#: packages/wp-pay/core/views/meta-box-gateway-payment-methods.php:39
 msgid "Recurring"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:649
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:49
 msgid "Start Date"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:657
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:50
 msgid "End Date"
 msgstr ""
 
 #: packages/wp-pay/core/src/Payments/PaymentsDataStoreCPT.php:665
-#: packages/wp-pay/core/views/meta-box-payment-info.php:844
 msgid "User Agent"
 msgstr ""
 
@@ -4024,26 +3477,8 @@ msgstr ""
 msgid "Payment status check at gateway by %s."
 msgstr ""
 
-#. translators: %s: provider
-#: packages/wp-pay/core/src/Plugin.php:666
-#, php-format
-msgid "You must be at least 18+ to use this service. If you pay on time, you will avoid additional costs and ensure that you can use %s services again in the future. By continuing, you accept the Terms and Conditions and confirm that you have read the Privacy Statement and Cookie Statement."
-msgstr ""
-
 #: packages/wp-pay/core/src/Plugin.php:677
 msgid "AfterPay is one of the largest and most popular post-payment system in the Benelux. Millions of Dutch and Belgians use AfterPay to pay for products."
-msgstr ""
-
-#: packages/wp-pay/core/src/Plugin.php:696
-msgid "Afterpay is a popular buy now, pay later service in Australia, New Zealand, the United States, and Canada."
-msgstr ""
-
-#: packages/wp-pay/core/src/Plugin.php:828
-msgid "The most popular payment method in the world. Offers customers a safe and trusted way to pay online. Customers can pay for their order quickly and easily with their card, without having to worry about their security. It is possible to charge a payment surcharge for card costs."
-msgstr ""
-
-#: packages/wp-pay/core/src/Plugin.php:841
-msgid "The most popular payment method in the world. Offers customers a safe and trusted way to pay online. Customers can pay for their order quickly and easily with their credit card, without having to worry about their security. It is possible to charge a payment surcharge for credit card costs."
 msgstr ""
 
 #. translators: %s: payment method
@@ -4190,16 +3625,10 @@ msgctxt "Subscription status"
 msgid "Completed"
 msgstr ""
 
-#. translators: %s: count value
-#: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:196
-#, php-format
-msgid "Active <span class=\"count\">(%s)</span>"
-msgid_plural "Active <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:452
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:229
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:165
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:200
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
 msgid "Frequency"
 msgstr ""
 
@@ -4212,10 +3641,6 @@ msgid "Interval Period"
 msgstr ""
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:516
-#: packages/wp-pay/core/views/meta-box-gateway-payment-methods.php:34
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:49
-#: packages/wp-pay/core/views/meta-box-payment-info.php:187
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:73
 msgid "Payment Method"
 msgstr ""
 
@@ -4285,6 +3710,54 @@ msgstr ""
 msgid "Subscription ID %s not anonymized because of active status."
 msgstr ""
 
+#. translators: %s: number of years
+#: packages/wp-pay/core/src/Util.php:52
+#, php-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of months
+#: packages/wp-pay/core/src/Util.php:57
+#, php-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of days
+#: packages/wp-pay/core/src/Util.php:62
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of hours
+#: packages/wp-pay/core/src/Util.php:67
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of minutes
+#: packages/wp-pay/core/src/Util.php:72
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of seconds
+#: packages/wp-pay/core/src/Util.php:77
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
 #. translators: 1: formatted periods, 2: last formatted period
 #: packages/wp-pay/core/src/Util.php:94
 #, php-format
@@ -4336,23 +3809,6 @@ msgid_plural "%s periods"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/wp-pay/core/views/exception.php:25
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:126
-msgid "Code"
-msgstr ""
-
-#: packages/wp-pay/core/views/exception.php:32
-msgid "Trace"
-msgstr ""
-
-#: packages/wp-pay/core/views/form.php:23
-msgid "It is currently not possible to pay, please contact us for more information (error: no action URL found)."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-config.php:48
-msgid "Payment provider"
-msgstr ""
-
 #. translators: %s: Integration name
 #: packages/wp-pay/core/views/meta-box-gateway-config.php:68
 #, php-format
@@ -4391,14 +3847,6 @@ msgstr ""
 msgid "Processing gateway transaction feedback in the background requires additional configuration."
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:25
-msgid "Please save the entered account details of your payment provider, to make a test payment."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:56
-msgid "— Choose payment method —"
-msgstr ""
-
 #. translators: %s: Exception message.
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:94
 #, php-format
@@ -4424,6 +3872,12 @@ msgid "Weekly"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:183
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:160
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:182
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:171
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:179
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
 msgid "Monthly"
 msgstr ""
 
@@ -4447,30 +3901,6 @@ msgstr ""
 msgid "year"
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:203
-msgid "Test Subscription"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:207
-msgid "Start a subscription for this payment."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:256
-msgid "Repeat every"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:273
-msgid "days/weeks/months/year"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:278
-msgid "Ends On"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-test.php:285
-msgid "Never"
-msgstr ""
-
 #. translators: %s: Input field for number times
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:308
 #, php-format
@@ -4481,14 +3911,6 @@ msgstr ""
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:327
 #, php-format
 msgid "On %s"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-webhook-log.php:24
-msgid "This gateway does not support webhook logging."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-gateway-webhook-log.php:34
-msgid "No webhook request processed yet."
 msgstr ""
 
 #. translators: %s: Exception message.
@@ -4515,49 +3937,6 @@ msgstr ""
 msgid "Last webhook request processed on %s."
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-notes.php:30
-msgid "No notes found."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-notes.php:38
-msgid "Note"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-notes.php:39
-#: packages/wp-pay/core/views/meta-box-payment-info.php:627
-#: packages/wp-pay/core/views/meta-box-payment-refunds.php:33
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:215
-msgid "User"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:111
-msgid "Refunded Amount"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:130
-msgid "Charged Back Amount"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:163
-msgid "Purchase ID"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:247
-msgid "Account Holder"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:265
-msgid "Account Holder City"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:283
-msgid "Account Holder Country"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:306
-msgid "Account Number"
-msgstr ""
-
 #: packages/wp-pay/core/views/meta-box-payment-info.php:328
 msgctxt "IBAN abbreviation title"
 msgid "International Bank Account Number"
@@ -4576,41 +3955,22 @@ msgstr ""
 msgid "BIC"
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-payment-info.php:383
-msgid "Bank Transfer Recipient"
+#: packages/wp-pay/core/views/meta-box-payment-info.php:494
+#: packages/wp-pay/core/views/meta-box-subscription-phases.php:132
+#: packages/wp-pay/core/views/meta-box-subscription-phases.php:144
+#: packages/wp-pay/core/views/meta-box-subscription-phases.php:151
+msgid "Yes"
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-payment-info.php:439
-msgid "Company"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:458
-#: packages/wp-pay/core/views/meta-box-payment-info.php:475
-msgid "VAT Number"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:469
-msgid "VAT Number Validity"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:483
-msgid "Request Date"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:532
-msgid "Validation Service"
+#: packages/wp-pay/core/views/meta-box-payment-info.php:494
+#: packages/wp-pay/core/views/meta-box-subscription-phases.php:132
+#: packages/wp-pay/core/views/meta-box-subscription-phases.php:144
+#: packages/wp-pay/core/views/meta-box-subscription-phases.php:151
+msgid "No"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-payment-info.php:539
 msgid "VIES"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:570
-msgid "Date of birth"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:592
-msgid "Gender"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-payment-info.php:599
@@ -4625,69 +3985,12 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-payment-info.php:664
-msgid "IP Address"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:679
-msgid "Billing Address"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:703
-msgid "Shipping Address"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:748
-msgid "User ID"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:775
-msgid "Ingenico Alias"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:790
-msgid "Version"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:877
-msgid "Pay Redirect URL"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:895
-msgid "Return URL"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:913
-msgid "Return Redirect URL"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-info.php:934
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:358
-msgid "REST API URL"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-lines.php:25
-msgid "No payment lines found."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-lines.php:35
-msgid "SKU"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-lines.php:36
-msgid "Image"
-msgstr ""
-
 #: packages/wp-pay/core/views/meta-box-payment-lines.php:43
 msgid "Unit price with discount including tax."
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-payment-lines.php:44
 msgid "Unit Price"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-lines.php:49
-msgid "Quantity"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-payment-lines.php:55
@@ -4704,10 +4007,6 @@ msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-payment-lines.php:67
 msgid "Total Amount"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-lines.php:72
-msgid "Total Tax"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-payment-lines.php:283
@@ -4729,18 +4028,6 @@ msgstr ""
 msgid "Inclusive tax: %s"
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-payment-refunds.php:20
-msgid "No refunds found for this payment."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-refunds.php:31
-msgid "PSP ID"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-subscription.php:23
-msgid "This payment is not related to a subscription."
-msgstr ""
-
 #: packages/wp-pay/core/views/meta-box-payment-subscription.php:95
 msgctxt "Recurring payment"
 msgid "Recurrence"
@@ -4751,40 +4038,8 @@ msgstr ""
 msgid "Status:"
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-payment-update.php:68
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:80
-msgid "Edit status"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-update.php:72
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:84
-msgid "Set status"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-payment-update.php:88
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:104
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:174
-msgid "OK"
-msgstr ""
-
 #: packages/wp-pay/core/views/meta-box-payment-update.php:117
 msgid "Check status"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:38
-msgid "l jS \\o\\f F Y, h:ia"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:150
-msgid "Next Payment Date"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:165
-msgid "Next Payment Delivery Date"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:266
-msgid "Customer action links"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:268
@@ -4797,18 +4052,6 @@ msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:287
 msgid "This page can be shared with the customer and gives the customer the option to cancel this subscription."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:291
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:319
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:347
-msgid "Copy URL to clipboard"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:292
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:320
-#: packages/wp-pay/core/views/meta-box-subscription-info.php:348
-msgid "Copied!"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:308
@@ -4825,10 +4068,6 @@ msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:343
 msgid "This link can be shared with the customer and gives the customer the opportunity to change the payment method. This is useful if a credit card expires or if a customer wants to have the charge debited from another account."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-payments.php:114
-msgid "Period"
 msgstr ""
 
 #. translators: %s: next payment date
@@ -4853,22 +4092,6 @@ msgstr ""
 msgid "Retry payment #%d"
 msgstr ""
 
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:22
-msgid "No phases found."
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:54
-msgid "Trial"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:60
-msgid "Aligned"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-phases.php:61
-msgid "Prorated"
-msgstr ""
-
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:117
 msgid "Recurring payments will not be created until manual reactivation of this subscription."
 msgstr ""
@@ -4879,14 +4102,6 @@ msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:139
 msgid "Next payment:"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:148
-msgid "Edit next payment date"
-msgstr ""
-
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:155
-msgid "Set date"
 msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:186
@@ -4913,33 +4128,9 @@ msgstr ""
 msgid "This license does not have any activations left. Maybe you have to deactivate your license on a local/staging server. This can be done on your <a href=\"https://www.pronamic.shop/\" target=\"_blank\">Pronamic.shop account</a>."
 msgstr ""
 
-#: packages/wp-pay/core/views/notice-license.php:46
-msgid "There was a problem activating your license key, please try again or contact support."
-msgstr ""
-
-#: packages/wp-pay/core/views/page-dashboard.php:48
-msgid "Latest Payments"
-msgstr ""
-
 #: packages/wp-pay/core/views/page-dashboard.php:156
 #: packages/wp-pay/core/views/page-dashboard.php:299
 msgid "Show more details"
-msgstr ""
-
-#: packages/wp-pay/core/views/page-dashboard.php:178
-msgid "No pending payments found."
-msgstr ""
-
-#: packages/wp-pay/core/views/page-dashboard.php:211
-msgid "Latest Subscriptions"
-msgstr ""
-
-#: packages/wp-pay/core/views/page-dashboard.php:335
-msgid "Getting Started"
-msgstr ""
-
-#: packages/wp-pay/core/views/page-dashboard.php:340
-msgid "Please follow the tour, read the 'What is new' and 'Getting Started' pages before contacting us. Also, check the Site Health page for any issues."
 msgstr ""
 
 #: packages/wp-pay/core/views/page-dashboard.php:375
@@ -4958,13 +4149,12 @@ msgstr ""
 msgid "System Status"
 msgstr ""
 
-#: packages/wp-pay/core/views/page-dashboard.php:432
-#: packages/wp-pay/core/views/page-dashboard.php:443
-msgid "Pronamic News"
-msgstr ""
-
 #: packages/wp-pay/core/views/page-dashboard.php:441
 msgid "http://www.pronamic.eu/"
+msgstr ""
+
+#: packages/wp-pay/core/views/page-dashboard.php:443
+msgid "Pronamic News"
 msgstr ""
 
 #: packages/wp-pay/core/views/page-settings.php:23
@@ -4975,146 +4165,10 @@ msgstr ""
 msgid "The default payment status pages could not be created."
 msgstr ""
 
-#: packages/wp-pay/core/views/pointer-dashboard.php:19
-msgid "On the Pronamic Pay dashboard you can restart this tour and see an overview of the latest pending payments."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-dashboard.php:20
-msgid "It also gives you access to the “Getting Started” and “Site Health” pages in case you have issues."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-dashboard.php:21
-msgid "And you can follow the latest news from the Pronamic.eu weblog."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-forms.php:16
-msgid "Payment Forms"
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-forms.php:19
-msgid "On the payment forms page you can add, edit or delete simple payment forms."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-forms.php:20
-msgid "Currently it’s not possible to adjust the form fields or styling of these forms."
-msgstr ""
-
 #. translators: 1: Gravity Forms link, 2: _blank
 #: packages/wp-pay/core/views/pointer-forms.php:26
 #, php-format
 msgid "For more advanced payment forms we advice you to use the <a href=\"%1$s\" target=\"%2$s\">“Gravity Forms” plugin</a>."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-gateways.php:19
-msgid "Here you can find an overview of all the gateway configurations on your WordPress site."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-gateways.php:20
-msgid "To use the Pronamic Pay plugin you have to add an payment gateway configuration."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-gateways.php:21
-msgid "Normally you get the required configuration information from your payment provider."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-payments.php:19
-msgid "On the payments page you can find an overview off all the payments initiated on your WordPress site."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-payments.php:20
-msgid "You can easily filter the payments by status or use the search field to search for specific payments."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-payments.php:21
-msgid "We advice you to regular check the pending payments on this overview and adjust the status of these payments manual if needed."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-reports.php:16
-msgid "Reports"
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-reports.php:19
-msgid "The Pronamic Pay reports page shows you an graph of all the payments of this year."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-reports.php:20
-msgid "You can see the number of successful payments and the total amount of pending, successful, cancelled and failed payments."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-settings.php:19
-msgid "These are the General settings for the Pronamic Pay plugin."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-settings.php:20
-msgid "Here you can enter your license key and configure some default settings."
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-start.php:16
-msgid "Congratulations"
-msgstr ""
-
-#: packages/wp-pay/core/views/pointer-start.php:19
-msgid "You’ve just installed the Pronamic Pay plugin. Click “Start Tour” to view a quick introduction of this plugin’s core functionality."
-msgstr ""
-
-#: packages/wp-pay/core/views/redirect-via-html.php:28
-#: packages/wp-pay/core/views/redirect-via-html.php:58
-msgid "Redirecting…"
-msgstr ""
-
-#: packages/wp-pay/core/views/redirect-via-html.php:61
-msgid "You will be automatically redirected to the online payment environment."
-msgstr ""
-
-#: packages/wp-pay/core/views/redirect-via-html.php:67
-msgid "Please click the button below if you are not automatically redirected."
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-cancel.php:32
-#: packages/wp-pay/core/views/subscription-cancel.php:40
-msgid "Subscription Cancellation"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-cancel.php:55
-msgid "The subscription can not be canceled as it is not active anymore."
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-cancel.php:66
-msgid "Are you sure you want to cancel the subscription?"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-cancel.php:72
-msgid "Cancel subscription"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate-failed.php:24
-#: packages/wp-pay/core/views/subscription-mandate-updated.php:24
-msgid "Subscription Mandate"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate-failed.php:33
-msgid "The mandate for this subscription can not be updated."
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate-updated.php:33
-msgid "The subscription has been updated."
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate-updated.php:38
-msgid "Return to home page"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate.php:93
-#: packages/wp-pay/core/views/subscription-mandate.php:103
-msgid "Change subscription payment method"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate.php:109
-msgid "Select an existing payment method or add a new one."
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate.php:116
-msgid "Select existing payment method"
 msgstr ""
 
 #: packages/wp-pay/core/views/subscription-mandate.php:139
@@ -5130,29 +4184,6 @@ msgstr ""
 #: packages/wp-pay/core/views/subscription-mandate.php:200
 msgctxt "Card selector"
 msgid "Name"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate.php:219
-msgid "Use selected payment method"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate.php:231
-msgid "Add new payment method"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-mandate.php:236
-msgid "Select payment method for verification payment."
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-renew-failed.php:24
-#: packages/wp-pay/core/views/subscription-renew-failed.php:32
-#: packages/wp-pay/core/views/subscription-renew.php:34
-#: packages/wp-pay/core/views/subscription-renew.php:42
-msgid "Subscription Renewal"
-msgstr ""
-
-#: packages/wp-pay/core/views/subscription-renew-failed.php:37
-msgid "The subscription can not be renewed."
 msgstr ""
 
 #: packages/wp-pay/core/views/subscription-renew.php:78
@@ -5211,3 +4242,454 @@ msgid "%s payment"
 msgid_plural "%s payments"
 msgstr[0] ""
 msgstr[1] ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:51
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:137
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:62
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:48
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+msgid "Required"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:52
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:138
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:63
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:49
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+msgid "Select this option to make the input required."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:70
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:177
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:101
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:68
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:80
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "Name"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:83
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:203
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:127
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:81
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:81
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Reference"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:101
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-option/index.js:86
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:145
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:59
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:98
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:103
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Enter label…"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-option/index.js:59
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:398
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:61
+#: packages/pronamic/wp-pronamic-forms/blocks-src/hidden-payment-amount/index.js:36
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/hidden-payment-amount/index.js:1
+msgid "Payment amount"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:86
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+msgid "Type"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:90
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+msgid "Text"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:94
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+msgid "Textarea"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:98
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:371
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Password"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:102
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+msgid "URL"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:106
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:345
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Email address"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:113
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:318
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Telephone number"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:120
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+msgid "Checkbox"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:124
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+msgid "Radio"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:156
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:81
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Placeholder"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:157
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:82
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Text that appears in the form element when no value has been entered."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:190
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:114
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:51
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Value"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:214
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Single-line text field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:240
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Multi-line text field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:258
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid ""
+"Multi-line\n"
+"text"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:266
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "URL field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:291
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Website"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:292
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "https://www.example.com/"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:300
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Telephone number field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:319
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "555-0100"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:327
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Email address field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:346
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "john.doe@example.com"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:354
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Password field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:380
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+msgid "Payment amount field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:25
+#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
+msgid "HTML element"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:28
+#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
+msgid "Default (<label>)"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:45
+#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
+msgid "For"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:153
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+msgid "Subscription frequency choice field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:155
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:142
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:167
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:192
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "frequency"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:156
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:143
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:168
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:193
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "interval"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:157
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:144
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:169
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:194
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "recurrence"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:158
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:145
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:170
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:195
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "subscription"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:159
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:173
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:146
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:154
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Once"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:161
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:191
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:196
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:205
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Yearly"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:162
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:197
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Annual"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:140
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "One-time payment"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:162
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Monthly payment"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:187
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+msgid "Yearly payment"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:67
+#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
+msgid "Form submission success"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:68
+#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
+msgid "Success message for form submissions."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:92
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:40
+#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "Your form has been submitted successfully."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:105
+#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
+msgid "Form submission error"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:106
+#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
+msgid "Error/failure message for form submissions."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:130
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:69
+#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "There was an error submitting your form."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:95
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "Subject"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:102
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "Message"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:111
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "Submit"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/block.json
+msgctxt "block title"
+msgid "Multiple-choice field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-option/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-option/block.json
+msgctxt "block title"
+msgid "Multiple-choice option"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-control/block.json
+msgctxt "block title"
+msgid "Form control"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-field/block.json
+msgctxt "block title"
+msgid "Form field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-label/block.json
+msgctxt "block title"
+msgid "Form label"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/block.json
+msgctxt "block title"
+msgid "Single-choice field"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/block.json
+msgctxt "block title"
+msgid "Single-choice option"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/block.json
+msgctxt "block title"
+msgid "Form submission notification"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form/block.json
+msgctxt "block title"
+msgid "Pronamic form"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form/block.json
+msgctxt "block description"
+msgid "The Pronamic Form block makes it easy to add custom forms to your WordPress site."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form/block.json
+msgctxt "block keyword"
+msgid "pronamic"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/form/block.json
+msgctxt "block keyword"
+msgid "pronamic-pay"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/hidden-payment-amount/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/hidden-payment-amount/block.json
+msgctxt "block title"
+msgid "Hidden payment amount"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/hidden-payment-amount/block.json
+#: packages/pronamic/wp-pronamic-forms/blocks/hidden-payment-amount/block.json
+msgctxt "block description"
+msgid "Hidden payment amount for payment forms."
+msgstr ""

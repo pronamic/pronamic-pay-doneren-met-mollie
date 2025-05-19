@@ -47,15 +47,19 @@
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
 		"build": [
-			"rm -rf ./build",
-			"mkdir ./build",
-			"mkdir ./build/stage-1",
-			"mkdir ./build/stage-2",
+			"rm -rf ./build/stage-1/*",
+			"rm -rf ./build/stage-2/*",
+			"mkdir -p ./build/stage-1",
+			"mkdir -p ./build/stage-2",
 			"rsync --recursive --verbose --exclude-from=.distignore --exclude-from=.gitignore ./ ./build/stage-1/",
 			"composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/stage-1/",
 			"rsync --recursive --verbose --exclude-from=.distignore ./build/stage-1/ ./build/stage-2/",
-			"vendor/bin/phpcbf -s -v --standard=phpcs-text-domain-fixer.xml ./build/stage-2/ || true",
+			"php build.php --dir=./build/stage-2/",
+			"npx wp-scripts build --webpack-src-dir=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks-src --output-path=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks",
+			"npx wp-scripts build-blocks-manifest  --input=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks --output=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks/blocks-manifest.php",
 			"vendor/bin/wp i18n make-pot ./build/stage-2/ --slug=pronamic-pay-doneren-met-mollie",
+			"vendor/bin/wp i18n make-json ./build/stage-2/languages --no-purge",
+			"vendor/bin/wp i18n make-mo ./build/stage-2/languages/",
 			"vendor/bin/wp dist-archive ./build/stage-2/ --plugin-dirname=pronamic-pay-doneren-met-mollie"
 		],
 		"translate": [

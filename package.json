@@ -25,6 +25,10 @@
 	"bugs": {
 		"url": "https://github.com/pronamic/pronamic-pay-doneren-met-mollie/issues"
 	},
+	"dependencies": {
+		"@wordpress/interactivity": "^6.23.0",
+		"clsx": "^2.1.1"
+	},
 	"devDependencies": {
 		"@wordpress/env": "^10.23.0",
 		"@wordpress/scripts": "^30.16.0"
