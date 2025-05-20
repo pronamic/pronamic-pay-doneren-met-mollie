@@ -39,6 +39,7 @@
 	},
 	"require-dev": {
 		"pronamic/pronamic-cli": "^1.1",
+		"pronamic/pronamic-wp-i18n-text-domain-replacer": "dev-main",
 		"pronamic/wp-coding-standards": "^2.2",
 		"roots/wordpress-no-content": "^6.4",
 		"wp-cli/dist-archive-command": "*",
@@ -54,7 +55,7 @@
 			"rsync --recursive --verbose --exclude-from=.distignore --exclude-from=.gitignore ./ ./build/stage-1/",
 			"composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/stage-1/",
 			"rsync --recursive --verbose --exclude-from=.distignore ./build/stage-1/ ./build/stage-2/",
-			"php build.php --dir=./build/stage-2/",
+			"vendor/bin/pronamic-wp-i18n-text-domain-replacer --dir=./build/stage-2/ --text-domain-search=action-scheduler --text-domain-search=pronamic_ideal --text-domain-search=pronamic-datetime --text-domain-search=pronamic-forms --text-domain-search=pronamic-money --text-domain-search=pronamic-pay-mollie --text-domain-replace=pronamic-pay-doneren-met-mollie --exclude=build,node_modules,vendor",
 			"npx wp-scripts build --webpack-src-dir=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks-src --output-path=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks",
 			"npx wp-scripts build-blocks-manifest  --input=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks --output=./build/stage-2/packages/pronamic/wp-pronamic-forms/blocks/blocks-manifest.php",
 			"vendor/bin/wp i18n make-pot ./build/stage-2/ --slug=pronamic-pay-doneren-met-mollie",
