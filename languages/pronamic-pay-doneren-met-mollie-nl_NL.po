@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Pronamic Pay\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-pay-doneren-met-mollie\n"
 "POT-Creation-Date: 2025-05-19T09:11:01+00:00\n"
-"PO-Revision-Date: 2025-05-20 13:49+0200\n"
+"PO-Revision-Date: 2025-05-20 19:39+0200\n"
 "Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
@@ -23,12 +23,6 @@ msgstr "Pronamic Pay doneren met Mollie"
 #: pronamic-pay-doneren-met-mollie.php
 msgid "https://www.pronamic.eu/plugins/pronamic-pay-doneren-met-mollie/"
 msgstr "https://www.pronamic.eu/plugins/pronamic-pay-doneren-met-mollie/"
-
-#. Description of the plugin
-#: pronamic-pay-doneren-met-mollie.php
-#, fuzzy
-msgid "Pronamic Pay plugin with Mollie."
-msgstr "Pronamic Pay doneren met Mollie"
 
 #. Author of the plugin
 #: pronamic-pay-doneren-met-mollie.php
@@ -103,6 +97,8 @@ msgid "Contact form"
 msgstr "Contactformulier"
 
 #: packages/pronamic/wp-pronamic-forms/php/BlockPatternsController.php:54
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:184
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Donation form"
 msgstr "Donatieformulier"
 
@@ -139,7 +135,8 @@ msgstr "%1$s %2$s"
 msgid "Entry – %s"
 msgstr "Inzending – %s"
 
-#: packages/pronamic/wp-pronamic-forms/php/PayController.php:342
+#: packages/pronamic/wp-pronamic-forms/php/PayController.php:345
+#: packages/pronamic/wp-pronamic-forms/php/PayController.php:374
 msgid "Pronamic Forms Entry"
 msgstr "Pronamic Forms inzending"
 
@@ -147,10 +144,13 @@ msgstr "Pronamic Forms inzending"
 msgid "Bancontact payment method"
 msgstr "Bancontact-betaalmethode"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:58
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:86
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:174
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:463
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:479
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:301
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Bancontact"
 msgstr "Bancontact"
 
@@ -158,9 +158,12 @@ msgstr "Bancontact"
 msgid "Card payment method"
 msgstr "Kaart-betaalmethode"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:62
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:91
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:175
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:473
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:309
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Card"
 msgstr "Kaart"
 
@@ -168,10 +171,13 @@ msgstr "Kaart"
 msgid "iDEAL payment method"
 msgstr "iDEAL-betaalmethode"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:66
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:96
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:176
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:484
 #: packages/wp-pay/core/src/Core/PaymentMethods.php:495
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:317
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "iDEAL"
 msgstr "iDEAL"
 
@@ -183,9 +189,12 @@ msgstr "Betaalmethodeveld"
 msgid "payment method"
 msgstr "betaalmethode"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:57
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:179
 #: packages/pronamic/wp-pronamic-forms/php/PaymentMethodBlocksController.php:186
 #: packages/wp-pay/core/views/subscription-details.php:65
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:293
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Payment method"
 msgstr "Betaalmethode"
 
@@ -198,7 +207,7 @@ msgid "Origin"
 msgstr "Oorsprong"
 
 #: packages/wp-pay-gateways/mollie/pronamic-pay-mollie.php:51
-#: pronamic-pay-doneren-met-mollie.php:82
+#: pronamic-pay-doneren-met-mollie.php:91
 msgid "https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/"
 msgstr "https://www.pronamicpay.com/nl/handleidingen/hoe-je-mollie-aan-wordpress-koppelt-met-pronamic-pay/"
 
@@ -247,6 +256,7 @@ msgid "Select this option to make the input required."
 msgstr "Selecteer deze optie om de invoer verplicht te maken."
 
 #: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:27
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:27
 #: packages/wp-pay-gateways/mollie/views/page-customer.php:152
 #: packages/wp-pay-gateways/mollie/views/user-profile.php:46
 #: packages/wp-pay/core/views/meta-box-payment-info.php:499
@@ -256,6 +266,7 @@ msgstr "Selecteer deze optie om de invoer verplicht te maken."
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:101
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:68
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:80
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:229
 #: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
@@ -331,10 +342,15 @@ msgstr "Wachtwoord"
 msgid "URL"
 msgstr "URL"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:31
+#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:43
+#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:73
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:106
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:345
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:236
 #: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Email address"
 msgstr "E-mailadres"
 
@@ -498,31 +514,40 @@ msgstr "herhaling"
 msgid "subscription"
 msgstr "abonnement"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:40
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:159
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:173
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:146
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:154
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:259
 #: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Once"
 msgstr "Eenmalig"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:44
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:183
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:160
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:182
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:181
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:171
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:179
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:267
 #: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Monthly"
 msgstr "Maandelijks"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:48
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:161
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:191
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:189
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:196
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:205
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:275
 #: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Yearly"
 msgstr "Jaarlijks"
 
@@ -533,11 +558,14 @@ msgstr "Jaarlijks"
 msgid "Annual"
 msgstr "Jaarlijks"
 
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:39
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsDataStoreCPT.php:452
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:229
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:165
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:200
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:197
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:251
 #: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Frequency"
 msgstr "Frequentie"
 
@@ -572,6 +600,7 @@ msgstr "Succes bericht voor formulier inzendingen."
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:16
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:92
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:40
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:210
 #: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Your form has been submitted successfully."
@@ -593,6 +622,7 @@ msgstr "Fout/mislukking bericht voor formulier inzendingen."
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:22
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:130
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:69
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:223
 #: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
 #: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "There was an error submitting your form."
@@ -616,9 +646,12 @@ msgid "Subject"
 msgstr "Onderwerp"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:39
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:35
+#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:47
 #: packages/wp-pay/core/views/exception.php:20
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:121
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:102
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:244
 #: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Message"
 msgstr "Bericht"
@@ -2985,6 +3018,8 @@ msgstr "Klant"
 #: packages/wp-pay/core/views/meta-box-subscription-phases.php:47
 #: packages/wp-pay/core/views/redirect-via-html.php:94
 #: packages/wp-pay/core/views/subscription-details.php:40
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:285
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Amount"
 msgstr "Bedrag"
 
@@ -4837,18 +4872,6 @@ msgid_plural "%s payments"
 msgstr[0] "%s betaling"
 msgstr[1] "%s betalingen"
 
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:61
-msgid "First Name"
-msgstr "Voornaam"
-
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:67
-msgid "Last Name"
-msgstr "Achternaam"
-
-#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:73
-msgid "Email Address"
-msgstr "E-mailadres"
-
 #. translators: %s: amount of time
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:154
 #, php-format
@@ -5531,3 +5554,78 @@ msgstr "Abonnement vernieuwen"
 #: packages/wp-pay/core/views/subscription-renew-failed.php:37
 msgid "The subscription can not be renewed."
 msgstr "Het abonnement kan niet worden vernieuwd."
+
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:53
+msgctxt "payment amount"
+msgid "Amount"
+msgstr "Bedrag"
+
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:76
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:328
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "Donate"
+msgstr "Doneer"
+
+#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:27
+msgid "One-time"
+msgstr "Eenmalig"
+
+#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:34
+#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:61
+msgid "First name"
+msgstr "Voornaam"
+
+#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:38
+#: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:67
+msgid "Last name"
+msgstr "Achternaam"
+
+#: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:52
+msgctxt "button text to place an order"
+msgid "Order"
+msgstr "Bestel"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:187
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "donation"
+msgstr "donatie"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:188
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "donate"
+msgstr "doneer"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:189
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "fundraiser"
+msgstr "fondsenwerving"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:190
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "charity"
+msgstr "goed doel"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:191
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "contribute"
+msgstr "bijdragen"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:192
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "contribution"
+msgstr "bijdrage"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:193
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "nonprofit"
+msgstr "non-profit"
+
+#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:194
+#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+msgid "gift"
+msgstr "geschenk"
+
+#. Description of the plugin
+#: pronamic-pay-doneren-met-mollie.php
+msgid "A modern WordPress block-based plugin for creating flexible and customizable donation forms powered by Mollie."
+msgstr "Een moderne WordPress plugin op basis van blokken voor het maken van flexibele en aanpasbare donatieformulieren met Mollie."

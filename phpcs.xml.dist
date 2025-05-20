@@ -15,10 +15,8 @@
 	<rule ref="WordPress.WP.I18n">
 		<properties>
 			<property name="text_domain" type="array">
-				<element value="pronamic-pay-with-mollie-for-gravity-forms" />
+				<element value="pronamic-pay-doneren-met-mollie" />
 			</property>
 		</properties>
 	</rule>
-
-	<rule ref="phpcs-text-domain-fixer.xml" />
 </ruleset>

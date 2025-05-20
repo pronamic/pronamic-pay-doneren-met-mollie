@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93e3251aa25037e1e1a15ec8583b7180",
+    "content-hash": "d168fcd85c646cec1d3b469ca4fe06ef",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -733,16 +733,16 @@
         },
         {
             "name": "pronamic/wp-pronamic-forms",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/pronamic-forms.git",
-                "reference": "1f99dfdebfd9ed923b0d8831a4b379e7f0bd186f"
+                "reference": "d6a4fae14d2cabbe24353654f100a752f9e1a77a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/pronamic-forms/zipball/1f99dfdebfd9ed923b0d8831a4b379e7f0bd186f",
-                "reference": "1f99dfdebfd9ed923b0d8831a4b379e7f0bd186f",
+                "url": "https://api.github.com/repos/pronamic/pronamic-forms/zipball/d6a4fae14d2cabbe24353654f100a752f9e1a77a",
+                "reference": "d6a4fae14d2cabbe24353654f100a752f9e1a77a",
                 "shasum": ""
             },
             "require": {
@@ -763,7 +763,6 @@
                 "wp-cli/wp-cli-bundle": "*",
                 "wp-pay/core": "^4.21"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -773,9 +772,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/pronamic/pronamic-forms/issues",
-                "source": "https://github.com/pronamic/pronamic-forms/tree/main"
+                "source": "https://github.com/pronamic/pronamic-forms/tree/v1.0.0"
             },
-            "time": "2025-05-20T11:45:31+00:00"
+            "time": "2025-05-20T17:22:41+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -6643,8 +6642,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "pronamic/pronamic-wp-i18n-text-domain-replacer": 20,
-        "pronamic/wp-pronamic-forms": 20
+        "pronamic/pronamic-wp-i18n-text-domain-replacer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
