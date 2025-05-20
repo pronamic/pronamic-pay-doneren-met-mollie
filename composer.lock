@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5eae2836cdbadc4e507e2785594d185",
+    "content-hash": "93e3251aa25037e1e1a15ec8583b7180",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -2676,6 +2676,42 @@
                 "source": "https://github.com/pronamic/pronamic-cli/tree/v1.1.1"
             },
             "time": "2024-08-01T14:04:36+00:00"
+        },
+        {
+            "name": "pronamic/pronamic-wp-i18n-text-domain-replacer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/pronamic-wp-i18n-text-domain-replacer.git",
+                "reference": "47eb88acddc00251171dc43c1caddba5c5972d22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/pronamic-wp-i18n-text-domain-replacer/zipball/47eb88acddc00251171dc43c1caddba5c5972d22",
+                "reference": "47eb88acddc00251171dc43c1caddba5c5972d22",
+                "shasum": ""
+            },
+            "require-dev": {
+                "pronamic/wp-coding-standards": "^2.3"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/pronamic-wp-i18n-text-domain-replacer"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu"
+                }
+            ],
+            "description": "A developer tool for replacing WordPress translation text domains in PHP, JavaScript, and `block.json` files.",
+            "support": {
+                "issues": "https://github.com/pronamic/pronamic-wp-i18n-text-domain-replacer/issues",
+                "source": "https://github.com/pronamic/pronamic-wp-i18n-text-domain-replacer/tree/main"
+            },
+            "time": "2025-05-19T15:06:09+00:00"
         },
         {
             "name": "pronamic/wp-coding-standards",
@@ -6607,6 +6643,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "pronamic/pronamic-wp-i18n-text-domain-replacer": 20,
         "pronamic/wp-pronamic-forms": 20
     },
     "prefer-stable": false,
