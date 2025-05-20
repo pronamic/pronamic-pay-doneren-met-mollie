@@ -75,6 +75,15 @@ add_action(
 );
 
 add_filter(
+	'pronamic_pay_modules',
+	function ( $modules ) {
+		$modules[] = 'subscriptions';
+
+		return $modules;
+	}
+);
+
+add_filter(
 	'pronamic_pay_gateways',
 	function ( $gateways ) {
 		$gateways[] = new \Pronamic\WordPress\Pay\Gateways\Mollie\Integration(
