@@ -737,12 +737,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/pronamic-forms.git",
-                "reference": "9502ee37640b58b003ddc09887ffddc7ba31e737"
+                "reference": "1f99dfdebfd9ed923b0d8831a4b379e7f0bd186f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/pronamic-forms/zipball/9502ee37640b58b003ddc09887ffddc7ba31e737",
-                "reference": "9502ee37640b58b003ddc09887ffddc7ba31e737",
+                "url": "https://api.github.com/repos/pronamic/pronamic-forms/zipball/1f99dfdebfd9ed923b0d8831a4b379e7f0bd186f",
+                "reference": "1f99dfdebfd9ed923b0d8831a4b379e7f0bd186f",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                 "issues": "https://github.com/pronamic/pronamic-forms/issues",
                 "source": "https://github.com/pronamic/pronamic-forms/tree/main"
             },
-            "time": "2025-05-19T07:27:55+00:00"
+            "time": "2025-05-20T11:45:31+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
