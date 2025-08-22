@@ -32,16 +32,16 @@
 		"php": ">=8.2",
 		"automattic/jetpack-autoloader": "^5.0",
 		"composer/installers": "^2.3",
-		"pronamic/wp-pronamic-forms": "^1.1",
+		"pronamic/wp-pronamic-forms": "^1.2",
 		"woocommerce/action-scheduler": "^3.9",
-		"wp-pay-gateways/mollie": "^4.15",
-		"wp-pay/core": "^4.26"
+		"wp-pay-gateways/mollie": "^4.16",
+		"wp-pay/core": "^4.27"
 	},
 	"require-dev": {
 		"pronamic/pronamic-cli": "^1.1",
 		"pronamic/pronamic-wp-i18n-text-domain-replacer": "dev-main",
-		"pronamic/wp-coding-standards": "^2.2",
-		"roots/wordpress-no-content": "^6.4",
+		"pronamic/wp-coding-standards": "^2.4",
+		"roots/wordpress-no-content": "^6.8",
 		"wp-cli/dist-archive-command": "*",
 		"wp-cli/wp-cli-bundle": "*"
 	},
