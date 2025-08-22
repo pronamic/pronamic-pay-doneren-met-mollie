@@ -1,6 +1,6 @@
 {
 	"name": "@pronamic/pronamic-pay-doneren-met-mollie",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Pronamic Pay plugin with Mollie.",
 	"author": "Pronamic",
 	"license": "GPL-2.0-or-later",
