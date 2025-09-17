@@ -42,9 +42,13 @@ This plugin provides the link between WordPress and payment provider Mollie. To 
 
 == Changelog ==
 
+<!-- Start changelog -->
+
 = 1.0.0 =
 
 - First release.
+
+<!-- End changelog -->
 
 == Links ==
 
