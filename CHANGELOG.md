@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.2.2] - 2025-09-17
+
+### Changed
+
+- Improved payment lines support.
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.9` to `v5.0.10`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.10
+- Changed `wp-pay-gateways/mollie` from `v4.16.1` to `v4.16.2`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.16.2
+- Changed `wp-pay/core` from `v4.27.0` to `v4.27.1`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.27.1
+
+Full set of changes: [`1.2.1...1.2.2`][1.2.2]
+
+[1.2.2]: https://github.com/pronamic/pronamic-pay-doneren-met-mollie/compare/v1.2.1...v1.2.2
+
 ## [1.2.1] - 2025-08-26
 
 ### Composer
