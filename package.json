@@ -26,12 +26,12 @@
 		"url": "https://github.com/pronamic/pronamic-pay-doneren-met-mollie/issues"
 	},
 	"dependencies": {
-		"@wordpress/interactivity": "^6.29.0",
+		"@wordpress/interactivity": "^6.37.0",
 		"clsx": "^2.1.1"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^10.29.0",
-		"@wordpress/scripts": "^30.22.0"
+		"@wordpress/env": "^10.37.0",
+		"@wordpress/scripts": "^31.2.0"
 	},
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json"
