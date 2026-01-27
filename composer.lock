@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "821b9a8e9b59da2ac4e4c426f45a0870",
+    "content-hash": "9dbf02835a605cda6f93c3c1b7bfdd3f",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -729,22 +729,22 @@
         },
         {
             "name": "pronamic/wp-pronamic-forms",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/pronamic-forms.git",
-                "reference": "17c0a5a1080e2fddcc1bd0be78960090e03d21f9"
+                "reference": "b1e129f93eb5878bcbd098c19e5d44c9bc2afedc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/pronamic-forms/zipball/17c0a5a1080e2fddcc1bd0be78960090e03d21f9",
-                "reference": "17c0a5a1080e2fddcc1bd0be78960090e03d21f9",
+                "url": "https://api.github.com/repos/pronamic/pronamic-forms/zipball/b1e129f93eb5878bcbd098c19e5d44c9bc2afedc",
+                "reference": "b1e129f93eb5878bcbd098c19e5d44c9bc2afedc",
                 "shasum": ""
             },
             "require": {
                 "automattic/jetpack-autoloader": "^5.0",
                 "php": "^8.2",
-                "pronamic/wp-pay-logos": "^2.2"
+                "pronamic/wp-pay-logos": "^2.3"
             },
             "require-dev": {
                 "phpstan/extension-installer": "^1.4",
@@ -768,9 +768,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/pronamic/pronamic-forms/issues",
-                "source": "https://github.com/pronamic/pronamic-forms/tree/v1.2.0"
+                "source": "https://github.com/pronamic/pronamic-forms/tree/v1.2.1"
             },
-            "time": "2025-08-22T09:38:08+00:00"
+            "time": "2026-01-27T12:48:30+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -945,16 +945,16 @@
         },
         {
             "name": "wp-pay-gateways/mollie",
-            "version": "v4.18.0",
+            "version": "v4.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-mollie.git",
-                "reference": "a795e7437ec4c0c151eba0ca1c3117f4916dae17"
+                "reference": "4bf87b64d76fcabe0118c6eae9a9e8ca5973626b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/a795e7437ec4c0c151eba0ca1c3117f4916dae17",
-                "reference": "a795e7437ec4c0c151eba0ca1c3117f4916dae17",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/4bf87b64d76fcabe0118c6eae9a9e8ca5973626b",
+                "reference": "4bf87b64d76fcabe0118c6eae9a9e8ca5973626b",
                 "shasum": ""
             },
             "require": {
@@ -1027,20 +1027,20 @@
                 "issues": "https://github.com/wp-pay-gateways/mollie/issues",
                 "source": "https://github.com/wp-pay-gateways/mollie"
             },
-            "time": "2026-01-05T11:21:51+00:00"
+            "time": "2026-01-27T10:01:58+00:00"
         },
         {
             "name": "wp-pay/core",
-            "version": "v4.29.0",
+            "version": "v4.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "e16dfeb320cd5dbb6b19a670988e623bc9016c5b"
+                "reference": "c81e002cf25db443e268973f5c1652f5c08df69d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/e16dfeb320cd5dbb6b19a670988e623bc9016c5b",
-                "reference": "e16dfeb320cd5dbb6b19a670988e623bc9016c5b",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/c81e002cf25db443e268973f5c1652f5c08df69d",
+                "reference": "c81e002cf25db443e268973f5c1652f5c08df69d",
                 "shasum": ""
             },
             "require": {
@@ -1120,7 +1120,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2026-01-05T10:23:27+00:00"
+            "time": "2026-01-27T09:51:39+00:00"
         }
     ],
     "packages-dev": [
