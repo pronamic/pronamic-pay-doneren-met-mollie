@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.5.0] - 2026-04-02
+
+### Changed
+
+- Updated payment form compatibility to `pronamic/wp-pronamic-forms` `v2.x`.
+
+### Composer
+
+- Changed `pronamic/wp-pronamic-forms` from `v1.2.1` to `v2.0.0`.
+	Release notes: https://github.com/pronamic/pronamic-forms/releases/tag/v2.0.0
+- Changed `wp-pay/core` from `v4.30.0` to `v4.32.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.32.0
+
+Full set of changes: [`1.4.0...1.5.0`][1.5.0]
+
+[1.5.0]: https://github.com/pronamic/pronamic-pay-doneren-met-mollie/compare/v1.4.0...v1.5.0
+
 ## [1.4.0] - 2026-01-27
 
 ### Composer
