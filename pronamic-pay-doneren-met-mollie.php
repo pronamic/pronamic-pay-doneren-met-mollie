@@ -96,6 +96,8 @@ add_filter(
 	}
 );
 
+\Pronamic\PronamicPayDefaultPaymentMethods\Plugin::instance();
+
 $pronamic_forms_plugin = new \Pronamic\PronamicForms\Plugin();
 
 $pronamic_forms_plugin->setup();
