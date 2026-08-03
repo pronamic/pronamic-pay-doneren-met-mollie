@@ -4,7 +4,7 @@ Tags: pronamic, mollie, donation, form, payment
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.5.0
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,31 @@ This plugin provides the link between WordPress and payment provider Mollie. To 
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.6.0] - 2026-08-03
+
+#### Added
+
+- Added integration with the Pronamic Pay default payment methods package, centralizing payment method registration via the new `pronamic_pay_register_payment_methods` action.
+
+#### Composer
+
+- Added `pronamic/pronamic-pay-default-payment-methods` `v1.1.0`.
+	Provides centralized default payment method registration, including new online banking methods for Czechia and Slovakia.
+	Release notes: https://github.com/pronamic/pronamic-pay-default-payment-methods/releases/tag/v1.1.0
+- Changed `woocommerce/action-scheduler` from `v3.9.3` to `v4.0.0`.
+	Major release with breaking changes: unique-action scheduling now considers action arguments and failed actions are automatically purged after three months.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.0.0
+- Changed `wp-pay-gateways/mollie` from `v4.19.0` to `v4.20.0`.
+	Defers Mollie webhook processing with Action Scheduler and fixes timezone handling for due date calculation.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.20.0
+- Changed `wp-pay/core` from `v4.32.0` to `v4.34.0`.
+	Moves default payment method registration into a dedicated package via the new `pronamic_pay_register_payment_methods` action and allows Action Scheduler `^4.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.34.0
+
+Full set of changes: [`1.5.0...1.6.0`][1.6.0]
+
+[1.6.0]: https://github.com/pronamic/pronamic-pay-doneren-met-mollie/compare/v1.5.0...v1.6.0
 
 ### [1.5.0] - 2026-04-02
 

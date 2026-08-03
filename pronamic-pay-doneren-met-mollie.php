@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/pronamic-pay-doneren-met-mollie/
  * Description: A modern WordPress block-based plugin for creating flexible and customizable donation forms powered by Mollie.
  *
- * Version: 1.5.0
+ * Version: 1.6.0
  * Requires at least: 6.6
  * Requires PHP: 8.2
  *
@@ -98,6 +98,4 @@ add_filter(
 
 \Pronamic\PronamicPayDefaultPaymentMethods\Plugin::instance();
 
-$pronamic_forms_plugin = new \Pronamic\PronamicForms\Plugin();
-
-$pronamic_forms_plugin->setup();
+\Pronamic\PronamicForms\Plugin::instance();
