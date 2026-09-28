@@ -4,7 +4,7 @@ Tags: pronamic, mollie, donation, form, payment
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.6.0
+Stable tag: 1.7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,43 @@ This plugin provides the link between WordPress and payment provider Mollie. To 
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.7.0] - 2026-09-28
+
+#### Changed
+
+- Raised the minimum required PHP version from 8.2 to 8.3.
+- Tested up to WordPress 7.1.
+- Donation form email fields can now pass the donor's email address to the Mollie payment, and payment descriptions now read "Form submission {entry ID}" (via `pronamic/wp-pronamic-forms` `v2.1.0`).
+- The default subscription renewal pre-notification period changed from 1 week to 14 days (via `wp-pay/core` `v4.35.0`).
+
+#### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.21` to `v5.0.23`.
+	Fixes and then reverts applying the root package's `exclude-from-classmap` setting when generating the Jetpack class map.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/blob/v5.0.23/CHANGELOG.md
+- Changed `pronamic/wp-mollie` from `v1.10.1` to `v2.0.0`.
+	Breaking change: the `due_date` property moved from `PaymentRequest` to `BankTransferPaymentRequest`, because Mollie only supports due dates for bank transfer payments.
+	Release notes: https://github.com/pronamic/wp-mollie/releases/tag/v2.0.0
+- Changed `pronamic/wp-money` from `2.4.5` to `2.5.0`.
+	Adds an optional currency argument to `Parser::parse()`, so amounts can be parsed in currencies other than EUR.
+	Release notes: https://github.com/pronamic/wp-money/releases/tag/v2.5.0
+- Changed `pronamic/wp-pronamic-forms` from `v2.0.1` to `v2.1.0`.
+	Adds support for passing the submitter's email address to Pronamic Pay through the `pronamic_payment_customer_email` field reference, and makes payment descriptions translatable.
+	Release notes: https://github.com/pronamic/pronamic-forms/releases/tag/v2.1.0
+- Changed `woocommerce/action-scheduler` from `4.0.0` to `4.2.0`.
+	Fixes a lock that could get permanently stuck, enforces unique action inserts atomically, reduces SQL queries on the admin page and hardens schedule data deserialization.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.1.0, https://github.com/woocommerce/action-scheduler/releases/tag/4.2.0
+- Changed `wp-pay-gateways/mollie` from `v4.20.0` to `v4.21.0`.
+	Uses a bank transfer payment request when setting the Mollie payment due date, and moves to `pronamic/wp-mollie` `^2.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.21.0
+- Changed `wp-pay/core` from `v4.34.0` to `v4.35.0`.
+	Changes the default subscription renewal pre-notification period to 14 days and fixes a currency mismatch exception with non-EUR payment lines, errors for payments and subscriptions whose post no longer exists, and PHP deprecation notices.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.35.0
+
+Full set of changes: [`1.6.0...1.7.0`][1.7.0]
+
+[1.7.0]: https://github.com/pronamic/pronamic-pay-doneren-met-mollie/compare/v1.6.0...v1.7.0
 
 ### [1.6.0] - 2026-08-03
 
