@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.7.1] - 2026-11-02
+
+### Security
+
+- Form submissions can no longer be read through the REST API by users who cannot edit submissions (via `pronamic/wp-pronamic-forms` `v2.1.1`).
+
+### Changed
+
+- New form submissions are stored as private posts, and the submission post type is explicitly non-public (via `pronamic/wp-pronamic-forms` `v2.1.1`).
+- Updated build and development dependencies.
+
+### Composer
+
+- Changed `giggsey/libphonenumber-for-php-lite` from `9.0.40` to `9.0.42`.
+	Updates phone number metadata for many regions and fixes Brazilian dialling without a carrier code.
+	Release notes: https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.41, https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.42
+- Changed `pronamic/wp-pronamic-forms` from `v2.1.0` to `v2.1.1`.
+	Restricts the submissions REST API endpoints to users who can edit submissions, stores new submissions as private and lets WordPress load the translations automatically.
+	Release notes: https://github.com/pronamic/pronamic-forms/releases/tag/v2.1.1
+- Changed `symfony/polyfill-mbstring` from `v1.38.2` to `v1.43.3`.
+	Fixes endless loops in `mb_convert_case()` and `mb_encode_numericentity()`, adds argument validation to `mb_ord()` and `mb_chr()`, and rejects code points above U+10FFFF in `mb_check_encoding()`.
+	Release notes: https://github.com/symfony/polyfill-mbstring/releases/tag/v1.43.3
+
+Full set of changes: [`1.7.0...1.7.1`][1.7.1]
+
+[1.7.1]: https://github.com/pronamic/pronamic-pay-doneren-met-mollie/compare/v1.7.0...v1.7.1
+
 ## [1.7.0] - 2026-09-28
 
 ### Changed
