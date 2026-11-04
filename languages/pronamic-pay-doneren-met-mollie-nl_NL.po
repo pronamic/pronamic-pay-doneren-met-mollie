@@ -8,39 +8,92 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-05-19T09:11:01+00:00\n"
-"PO-Revision-Date: 2026-04-02T07:56:10+00:00\n"
+"PO-Revision-Date: 2026-11-04T19:03:57+00:00\n"
 "Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.7\n"
-"X-Poedit-SourceCharset: UTF-8: Gedeeltelijk terugbetaald <span class="count">( %s )</span>De webhook URL voor het ontvangen van automatische betalingsstatus updates lijkt te zijn gewijzigd voor de %1$s configuratie. Controleer je instellingen.%s keerdagweekmaandIn afwachting <span class="count">(%s)</span>\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. Plugin Name of the plugin
-#: pronamic-pay-doneren-met-mollie.php:3
+#: pronamic-pay-doneren-met-mollie.php:11
 msgid "Pronamic Pay doneren met Mollie"
 msgstr "Pronamic Pay doneren met Mollie"
 
 #. Plugin URI of the plugin
-#: pronamic-pay-doneren-met-mollie.php:4
+#: pronamic-pay-doneren-met-mollie.php:12
 msgid "https://www.pronamic.eu/plugins/pronamic-pay-doneren-met-mollie/"
 msgstr "https://www.pronamic.eu/plugins/pronamic-pay-doneren-met-mollie/"
 
 #. Description of the plugin
-#: pronamic-pay-doneren-met-mollie.php:5
+#: pronamic-pay-doneren-met-mollie.php:13
 msgid "A modern WordPress block-based plugin for creating flexible and customizable donation forms powered by Mollie."
 msgstr "Een moderne WordPress plugin op basis van blokken voor het maken van flexibele en aanpasbare donatieformulieren met Mollie."
 
 #. Author of the plugin
-#: pronamic-pay-doneren-met-mollie.php:11
+#: pronamic-pay-doneren-met-mollie.php:17
 msgid "Pronamic"
 msgstr "Pronamic"
 
 #. Author URI of the plugin
-#: pronamic-pay-doneren-met-mollie.php:12
+#: pronamic-pay-doneren-met-mollie.php:18
 msgid "https://www.pronamic.eu/"
 msgstr "https://www.pronamic.nl/"
 
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/afterpay-com.php:15
+msgid "Afterpay is a popular buy now, pay later service in Australia, New Zealand, the United States, and Canada."
+msgstr ""
+
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/afterpay-nl.php:15
+msgid "AfterPay is one of the largest and most popular post-payment system in the Benelux. Millions of Dutch and Belgians use AfterPay to pay for products."
+msgstr "AfterPay is één van de grootste en populairste betaalmethoden voor achteraf betalen in de Benelux. Miljoenen Nederlanders en Belgen gebruiken AfterPay om producten te betalen."
+
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/card.php:15
+msgid "The most popular payment method in the world. Offers customers a safe and trusted way to pay online. Customers can pay for their order quickly and easily with their card, without having to worry about their security. It is possible to charge a payment surcharge for card costs."
+msgstr ""
+
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/credit-card.php:15
+msgid "The most popular payment method in the world. Offers customers a safe and trusted way to pay online. Customers can pay for their order quickly and easily with their credit card, without having to worry about their security. It is possible to charge a payment surcharge for credit card costs."
+msgstr ""
+
+#. translators: %s: payment method name
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/direct-debit-bancontact.php:16
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/direct-debit-ideal.php:16
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/direct-debit-sofort.php:16
+#, php-format
+msgid "By using this payment method you authorize us via %s to debit payments from your bank account."
+msgstr "Met deze betaalmethode machtig je ons via %s om betalingen van je bankrekening af te schrijven."
+
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/ideal-qr.php:14
+msgid "iDEAL | Wero QR"
+msgstr ""
+
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/ideal.php:15
+msgid "With iDEAL you can easily pay online in the secure environment of your own bank."
+msgstr "Met iDEAL betaal je veilig en gemakkelijk via de vertrouwde omgeving van je eigen bank."
+
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/ideal.php:18
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:66
+#: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:98
+#: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:178
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:575
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:587
+msgid "iDEAL | Wero"
+msgstr "iDEAL | Wero"
+
+#. translators: %s: payment method name
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/in3.php:16
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/klarna-pay-later.php:20
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/riverty.php:17
+#, php-format
+msgid "You must be at least 18+ to use this service. If you pay on time, you will avoid additional costs and ensure that you can use %s services again in the future. By continuing, you accept the Terms and Conditions and confirm that you have read the Privacy Statement and Cookie Statement."
+msgstr ""
+
+#: packages/pronamic/pronamic-pay-default-payment-methods/payment-methods/riverty.php:15
+msgid "Riverty (formerly AfterPay) is a payment service that allows customers to pay after receiving the product."
+msgstr "Riverty (voorheen AfterPay) is een betaaldienst waarmee klanten kunnen betalen nadat ze het product hebben ontvangen."
+
 #: packages/pronamic/wp-datetime/src/DateTimeTrait.php:234
-#: packages/wp-pay/core/src/Plugin.php:1203
+#: packages/wp-pay/core/src/Plugin.php:643
 msgctxt "default datetime format"
 msgid "D j M Y \\a\\t H:i"
 msgstr "D j M Y \\o\\m H:i"
@@ -780,11 +833,6 @@ msgstr "%1$s %2$s"
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:16
 #: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:16
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:16
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:92
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:40
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:210
-#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Your form has been submitted successfully."
 msgstr "Je formulier is succesvol verzonden."
 
@@ -792,11 +840,6 @@ msgstr "Je formulier is succesvol verzonden."
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:22
 #: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:22
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:22
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:130
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:69
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:223
-#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "There was an error submitting your form."
 msgstr "Er is een fout opgetreden bij het verzenden van je formulier."
 
@@ -807,17 +850,6 @@ msgstr "Er is een fout opgetreden bij het verzenden van je formulier."
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:191
 #: packages/wp-pay/core/views/meta-box-payment-info.php:499
 #: packages/wp-pay/core/views/meta-box-payment-lines.php:37
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:70
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:177
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:101
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:68
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:80
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:229
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Name"
 msgstr "Naam"
 
@@ -825,14 +857,10 @@ msgstr "Naam"
 #: packages/wp-pay-gateways/mollie/views/page-customer.php:158
 #: packages/wp-pay-gateways/mollie/views/page-customer.php:457
 #: packages/wp-pay-gateways/mollie/views/user-profile.php:47
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:87
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Email"
 msgstr "E-mail"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:35
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:95
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Subject"
 msgstr "Onderwerp"
 
@@ -841,15 +869,10 @@ msgstr "Onderwerp"
 #: packages/pronamic/wp-pronamic-forms/patterns/order-form.php:47
 #: packages/wp-pay/core/views/exception.php:20
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:131
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:102
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:244
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Message"
 msgstr "Bericht"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/contact-form.php:44
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:111
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Submit"
 msgstr "Verzenden"
 
@@ -858,59 +881,24 @@ msgstr "Verzenden"
 #: packages/pronamic/wp-pronamic-forms/patterns/product-configurator-form.php:73
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:275
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:328
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:106
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:345
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:236
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Email address"
 msgstr "E-mailadres"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:39
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:466
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:165
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:197
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:251
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Frequency"
 msgstr "Frequentie"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:40
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:159
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:173
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:146
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:154
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:259
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Once"
 msgstr "Eenmalig"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:44
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:420
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:160
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:181
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:171
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:179
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:267
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Monthly"
 msgstr "Maandelijks"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:48
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:161
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:189
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:196
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:205
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:275
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Yearly"
 msgstr "Jaarlijks"
 
@@ -923,42 +911,29 @@ msgstr "Bedrag"
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:181
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:188
 #: packages/wp-pay/core/views/subscription-details.php:65
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:293
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Payment method"
 msgstr "Betaalmethode"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:58
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:88
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:176
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:539
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:556
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:301
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:553
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:570
 msgid "Bancontact"
 msgstr "Bancontact"
 
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:62
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:93
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:177
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:550
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:309
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:564
 msgid "Card"
 msgstr "Kaart"
 
-#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:66
-#: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:98
-#: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:178
-#: packages/wp-pay/core/src/Plugin.php:926
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:317
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "iDEAL"
-msgstr "iDEAL"
+#: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:71
+msgid "By making a recurring donation, you authorize automatic collection of future payments. For Bancontact, iDEAL | Wero, and SOFORT Banking, future payments will be collected via SEPA direct debit."
+msgstr ""
 
 #: packages/pronamic/wp-pronamic-forms/patterns/donation-form.php:76
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:328
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Donate"
 msgstr "Doneer"
 
@@ -1048,8 +1023,6 @@ msgid "Contact form"
 msgstr "Contactformulier"
 
 #: packages/pronamic/wp-pronamic-forms/psr-4/BlockPatternsController.php:56
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:184
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Donation form"
 msgstr "Donatieformulier"
 
@@ -1086,8 +1059,14 @@ msgstr "%1$s %2$s"
 msgid "Entry – %s"
 msgstr "Inzending – %s"
 
-#: packages/pronamic/wp-pronamic-forms/psr-4/PayController.php:349
-#: packages/pronamic/wp-pronamic-forms/psr-4/PayController.php:378
+#. translators: %s: entry post ID.
+#: packages/pronamic/wp-pronamic-forms/psr-4/PayController.php:86
+#, php-format
+msgid "Form submission %s"
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/psr-4/PayController.php:361
+#: packages/pronamic/wp-pronamic-forms/psr-4/PayController.php:390
 msgid "Pronamic Forms Entry"
 msgstr "Pronamic Forms inzending"
 
@@ -1100,8 +1079,8 @@ msgid "Card payment method"
 msgstr "Kaart-betaalmethode"
 
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:97
-msgid "iDEAL payment method"
-msgstr "iDEAL-betaalmethode"
+msgid "iDEAL | Wero payment method"
+msgstr ""
 
 #: packages/pronamic/wp-pronamic-forms/psr-4/PaymentMethodBlocksController.php:173
 msgid "Payment method field"
@@ -1115,12 +1094,20 @@ msgstr "betaalmethode"
 msgid "Submissions"
 msgstr "Inzendingen"
 
-#: packages/pronamic/wp-pronamic-forms/psr-4/PostTypesController.php:61
+#: packages/pronamic/wp-pronamic-forms/psr-4/PostTypesController.php:63
 msgid "Origin"
 msgstr "Oorsprong"
 
+#: packages/pronamic/wp-pronamic-forms/psr-4/SubmissionsRestController.php:41
+msgid "Sorry, you are not allowed to view submissions."
+msgstr ""
+
+#: packages/pronamic/wp-pronamic-forms/psr-4/SubmissionsRestController.php:69
+msgid "Sorry, you are not allowed to view this submission."
+msgstr ""
+
 #. translators: %s function name.
-#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php:274
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php:301
 #, php-format
 msgid "%s() was called before the Action Scheduler data store was initialized"
 msgstr "%s() is opgeroepen voordat de Action Scheduler-gegevensopslag is gestart"
@@ -1135,21 +1122,25 @@ msgstr "Filter"
 msgid "Search results for \"%s\""
 msgstr "Zoekresultaten voor \"%s\""
 
-#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:703
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:709
 msgctxt "status labels"
 msgid "All"
 msgstr "Alle"
 
-#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:704
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:710
 msgctxt "status labels"
 msgid "Past-due"
 msgstr "Achterstallig"
 
-#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:786
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:792
 msgid "Search"
 msgstr "Zoeken"
 
-#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:170
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:164
+msgid "This action data appears to be corrupt. We are cancelling it to allow recurring actions to be re-created by extensions."
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:215
 msgid "This action appears to be consistently failing. A new instance will not be scheduled."
 msgstr "Deze actie lijkt steeds te mislukken. Er wordt geen nieuwe actie gepland."
 
@@ -1158,7 +1149,7 @@ msgid "action created"
 msgstr "actie aangemaakt"
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:109
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:168
 msgid "action canceled"
 msgstr "actie geannuleerd"
 
@@ -1193,6 +1184,12 @@ msgstr "actie mislukt via %1$s: %2$s"
 #, php-format
 msgid "action failed: %s"
 msgstr "actie mislukt: %s"
+
+#. translators: %s: amount of time
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:171
+#, php-format
+msgid "action was in-progress for at least %s seconds without completing and has been marked as failed. Check server, PHP and database error logs to diagnose cause."
+msgstr ""
 
 #. translators: 1: error message 2: filename 3: line
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:183
@@ -1230,6 +1227,12 @@ msgstr "Er is een fout opgetreden bij het gebruik van deze actie"
 msgid "There was a failure scheduling the next instance of this action: %s"
 msgstr "Er is een fout opgetreden bij het plannen van de volgende keer dat deze actie wordt uitgevoerd: %s"
 
+#. translators: %d is a number (maximum length of action arguments).
+#: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:377
+#, php-format
+msgid "ActionScheduler_Action::$args too long. To ensure the args column can be indexed, action args should not be more than %d characters when encoded as JSON."
+msgstr ""
+
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:455
 msgid "Complete"
 msgstr "Afgerond"
@@ -1254,7 +1257,7 @@ msgstr "Geannuleerd"
 
 #. translators: %s php class name
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_WPCLI_Command.php:34
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:45
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:52
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ProgressBar.php:67
 #, php-format
 msgid "The %s class can only be run within WP CLI."
@@ -1276,69 +1279,77 @@ msgstr "Ongeldige actie - moet een terugkerende actie zijn."
 msgid "Caught exception while enqueuing action \"%1$s\": %2$s"
 msgstr "Uitzondering opgevangen tijdens het in de wachtrij plaatsen van actie “%1$s”: %2$s"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:82
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:97
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:83
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:98
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:99
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:96
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:23
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
 msgid "Scheduled Actions"
 msgstr "Geplande acties"
 
 #. translators: 1) is the number of affected actions, 2) is a link to an admin screen.
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:220
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:231
 #, php-format
 msgid "<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">past-due action</a> found; something may be wrong. <a href=\"https://actionscheduler.org/faq/#my-site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Read documentation &raquo;</a>"
 msgid_plural "<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">past-due actions</a> found; something may be wrong. <a href=\"https://actionscheduler.org/faq/#my-site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Read documentation &raquo;</a>"
 msgstr[0] "<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">achterstallige actie</a> gevonden; er kan iets mis zijn. <a href=\"https://actionscheduler.org/faq/#my-site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Lees documentatie &raquo;</a>"
 msgstr[1] "<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">achterstallige acties</a> gevonden; er kan iets mis zijn. <a href=\"https://actionscheduler.org/faq/#my-site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Lees documentatie &raquo;</a>"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:270
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:287
 msgid "About"
 msgstr "Over"
 
 #. translators: %s is the Action Scheduler version.
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:273
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:290
 #, php-format
 msgid "About Action Scheduler %s"
 msgstr "Over Action Scheduler %s"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:277
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:292
+msgid "Action Scheduler is a scalable, traceable job queue for background processing large sets of actions. Action Scheduler works by triggering an action hook to run at some time in the future. Scheduled actions can also be scheduled to run on a recurring schedule."
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:294
 #: packages/wp-pay/core/views/meta-box-payment-info.php:725
 #: packages/wp-pay/core/views/meta-box-payment-subscription.php:122
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:230
 msgid "Source"
 msgstr "Bron"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:282
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:296
+msgid "Action Scheduler is currently being loaded from the following location. This can be useful when debugging, or if requested by the support team."
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:299
 msgid "WP CLI"
 msgstr "WP CLI"
 
 #. translators: %1$s is WP CLI command (not translatable)
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:286
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:303
 #, php-format
 msgid "WP CLI commands are available: execute %1$s for a list of available commands."
 msgstr "WP CLI-commando's zijn beschikbaar: voer %1$s uit voor een lijst met beschikbare commando's."
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:296
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:313
 msgid "Columns"
 msgstr "Kolommen"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:298
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:315
 msgid "Scheduled Action Columns"
 msgstr "Geplande actie kolommen"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:300
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:96
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:317
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:103
 msgid "Hook"
 msgstr "Hook"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:300
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:317
 msgid "Name of the action hook that will be triggered."
 msgstr "Naam van de actie-hook die wordt geactiveerd."
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:301
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:97
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:318
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:104
 #: packages/wp-pay-gateways/mollie/views/page-customer.php:225
 #: packages/wp-pay-gateways/mollie/views/page-mandate.php:147
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:180
@@ -1352,26 +1363,30 @@ msgstr "Naam van de actie-hook die wordt geactiveerd."
 msgid "Status"
 msgstr "Status"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:302
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:98
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:318
+msgid "Action statuses are Pending, Complete, Canceled, Failed"
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:319
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:105
 msgid "Arguments"
 msgstr "Argumenten"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:302
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:319
 msgid "Optional data array passed to the action hook."
 msgstr "Optionele gegevensreeks doorgegeven aan de actie-hook."
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:303
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:99
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:320
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:106
 msgid "Group"
 msgstr "Groep"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:303
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:320
 msgid "Optional action group."
 msgstr "Optionele actiegroep."
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:304
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:100
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:321
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:107
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:322
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:115
 #: packages/wp-pay/core/views/meta-box-subscription-phases.php:48
@@ -1379,24 +1394,24 @@ msgstr "Optionele actiegroep."
 msgid "Recurrence"
 msgstr "Herhaling"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:304
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:321
 msgid "The action's schedule frequency."
 msgstr "Het aantal keren dat de actie is gepland."
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:305
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:322
 msgid "Scheduled"
 msgstr "Gepland"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:305
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:322
 msgid "The date/time the action is/was scheduled to run."
 msgstr "De datum/tijd waarop de actie gepland is/was om uit te voeren."
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:306
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:102
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:323
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:109
 msgid "Log"
 msgstr "Log"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:306
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:323
 msgid "Activity log for the action."
 msgstr "Activiteitenlog voor de actie."
 
@@ -1424,40 +1439,40 @@ msgstr "Actie [%1$s] heeft een ongeldig schema: %2$s"
 msgid "Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. $args = %2$s"
 msgstr "Actie [%1$s] heeft ongeldige argumenten. Ze kan niet met JSON worden gedecodeerd naar een matrix. $args = %2$s"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:92
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:99
 msgid "Delete"
 msgstr "Verwijder"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:101
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:108
 msgid "Scheduled Date"
 msgstr "Geplande datum"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:122
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:135
 msgid "Claim ID"
 msgstr "Claim ID"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:129
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:142
 msgid "Run"
 msgstr "Uitvoeren"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:130
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:143
 msgid "Process the action now as if it were run as part of a queue"
 msgstr "Verwerk de actie nu alsof deze werd uitgevoerd als onderdeel van een wachtrij"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:133
-#: packages/wp-pay/core/views/meta-box-payment-update.php:89
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:102
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:172
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:146
+#: packages/wp-pay/core/views/meta-box-payment-update.php:92
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:105
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:177
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:134
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:147
 msgid "Cancel the action now to avoid it being run in future"
 msgstr "Annuleer nu de actie om te voorkomen dat deze in de toekomst wordt uitgevoerd"
 
 #. translators: %s: amount of time
 #. translators: %s: number of years
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:144
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:157
 #: packages/wp-pay/core/src/Util.php:47
 #, php-format
 msgid "%s year"
@@ -1467,7 +1482,7 @@ msgstr[1] "%s jaren"
 
 #. translators: %s: amount of time
 #. translators: %s: number of months
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:149
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:162
 #: packages/wp-pay/core/src/Util.php:52
 #, php-format
 msgid "%s month"
@@ -1476,7 +1491,7 @@ msgstr[0] "%s maand"
 msgstr[1] "%s maanden"
 
 #. translators: %s: amount of time
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:154
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:167
 #, php-format
 msgid "%s week"
 msgid_plural "%s weeks"
@@ -1485,7 +1500,7 @@ msgstr[1] "%s weken"
 
 #. translators: %s: amount of time
 #. translators: %s: number of days
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:159
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:172
 #: packages/wp-pay/core/src/Util.php:57
 #, php-format
 msgid "%s day"
@@ -1495,7 +1510,7 @@ msgstr[1] "%s dagen"
 
 #. translators: %s: amount of time
 #. translators: %s: number of hours
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:164
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:177
 #: packages/wp-pay/core/src/Util.php:62
 #, php-format
 msgid "%s hour"
@@ -1505,7 +1520,7 @@ msgstr[1] "%s uren"
 
 #. translators: %s: amount of time
 #. translators: %s: number of minutes
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:169
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:182
 #: packages/wp-pay/core/src/Util.php:67
 #, php-format
 msgid "%s minute"
@@ -1515,7 +1530,7 @@ msgstr[1] "%s minuten"
 
 #. translators: %s: amount of time
 #. translators: %s: number of seconds
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:174
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:187
 #: packages/wp-pay/core/src/Util.php:72
 #, php-format
 msgid "%s second"
@@ -1523,28 +1538,34 @@ msgid_plural "%s seconds"
 msgstr[0] "%s seconde"
 msgstr[1] "%s seconden"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:224
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:237
 msgid "Now!"
 msgstr "Nu!"
 
 #. translators: %s: time interval
 #. translators: %s: formatted date interval periods
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:261
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:274
 #: packages/wp-pay/core/src/Util.php:118
 #, php-format
 msgid "Every %s"
 msgstr "Elke %s"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:267
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:280
 msgid "Non-repeating"
 msgstr "Niet-herhalend"
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:365
+#. translators: %d: Action ID.
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:347
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:394
 msgid "It appears one or more database tables were missing. Attempting to re-create the missing table(s)."
 msgstr "Het lijkt erop dat er een of meer databasetabellen ontbreken. Er wordt geprobeerd de ontbrekende tabellen opnieuw aan te maken."
 
 #. translators: %s: amount of claims
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:381
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:410
 #, php-format
 msgid "Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
 msgid_plural "Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
@@ -1552,70 +1573,74 @@ msgstr[0] "Maximale aantal gelijktijdige wachtrijen die al worden verwerkt (%s w
 msgstr[1] "Maximale aantal gelijktijdige wachtrijen die al worden verwerkt (%s wachtrijen). Er beginnen geen extra wachtrijen met verwerken totdat de huidige wachtrijen zijn voltooid."
 
 #. translators: %s: process URL
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:398
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:427
 #, php-format
 msgid "A new queue has begun processing. <a href=\"%s\">View actions in-progress &raquo;</a>"
 msgstr "Een nieuwe wachtrij is begonnen met verwerken. <a href=\"%s\">Acties die worden uitgevoerd weergeven &raquo;</a>"
 
 #. translators: %d: seconds
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:401
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:430
 #, php-format
 msgid "The next queue will begin processing in approximately %d seconds."
 msgstr "De volgende wachtrij begint over circa %d seconden met verwerken."
 
 #. translators: %s: action HTML
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:423
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:452
 #, php-format
 msgid "Successfully executed action: %s"
 msgstr "Uitgevoerde actie: %s"
 
 #. translators: %s: action HTML
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:427
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:456
 #, php-format
 msgid "Successfully canceled action: %s"
 msgstr "Geannuleerde actie: %s"
 
 #. translators: %s: action HTML
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:431
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:460
 #, php-format
 msgid "Successfully processed change for action: %s"
 msgstr "Wijziging verwerkt voor actie: %s"
 
 #. translators: 1: action HTML 2: action ID 3: error message
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:437
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:466
 #, php-format
-msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
-msgstr "Kan wijziging niet verwerken voor actie: \"%1$s\" (ID: %2$d). Fout: %3$s"
+msgid "Could not process change for action: %1$s (ID: %2$d). Error: %3$s"
+msgstr ""
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:473
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:502
 msgid "async"
 msgstr "async"
 
 #. translators: %s: date interval
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:487
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:516
 #, php-format
 msgid " (%s ago)"
 msgstr " (%s geleden)"
 
 #. translators: %s: date interval
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:490
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:519
 #, php-format
 msgid " (%s)"
 msgstr " (%s)"
 
 #. translators: 1: action ID 2: exception message.
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:516
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:545
 #, php-format
 msgid "Action Scheduler was unable to delete action %1$d. Reason: %2$s"
 msgstr "Action Scheduler kon actie %1$d niet verwijderen. Oorzaak: %2$s"
 
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:691
+msgid "Search hook, args, action ID and claim ID"
+msgstr ""
+
 #. Translators: %s is the exception message.
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_QueueCleaner.php:70
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_QueueCleaner.php:135
 #, php-format
 msgid "It was not possible to determine a valid cut-off time: %s."
 msgstr "Het was niet mogelijk om een geldige cut-off tijd te bepalen: %s."
 
-#: packages/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php:249
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php:286
 msgid "Every minute"
 msgstr "Elke minuut"
 
@@ -1657,107 +1682,126 @@ msgstr "Nieuwste geplande datum"
 msgid "This data will be deleted in %s."
 msgstr "Deze gegevens worden verwijderd over %s."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:130
+#. translators: 1: next cleanup message 2: github issue URL
+#: packages/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:126
+#, php-format
+msgid "Action Scheduler has migrated data to custom tables; however, orphaned log entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn more &raquo;</a>"
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:230
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:235
 msgid "Database error."
 msgstr "Database fout."
 
 #. translators: %s: error message
 #. translators: %s: action error message
 #. translators: %s is an error message.
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:138
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:243
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
 #: packages/woocommerce/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:49
 #, php-format
 msgid "Error saving action: %s"
 msgstr "Fout bij opslaan actie: %s"
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:425
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:372
+msgid "Unable to generate a unique action key."
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:609
 msgid "Invalid value for select or count parameter. Cannot query actions."
 msgstr "Ongeldige waarde voor parameter voor selecteren of aantal. Kan acties niet opvragen."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:490
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:674
 msgid "JSON partial matching not supported in your environment. Please check your MySQL/MariaDB version."
 msgstr "JSON gedeeltelijke matching niet ondersteund in jouw omgeving. Controleer je MySQL/MariaDB-versie."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:530
+#. translators: %s: provided value type
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:692
+#, php-format
+msgid "The value type for the JSON partial matching is not supported. Must be either integer, boolean, double or string. %s type provided."
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:714
 msgid "Unknown partial args matching value."
 msgstr "Onbekende gedeeltelijke argumenten die overeenkomen met de waarde."
 
 #. translators: %s: action ID
 #. translators: %s is the action ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:699
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:887
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:562
 #, php-format
 msgid "Unidentified action %s: we were unable to cancel this action. It may may have been deleted by another process."
 msgstr "Niet-geïdentificeerde actie %s: we konden deze actie niet annuleren. Mogelijk is de actie verwijderd door een ander proces."
 
 #. translators: %s is the action ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:801
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:989
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:581
 #, php-format
 msgid "Unidentified action %s: we were unable to delete this action. It may may have been deleted by another process."
 msgstr "Niet-geïdentificeerde actie %s: we konden deze actie niet verwijderen. Mogelijk is de actie verwijderd door een ander proces."
 
 #. translators: %s is the action ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:838
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1026
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:611
 #, php-format
 msgid "Unidentified action %s: we were unable to determine the date of this action. It may may have been deleted by another process."
 msgstr "Niet-geïdentificeerde actie %s: we konden de datum van deze actie niet bepalen. Mogelijk is de actie verwijderd door een ander proces."
 
 #. translators: %s: group name(s)
 #. translators: %s is the group name
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:975
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1163
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:775
 #, php-format
 msgid "The group \"%s\" does not exist."
 msgid_plural "The groups \"%s\" do not exist."
 msgstr[0] "De groep “%s” bestaat niet."
 msgstr[1] "De groepen “%s” bestaan niet."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1017
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1205
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:744
 msgctxt "database error"
 msgid "unknown"
 msgstr "onbekend"
 
 #. translators: %s database error.
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1022
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1210
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:750
 #, php-format
 msgid "Unable to claim actions. Database error: %s."
 msgstr "Claimen van acties mislukt. Database-fout: %s."
 
 #. translators: %d is an id.
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1178
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1375
 #, php-format
 msgid "Unable to release actions from claim id %d."
 msgstr "Kan acties niet vrijgeven van claim-ID %d."
 
 #. translators: %s is the action ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1232
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1434
 #, php-format
 msgid "Unidentified action %s: we were unable to mark this action as having failed. It may may have been deleted by another process."
 msgstr "Niet-geïdentificeerde actie %s: we konden deze actie niet als mislukt markeren. Mogelijk is de actie verwijderd door een ander proces."
 
 #. translators: 1: action ID. 2: status slug.
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1263
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:984
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1465
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1042
 #, php-format
 msgid "Unable to update the status of action %1$d to %2$s."
 msgstr "Kon de status van actie %1$d niet bijwerken naar %2$s."
 
 #. translators: %s is the action ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1300
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1004
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1503
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1062
 #, php-format
 msgid "Unidentified action %s: we were unable to mark this action as having completed. It may may have been deleted by another process."
 msgstr "Niet-geïdentificeerde actie %s: we konden deze actie niet als voltooid markeren. Mogelijk is de actie verwijderd door een ander proces."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1335
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:921
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1538
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:979
 msgid "Invalid action ID. No status found."
 msgstr "Ongeldig actie ID. Geen status gevonden."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1337
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1540
 msgid "Unknown status found for action."
 msgstr "Onbekende status gevonden voor actie."
 
@@ -1765,34 +1809,30 @@ msgstr "Onbekende status gevonden voor actie."
 msgid "Unable to save action."
 msgstr "Opslaan van actie mislukt."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:357
 msgid "Invalid schedule. Cannot save action."
 msgstr "Ongeldig schema. Actie opslaan mislukt."
 
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
-msgid "Unable to claim actions. Database error."
-msgstr "Claimen van acties mislukt. Database-fout."
-
 #. translators: %s: claim ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:841
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:899
 #, php-format
 msgid "Unable to unlock claim %s. Database error."
 msgstr "Ontgrendelen van claim %s mislukt. Database-fout."
 
 #. translators: %s: action ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:869
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:927
 #, php-format
 msgid "Unable to unlock claim on action %s. Database error."
 msgstr "Ontgrendelen van claim bij actie %s mislukt. Database-fout."
 
 #. translators: %s: action ID
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:895
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:953
 #, php-format
 msgid "Unable to mark failure on action %s. Database error."
 msgstr "Markeren van defect bij actie %s mislukt. Database-fout."
 
 #. translators: %s is the error message
-#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1085
+#: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1143
 #, php-format
 msgid "%s Support for strings longer than this will be removed in a future version."
 msgstr "%s Ondersteuning voor tekenreeksen langer dan deze, wordt in een toekomstige versie verwijderd."
@@ -1848,9 +1888,9 @@ msgid "Add New Scheduled Action"
 msgstr "Voeg nieuwe ingeplande actie toe"
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
-#: packages/wp-pay/core/views/meta-box-payment-update.php:67
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:76
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:144
+#: packages/wp-pay/core/views/meta-box-payment-update.php:70
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:79
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:149
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -1905,7 +1945,7 @@ msgstr "Bestemming winkel moet geconfigureerd worden voordat er gemigreerd wordt
 msgid "Destination logger must be configured before running a migration"
 msgstr "Bestemming logger moet geconfigureerd worden voordat er gemigreerd wordt"
 
-#: packages/woocommerce/action-scheduler/classes/migration/Controller.php:183
+#: packages/woocommerce/action-scheduler/classes/migration/Controller.php:184
 msgid "Action Scheduler migration in progress. The list of scheduled actions may be incomplete."
 msgstr "Migratie van Action Scheduler wordt uitgevoerd. De lijst met geplande acties kan onvolledig zijn."
 
@@ -2066,36 +2106,40 @@ msgid_plural "%d actions deleted."
 msgstr[0] "%d actie verwijderd."
 msgstr[1] "%d acties verwijderd."
 
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:71
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:89
+msgid "There are too many concurrent batches, but the run is forced to continue."
+msgstr ""
+
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:91
 msgid "There are too many concurrent batches."
 msgstr "Er zijn te veel gelijktijdige batches."
 
 #. translators: %d: amount of actions
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:99
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:119
 #, php-format
 msgid "Running %d action"
 msgid_plural "Running %d actions"
 msgstr[0] "%d actie wordt uitgevoerd"
 msgstr[1] "%d acties worden uitgevoerd"
 
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:117
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:139
 msgid "The claim has been lost. Aborting current batch."
 msgstr "De claim is verloren. Huidige batch wordt geannuleerd."
 
 #. translators: %s refers to the action ID
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:140
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:162
 #, php-format
 msgid "Started processing action %s"
 msgstr "Verwerken van actie %s gestart"
 
 #. translators: 1: action ID 2: hook name
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:177
 #, php-format
 msgid "Completed processing action %1$s with hook: %2$s"
 msgstr "Voltooide verwerking van actie %1$s met hook: %2$s"
 
 #. translators: 1: action ID 2: exception message
-#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:168
+#: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:190
 #, php-format
 msgid "Error processing action %1$s: %2$s"
 msgstr "Fout bij het verwerken van actie %1$s: %2$s"
@@ -2153,7 +2197,7 @@ msgid "Caught exception while cancelling action \"%1$s\": %2$s"
 msgstr "Uitzondering gedetecteerd bij het annuleren van de actie “%1$s”: %2$s"
 
 #: packages/wp-pay-gateways/mollie/pronamic-pay-mollie.php:51
-#: pronamic-pay-doneren-met-mollie.php:91
+#: psr-4/Plugin.php:126
 msgid "https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/"
 msgstr "https://www.pronamicpay.com/nl/handleidingen/hoe-je-mollie-aan-wordpress-koppelt-met-pronamic-pay/"
 
@@ -2209,28 +2253,28 @@ msgstr "Mollie betalingen"
 msgid "Payments"
 msgstr "Betalingen"
 
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:104
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:105
 msgid "Account holder name"
 msgstr "Rekeninghouder naam"
 
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:109
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:110
 msgid "Account number (IBAN)"
 msgstr "Rekeningnummer (IBAN)"
 
 #. translators: 1: Mollie chargeback ID, 2: Mollie payment ID
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1224
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1237
 #, php-format
 msgid "Subscription put on hold due to chargeback `%1$s` of payment `%2$s`."
 msgstr "Abonnement in de wacht gezet vanwege terugboeking `%1$s` van betaling `%2$s`."
 
 #. translators: 1: old mandate ID, 2: new mandate ID
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1298
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1311
 #, php-format
 msgid "Mandate for subscription changed from \"%1$s\" to \"%2$s\"."
 msgstr "Mandaat voor abonnement gewijzigd van \"%1$s\" naar \"%2$s\"."
 
 #. translators: 1: old payment method, 2: new payment method
-#: packages/wp-pay-gateways/mollie/src/Gateway.php:1342
+#: packages/wp-pay-gateways/mollie/src/Gateway.php:1355
 #, php-format
 msgid "Payment method for subscription changed from \"%1$s\" to \"%2$s\"."
 msgstr "Betaalmethode voor abonnement gewijzigd van \"%1$s\" naar \"%2$s\"."
@@ -2267,28 +2311,34 @@ msgstr "Webhook URL"
 msgid "The Webhook URL as sent with each transaction to receive automatic payment status updates on."
 msgstr "De Webhook URL die wordt meegestuurd met elke transactie om de automatische transactie status update op te ontvangen."
 
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:52
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:74
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:96
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:53
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:75
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:97
 msgid "Mollie transaction ID."
 msgstr "Mollie transactie ID."
 
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:69
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:91
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:113
-#: packages/wp-pay/core/src/Payments/PaymentsModule.php:219
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:70
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:92
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:114
+#: packages/wp-pay/core/src/Payments/PaymentsModule.php:221
 msgid "Payment ID."
 msgstr "Betaling ID."
 
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:118
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:119
 msgid "Mollie order ID."
 msgstr "Mollie bestelling ID."
 
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:197
-msgid "Payment webhook requested by Mollie."
-msgstr "Betaling webhook aangeroepen door Mollie."
+#. translators: %d: Action Scheduler action ID.
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:228
+#, php-format
+msgid "Mollie webhook received. The payment status will be requested asynchronously via action ID %d."
+msgstr ""
 
-#: packages/wp-pay-gateways/mollie/src/WebhookController.php:257
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:233
+msgid "Mollie webhook received. The payment status will be requested immediately."
+msgstr ""
+
+#: packages/wp-pay-gateways/mollie/src/WebhookController.php:283
 msgid "Order webhook requested by Mollie."
 msgstr "Bestelling webhook aangeroepen door Mollie."
 
@@ -2406,12 +2456,12 @@ msgid "Valid"
 msgstr "Geldig"
 
 #: packages/wp-pay-gateways/mollie/views/page-customer.php:295
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:551
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:565
 msgid "Credit Card"
 msgstr "Creditcard"
 
 #: packages/wp-pay-gateways/mollie/views/page-customer.php:299
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:552
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:566
 msgid "Direct Debit"
 msgstr "Incasso"
 
@@ -2483,21 +2533,11 @@ msgid "Credit card"
 msgstr "Creditcard"
 
 #: packages/wp-pay-gateways/mollie/views/page-mandate.php:182
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:587
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:603
 msgid "PayPal"
 msgstr "PayPal"
 
 #: packages/wp-pay-gateways/mollie/views/page-mandate.php:206
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:83
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:203
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:127
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:81
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:81
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
 msgid "Reference"
 msgstr "Referentie"
 
@@ -2557,6 +2597,10 @@ msgstr "Ja"
 msgid "No"
 msgstr "Nee"
 
+#: packages/wp-pay-gateways/mollie/views/user-profile.php:102
+msgid "Mollie offers the possibility to register payers as a customer within the Mollie payment platform. This functionality remembers payment preferences to make future payments easier. The Mollie customers can be linked to WordPress users. This is a list of Mollie customers associated with this WordPress user. For subscriptions, a Mollie customer mandate can be used for recurring payments."
+msgstr ""
+
 #: packages/wp-pay/core/src/Admin/AdminAboutPage.php:68
 msgid "About Pronamic Pay"
 msgstr "Over Pronamic Pay"
@@ -2605,6 +2649,12 @@ msgstr "Standaard"
 #: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:234
 msgid "Configuration"
 msgstr "Configuratie"
+
+#: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:512
+#: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:680
+#: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:736
+msgid "M j, Y @ H:i"
+msgstr ""
 
 #: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:516
 #: packages/wp-pay/core/src/Admin/AdminGatewayPostType.php:522
@@ -2741,6 +2791,10 @@ msgstr "Tekencodering is niet ingesteld op UTF-8"
 msgid "SHA1 hashing algorithm is available"
 msgstr "SHA1 hashing algoritme is beschikbaar"
 
+#: packages/wp-pay/core/src/Admin/AdminHealth.php:308
+msgid "Payment gateways often use the SHA1 hashing algorithm, therefore Pronamic Pay advises to enable this hashing algorithm."
+msgstr ""
+
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:323
 msgid "SHA1 hashing algorithm is not available for Pronamic Pay"
 msgstr "SHA1 hashing algoritme is niet beschikbaar"
@@ -2785,22 +2839,6 @@ msgstr "Configuraties"
 #: packages/wp-pay/core/src/Admin/AdminModule.php:834
 #: packages/wp-pay/core/src/Admin/AdminModule.php:835
 #: packages/wp-pay/core/views/pointer-settings.php:16
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:48
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-option/index.js:44
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:84
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:59
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:23
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:45
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:46
-#: packages/pronamic/wp-pronamic-forms/blocks-src/hidden-payment-amount/index.js:33
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/hidden-payment-amount/index.js:1
 msgid "Settings"
 msgstr "Instellingen"
 
@@ -2900,8 +2938,6 @@ msgstr "Klant"
 #: packages/wp-pay/core/views/meta-box-subscription-phases.php:47
 #: packages/wp-pay/core/views/redirect-via-html.php:94
 #: packages/wp-pay/core/views/subscription-details.php:40
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:285
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
 msgid "Amount"
 msgstr "Bedrag"
 
@@ -2954,8 +2990,8 @@ msgstr "Notities"
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:556
 #: packages/wp-pay/core/src/Admin/AdminSubscriptionPostType.php:608
-#: packages/wp-pay/core/views/meta-box-payment-update.php:137
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:228
+#: packages/wp-pay/core/views/meta-box-payment-update.php:140
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:235
 msgid "Update"
 msgstr "Bijwerken"
 
@@ -3079,7 +3115,7 @@ msgstr "Volgende betaling"
 #: packages/wp-pay/core/views/meta-box-payment-info.php:575
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:157
 #: packages/wp-pay/core/views/meta-box-subscription-payments.php:137
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:139
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:144
 msgid "D j M Y"
 msgstr "D j M Y"
 
@@ -3150,7 +3186,7 @@ msgid "Payer"
 msgstr "Betaler"
 
 #: packages/wp-pay/core/src/Cards.php:47
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:537
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:551
 msgid "American Express"
 msgstr "American Express"
 
@@ -3179,12 +3215,12 @@ msgid "JCB"
 msgstr "JCB"
 
 #: packages/wp-pay/core/src/Cards.php:82
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:580
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:594
 msgid "Maestro"
 msgstr "Maestro"
 
 #: packages/wp-pay/core/src/Cards.php:87
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:581
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:595
 msgid "Mastercard"
 msgstr "Mastercard"
 
@@ -3193,7 +3229,7 @@ msgid "UnionPay"
 msgstr "UnionPay"
 
 #: packages/wp-pay/core/src/Cards.php:97
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:602
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:618
 msgid "Visa"
 msgstr "Visa"
 
@@ -3245,207 +3281,209 @@ msgstr "Triodos Bank"
 msgid "Van Lanschot"
 msgstr "Van Lanschot"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:533
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:547
 msgid "Alma"
 msgstr "Alma"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:534
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:548
 msgctxt "afterpay.nl"
 msgid "AfterPay"
 msgstr "AfterPay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:535
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:549
 msgctxt "afterpay.com"
 msgid "Afterpay"
 msgstr "Afterpay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:536
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:550
 msgid "Alipay"
 msgstr "Alipay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:538
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:552
 msgid "Apple Pay"
 msgstr "Apple Pay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:540
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:554
 msgid "BANCOMAT Pay"
 msgstr "BANCOMAT Pay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:541
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:555
 msgid "Bank Transfer"
 msgstr "Bankoverschrijving"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:542
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:556
 msgid "Belfius Direct Net"
 msgstr "Belfius Direct Net"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:543
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:557
 msgid "Billie"
 msgstr "Billie"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:544
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:558
 msgid "Billink"
 msgstr "Billink"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:545
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:559
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:546
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:560
 msgid "BLIK"
 msgstr "BLIK"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:547
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:561
 msgid "Bunq"
 msgstr "Bunq"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:548
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:562
 msgid "Capayable"
 msgstr "Capayable"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:549
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:563
 msgid "In3"
 msgstr "In3"
 
 #. translators: %s: payment method
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:555
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:560
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:565
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:569
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:574
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:579
 #, php-format
 msgid "Direct Debit (mandate via %s)"
 msgstr "Incasso (machtiging via %s)"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:561
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:573
-#: packages/wp-pay/core/src/Plugin.php:913
-msgid "iDEAL | Wero"
-msgstr ""
-
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:566
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:580
 msgid "SOFORT"
 msgstr "SOFORT"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:568
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:582
 msgid "EPS"
 msgstr "EPS"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:569
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:583
 msgid "Focum"
 msgstr "Focum"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:570
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:584
 msgid "Gift Card"
 msgstr "Cadeaukaart"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:571
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:585
 msgid "Giropay"
 msgstr "Giropay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:572
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:586
 msgid "Google Pay"
 msgstr "Google Pay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:574
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:588
 msgid "iDEAL QR"
 msgstr "iDEAL QR"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:575
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:589
 msgid "KBC/CBC Payment Button"
 msgstr "KBC/CBC-Betaalknop"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:576
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:590
 msgid "Klarna"
 msgstr "Klarna"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:577
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:591
 msgid "Klarna Pay Later"
 msgstr "Klarna achteraf betalen"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:578
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:592
 msgid "Klarna Pay Now"
 msgstr "Klarna Betaal nu"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:579
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:593
 msgid "Klarna Pay Over Time"
 msgstr "Klarna Betaal in delen"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:582
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:596
 msgid "MB WAY"
 msgstr "MB WAY"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:583
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:597
 msgid "MobilePay"
 msgstr "MobilePay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:584
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:598
+msgid "Online Banking Czech Republic"
+msgstr ""
+
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:599
+msgid "Online Banking Slovakia"
+msgstr ""
+
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:600
 msgid "Multibanco"
 msgstr "Multibanco"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:585
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:601
 msgid "MyBank"
 msgstr "MyBank"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:586
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:602
 msgid "Payconiq"
 msgstr "Payconiq"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:588
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:604
 msgid "Paysafecard"
 msgstr "Paysafecard"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:589
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:605
 msgid "Pay by Bank"
 msgstr "Betalen per bank"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:590
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:606
 msgid "PostePay"
-msgstr ""
+msgstr "PostePay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:591
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:607
 msgid "Przelewy24"
 msgstr "Przelewy24"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:592
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:608
 msgid "Riverty"
 msgstr "Riverty"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:593
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:609
 msgid "Santander"
 msgstr "Santander"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:594
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:610
 msgid "Satispay"
 msgstr "Satispay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:595
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:611
 msgid "SOFORT Banking"
 msgstr "SOFORT Banking"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:596
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:612
 msgid "SprayPay"
 msgstr "SprayPay"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:597
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:613
 msgid "Swish"
 msgstr "Swish"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:598
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:614
 msgid "Trustly"
 msgstr "Trustly"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:599
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:615
 msgid "TWINT"
 msgstr "TWINT"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:600
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:616
 msgid "V PAY"
 msgstr "V PAY"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:601
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:617
 msgid "Vipps"
 msgstr "Vipps"
 
-#: packages/wp-pay/core/src/Core/PaymentMethods.php:603
+#: packages/wp-pay/core/src/Core/PaymentMethods.php:619
 msgid "Vouchers"
 msgstr "Vouchers"
 
@@ -3561,17 +3599,41 @@ msgstr "Kon gateway met ID `%s` niet vinden."
 msgid "Home URL setting to detect changes in the WordPress home URL."
 msgstr "Home URL instelling om wijzigingen in de WordPress home URL te detecteren."
 
+#. translators: 1: Pronamic Pay home URL option, 2: home URL
+#: packages/wp-pay/core/src/HomeUrlController.php:96
+#, php-format
+msgid "We noticed the WordPress home URL has changed from \"%1$s\" to \"%2$s\". Please verify the payment gateway settings. For example, you might want to switch between live and test mode or need to update an URL at the gateway to continue receiving payment status updates. Also keep an eye on pending payments to discover possible configuration issues."
+msgstr ""
+
+#: packages/wp-pay/core/src/HomeUrlController.php:113
+msgid "If you use subscriptions, you may want to update processing of recurring payments in the plugin debug settings to prevent duplicate payments being started in a development environment."
+msgstr ""
+
 #: packages/wp-pay/core/src/HomeUrlController.php:124
 msgid "Dismiss this notice."
 msgstr "Negeer deze melding."
+
+#: packages/wp-pay/core/src/HomeUrlController.php:147
+msgid "The security code (nonce) to verify the dismiss action expired or was invalid, please refresh and try again."
+msgstr ""
 
 #: packages/wp-pay/core/src/HomeUrlController.php:151
 msgid "You don’t have permission to do this."
 msgstr "Je hebt hier geen toestemming voor."
 
+#: packages/wp-pay/core/src/HomeUrlController.php:157
+msgid "Unable to dismiss the home URL change because the home URL option could not be updated, please refresh and try again."
+msgstr ""
+
 #: packages/wp-pay/core/src/LicenseManager.php:89
 msgid "Support License Key"
 msgstr "Support licentiecode"
+
+#. translators: 1: Pronamic Pay settings page URL, 2: The pronamicpay.com plugin page URL
+#: packages/wp-pay/core/src/LicenseManager.php:206
+#, php-format
+msgid "<strong>Pronamic Pay</strong> — You have not entered a valid <a href=\"%1$s\">support license key</a>, please <a href=\"%2$s\" target=\"_blank\">get your key at pronamicpay.com</a>."
+msgstr ""
 
 #. translators: 1: Pronamic Pay settings page URL, 2: The pronamicpay.com plugin page URL, 3: The pronamic.shop account page URL
 #: packages/wp-pay/core/src/LicenseManager.php:213
@@ -3638,6 +3700,10 @@ msgstr "Controleer bestaande licentie"
 #: packages/wp-pay/core/src/PagesController.php:59
 msgid "Payment Status Pages"
 msgstr "Betalingsstatus pagina's"
+
+#: packages/wp-pay/core/src/PagesController.php:85
+msgid "The page an user will get redirected to after payment, based on the payment status."
+msgstr ""
 
 #: packages/wp-pay/core/src/PagesController.php:103
 msgid "Set default pages"
@@ -3778,56 +3844,56 @@ msgstr "Betaling ingepland."
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:100
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:123
-#: packages/wp-pay/core/views/meta-box-payment-update.php:22
+#: packages/wp-pay/core/views/meta-box-payment-update.php:26
 msgctxt "Payment status"
 msgid "Pending"
 msgstr "In afwachting"
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:101
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:149
-#: packages/wp-pay/core/views/meta-box-payment-update.php:23
+#: packages/wp-pay/core/views/meta-box-payment-update.php:27
 msgctxt "Payment status"
 msgid "On Hold"
 msgstr "In de wacht"
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:102
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:162
-#: packages/wp-pay/core/views/meta-box-payment-update.php:24
+#: packages/wp-pay/core/views/meta-box-payment-update.php:28
 msgctxt "Payment status"
 msgid "Completed"
 msgstr "Voltooid"
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:103
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:175
-#: packages/wp-pay/core/views/meta-box-payment-update.php:25
+#: packages/wp-pay/core/views/meta-box-payment-update.php:29
 msgctxt "Payment status"
 msgid "Cancelled"
 msgstr "Geannuleerd"
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:104
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:188
-#: packages/wp-pay/core/views/meta-box-payment-update.php:26
+#: packages/wp-pay/core/views/meta-box-payment-update.php:30
 msgctxt "Payment status"
 msgid "Refunded"
 msgstr "Terugbetaald"
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:105
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:201
-#: packages/wp-pay/core/views/meta-box-payment-update.php:27
+#: packages/wp-pay/core/views/meta-box-payment-update.php:31
 msgctxt "Payment status"
 msgid "Failed"
 msgstr "Mislukt"
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:106
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:214
-#: packages/wp-pay/core/views/meta-box-payment-update.php:28
+#: packages/wp-pay/core/views/meta-box-payment-update.php:32
 msgctxt "Payment status"
 msgid "Expired"
 msgstr "Verlopen"
 
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:107
 #: packages/wp-pay/core/src/Payments/PaymentPostType.php:227
-#: packages/wp-pay/core/views/meta-box-payment-update.php:29
+#: packages/wp-pay/core/views/meta-box-payment-update.php:33
 msgctxt "Payment status"
 msgid "Authorized"
 msgstr "Geautoriseerd"
@@ -3907,19 +3973,19 @@ msgstr[0] "Geautoriseerd <span class=\"count\">(%s)</span>"
 msgstr[1] "Geautoriseerd <span class=\"count\">(%s)</span>"
 
 #. translators: 1: new status
-#: packages/wp-pay/core/src/Payments/PaymentsModule.php:172
+#: packages/wp-pay/core/src/Payments/PaymentsModule.php:174
 #, php-format
 msgid "Payment created with status \"%1$s\"."
 msgstr "Betaling aangemaakt met status “%1$s”."
 
 #. translators: 1: old status, 2: new status
-#: packages/wp-pay/core/src/Payments/PaymentsModule.php:179
+#: packages/wp-pay/core/src/Payments/PaymentsModule.php:181
 #, php-format
 msgid "Payment status changed from \"%1$s\" to \"%2$s\"."
 msgstr "Betalingsstatus gewijzigd van “%1$s” naar “%2$s”."
 
 #. translators: %s: payment ID
-#: packages/wp-pay/core/src/Payments/PaymentsModule.php:243
+#: packages/wp-pay/core/src/Payments/PaymentsModule.php:245
 #, php-format
 msgid "Could not find payment with ID `%s`."
 msgstr "Kon betaling met ID `%s` niet vinden."
@@ -3930,39 +3996,21 @@ msgstr "Kon betaling met ID `%s` niet vinden."
 msgid "Payment status check at gateway by %s."
 msgstr "Status opvragen bij betalingsprovider door %s."
 
-#: packages/wp-pay/core/src/Plugin.php:649
-msgid "AfterPay is one of the largest and most popular post-payment system in the Benelux. Millions of Dutch and Belgians use AfterPay to pay for products."
-msgstr "AfterPay is één van de grootste en populairste betaalmethoden voor achteraf betalen in de Benelux. Miljoenen Nederlanders en Belgen gebruiken AfterPay om producten te betalen."
-
-#. translators: %s: payment method
-#: packages/wp-pay/core/src/Plugin.php:842
-#, php-format
-msgid "By using this payment method you authorize us via %s to debit payments from your bank account."
-msgstr "Met deze betaalmethode machtig je ons via %s om betalingen van je bankrekening af te schrijven."
-
-#: packages/wp-pay/core/src/Plugin.php:910
-msgid "With iDEAL you can easily pay online in the secure environment of your own bank."
-msgstr "Met iDEAL betaal je veilig en gemakkelijk via de vertrouwde omgeving van je eigen bank."
-
-#: packages/wp-pay/core/src/Plugin.php:1095
-msgid "Riverty (formerly AfterPay) is a payment service that allows customers to pay after receiving the product."
-msgstr "Riverty (voorheen AfterPay) is een betaaldienst waarmee klanten kunnen betalen nadat ze het product hebben ontvangen."
-
-#: packages/wp-pay/core/src/Plugin.php:1214
+#: packages/wp-pay/core/src/Plugin.php:654
 msgid "Something went wrong with the payment. Please try again or pay another way."
 msgstr "Er ging iets mis met de betaling. Probeer het opnieuw of betaal op een andere manier."
 
-#: packages/wp-pay/core/src/Plugin.php:1257
+#: packages/wp-pay/core/src/Plugin.php:697
 msgid "— Select Configuration —"
 msgstr "— Selecteer configuratie —"
 
 #. translators: %d: Gateway configuration ID
-#: packages/wp-pay/core/src/Plugin.php:1580
+#: packages/wp-pay/core/src/Plugin.php:1020
 #, php-format
 msgid "Payment failed because gateway configuration with ID `%d` does not exist."
 msgstr "Betaling mislukt omdat gateway configuratie met ID `%d` niet bestaat."
 
-#: packages/wp-pay/core/src/Plugin.php:1700
+#: packages/wp-pay/core/src/Plugin.php:1140
 msgid "Unable to process refund as gateway could not be found."
 msgstr "Kan de terugbetaling niet verwerken omdat de gateway niet kan worden gevonden."
 
@@ -4030,50 +4078,50 @@ msgstr "Abonnement ingepland."
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:102
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:124
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:31
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:35
 msgctxt "Subscription status"
 msgid "Pending"
 msgstr "In afwachting"
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:103
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:137
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:32
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:36
 msgctxt "Subscription status"
 msgid "Cancelled"
 msgstr "Geannuleerd"
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:104
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:150
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:33
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:37
 msgctxt "Subscription status"
 msgid "Expired"
 msgstr "Verlopen"
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:105
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:163
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:34
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:38
 msgctxt "Subscription status"
 msgid "Failed"
 msgstr "Mislukt"
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:106
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:176
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:35
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:39
 msgctxt "Subscription status"
 msgid "On Hold"
 msgstr "In de wacht"
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:107
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:189
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:36
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:39
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:40
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:43
 msgctxt "Subscription status"
 msgid "Active"
 msgstr "Actief"
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:108
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionPostType.php:202
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:37
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:41
 msgctxt "Subscription status"
 msgid "Completed"
 msgstr "Voltooid"
@@ -4192,6 +4240,10 @@ msgstr "Code"
 msgid "Trace"
 msgstr "Trace"
 
+#: packages/wp-pay/core/views/form.php:23
+msgid "It is currently not possible to pay, please contact us for more information (error: no action URL found)."
+msgstr ""
+
 #: packages/wp-pay/core/views/meta-box-gateway-config.php:42
 msgid "Payment provider"
 msgstr "Betalingsprovider"
@@ -4244,6 +4296,10 @@ msgstr "Transactie terugkoppeling"
 #: packages/wp-pay/core/views/meta-box-gateway-settings.php:112
 msgid "Processing gateway transaction feedback in the background requires additional configuration."
 msgstr "Verwerken van gateway transactie terugkoppeling op de achtergrond vereist extra configuratie."
+
+#: packages/wp-pay/core/views/meta-box-gateway-test.php:25
+msgid "Please save the entered account details of your payment provider, to make a test payment."
+msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:66
 msgid "— Choose payment method —"
@@ -4680,30 +4736,34 @@ msgctxt "Recurring payment"
 msgid "Recurrence"
 msgstr "Herhaling"
 
-#: packages/wp-pay/core/views/meta-box-payment-update.php:55
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:61
+#: packages/wp-pay/core/views/meta-box-payment-update.php:58
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:64
 msgid "Status:"
 msgstr "Status:"
 
-#: packages/wp-pay/core/views/meta-box-payment-update.php:68
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:77
+#: packages/wp-pay/core/views/meta-box-payment-update.php:71
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:80
 msgid "Edit status"
 msgstr "Status bewerken"
 
-#: packages/wp-pay/core/views/meta-box-payment-update.php:72
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:81
+#: packages/wp-pay/core/views/meta-box-payment-update.php:75
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:84
 msgid "Set status"
 msgstr "Status instellen"
 
-#: packages/wp-pay/core/views/meta-box-payment-update.php:88
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:101
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:171
+#: packages/wp-pay/core/views/meta-box-payment-update.php:91
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:104
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:176
 msgid "OK"
 msgstr "OK"
 
-#: packages/wp-pay/core/views/meta-box-payment-update.php:117
+#: packages/wp-pay/core/views/meta-box-payment-update.php:120
 msgid "Check status"
 msgstr "Controleer status"
+
+#: packages/wp-pay/core/views/meta-box-subscription-info.php:38
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
 
 #: packages/wp-pay/core/views/meta-box-subscription-info.php:150
 msgid "Next Payment Date"
@@ -4803,36 +4863,36 @@ msgstr "Uitgelijnd"
 msgid "Prorated"
 msgstr "Naar rato"
 
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:114
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:117
 msgid "Recurring payments will not be created until manual reactivation of this subscription."
 msgstr "Terugkerende betalingen worden pas gemaakt na handmatige heractivering van dit abonnement."
 
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:115
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:118
 msgid "See subscription and payment notes for details about status changes."
 msgstr "Zie abonnements- en betalingsnotities voor details over statuswijzigingen."
 
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:136
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:141
 msgid "Next payment:"
 msgstr "Volgende betaling:"
 
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:145
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:150
 msgid "Edit next payment date"
 msgstr "Volgende betalingsdatum bewerken"
 
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:152
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:157
 msgid "Set date"
 msgstr "Datum instellen"
 
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:183
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:188
 msgid "Set the next payment date to a future date to continue payments for this subscription."
 msgstr "Stel de volgende betalingsdatum in op een toekomstige datum om de betalingen voor dit abonnement voort te zetten."
 
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:189
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:194
 msgid "Please select a future date."
 msgstr "Selecteer een toekomstige datum."
 
 #. translators: %s subscription source description
-#: packages/wp-pay/core/views/meta-box-subscription-update.php:198
+#: packages/wp-pay/core/views/meta-box-subscription-update.php:203
 #, php-format
 msgid "Editing the next payment date does not affect the current status or validity of %s."
 msgstr "Het wijzigen van de volgende betalingsdatum heeft geen invloed op de huidige status of geldigheid van %s."
@@ -4846,6 +4906,10 @@ msgstr "Bedankt voor het activeren van je licentie en het gebruik van de %s plug
 #: packages/wp-pay/core/views/notice-license.php:37
 msgid "This license does not have any activations left. Maybe you have to deactivate your license on a local/staging server. This can be done on your <a href=\"https://www.pronamic.shop/\" target=\"_blank\">Pronamic.shop account</a>."
 msgstr "Deze licentie heeft geen activaties meer beschikbaar. Misschien moet je je licentie deactiveren op een lokale/staging server. Dit kan worden gedaan via je <a href=“https://www.pronamic.shop/“ target=“_blank”>Pronamic.shop account</a>."
+
+#: packages/wp-pay/core/views/notice-license.php:46
+msgid "There was a problem activating your license key, please try again or contact support."
+msgstr ""
 
 #: packages/wp-pay/core/views/page-dashboard.php:48
 msgid "Latest Payments"
@@ -4867,6 +4931,10 @@ msgstr "Laatste abonnementen"
 #: packages/wp-pay/core/views/page-dashboard.php:331
 msgid "Getting Started"
 msgstr "Om te beginnen"
+
+#: packages/wp-pay/core/views/page-dashboard.php:336
+msgid "Please follow the tour, read the 'What is new' and 'Getting Started' pages before contacting us. Also, check the Site Health page for any issues."
+msgstr ""
 
 #: packages/wp-pay/core/views/page-dashboard.php:371
 msgid "What is new"
@@ -4917,6 +4985,10 @@ msgstr "En je kunt het laatste nieuws volgen van de Pronamic.nl weblog."
 msgid "Payment Forms"
 msgstr "Betalingsformulieren"
 
+#: packages/wp-pay/core/views/pointer-forms.php:19
+msgid "On the payment forms page you can add, edit or delete simple payment forms."
+msgstr ""
+
 #: packages/wp-pay/core/views/pointer-forms.php:20
 msgid "Currently it’s not possible to adjust the form fields or styling of these forms."
 msgstr "Momenteel is het niet mogelijk om de formuliervelden of opmaak van deze formulieren te wijzigen."
@@ -4958,6 +5030,10 @@ msgstr "Rapporten"
 #: packages/wp-pay/core/views/pointer-reports.php:19
 msgid "The Pronamic Pay reports page shows you an graph of all the payments of this year."
 msgstr "De Pronamic Pay rapporten pagina toont een grafiek van alle betalingen van dit jaar."
+
+#: packages/wp-pay/core/views/pointer-reports.php:20
+msgid "You can see the number of successful payments and the total amount of pending, successful, cancelled and failed payments."
+msgstr ""
 
 #: packages/wp-pay/core/views/pointer-settings.php:19
 msgid "These are the General settings for the Pronamic Pay plugin."
@@ -5129,323 +5205,6 @@ msgid "%s payment"
 msgid_plural "%s payments"
 msgstr[0] "%s betaling"
 msgstr[1] "%s betalingen"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:51
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:137
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:62
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:48
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-msgid "Required"
-msgstr "Vereist"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:52
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:138
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:63
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:49
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-msgid "Select this option to make the input required."
-msgstr "Selecteer deze optie om de invoer verplicht te maken."
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/index.js:101
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-option/index.js:86
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:145
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:59
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:98
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:103
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "Enter label…"
-msgstr "Label invoeren…"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-option/index.js:59
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:398
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:61
-#: packages/pronamic/wp-pronamic-forms/blocks-src/hidden-payment-amount/index.js:36
-#: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/hidden-payment-amount/index.js:1
-msgid "Payment amount"
-msgstr "Betalingsbedrag"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:86
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-msgid "Type"
-msgstr "Type"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:90
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-msgid "Text"
-msgstr "Tekst"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:94
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-msgid "Textarea"
-msgstr "Tekstvak"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:98
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:371
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Password"
-msgstr "Wachtwoord"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:102
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-msgid "URL"
-msgstr "URL"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:113
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:318
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Telephone number"
-msgstr "Telefoonnummer"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:120
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-msgid "Checkbox"
-msgstr "Selectievakje"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:124
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-msgid "Radio"
-msgstr "Keuzerondje"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:156
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:81
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Placeholder"
-msgstr "Plaatshouder"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:157
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:82
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Text that appears in the form element when no value has been entered."
-msgstr "Tekst die in het formulierelement verschijnt wanneer er geen waarde is ingevoerd."
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-control/index.js:190
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:114
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:51
-#: packages/pronamic/wp-pronamic-forms/blocks/form-control/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "Value"
-msgstr "Waarde"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:214
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Single-line text field"
-msgstr "Tekstveld"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:240
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Multi-line text field"
-msgstr "Tekstvak"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:258
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid ""
-"Multi-line\n"
-"text"
-msgstr ""
-"Meerdere regels\n"
-"tekst"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:266
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "URL field"
-msgstr "URL-veld"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:291
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Website"
-msgstr "Website"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:292
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "https://www.example.com/"
-msgstr "https://www.example.com/"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:300
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Telephone number field"
-msgstr "Telefoonnummerveld"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:319
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "555-0100"
-msgstr "555-0100"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:327
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Email address field"
-msgstr "E-mailadresveld"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:346
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "john.doe@example.com"
-msgstr "john.doe@example.com"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:354
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Password field"
-msgstr "Wachtwoordveld"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-field/index.js:380
-#: packages/pronamic/wp-pronamic-forms/blocks/form-field/index.js:1
-msgid "Payment amount field"
-msgstr "Bedragveld"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:25
-#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
-msgid "HTML element"
-msgstr "HTML-element"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:28
-#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
-msgid "Default (<label>)"
-msgstr "Standaard (<label>)"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-label/index.js:45
-#: packages/pronamic/wp-pronamic-forms/blocks/form-label/index.js:1
-msgid "For"
-msgstr "Voor"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:153
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-msgid "Subscription frequency choice field"
-msgstr "Abonnementsfrequentie keuzeveld"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:155
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:142
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:167
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:192
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "frequency"
-msgstr "frequentie"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:156
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:143
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:168
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:193
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "interval"
-msgstr "interval"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:157
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:144
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:169
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:194
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "recurrence"
-msgstr "herhaling"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:158
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:145
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:170
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:195
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "subscription"
-msgstr "abonnement"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-field/index.js:162
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:197
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-field/index.js:1
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "Annual"
-msgstr "Jaarlijks"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:140
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "One-time payment"
-msgstr "Eenmalige betaling"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:162
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "Monthly payment"
-msgstr "Maandelijkse betaling"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-radio-option/index.js:187
-#: packages/pronamic/wp-pronamic-forms/blocks/form-radio-option/index.js:1
-msgid "Yearly payment"
-msgstr "Jaarlijkse betaling"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:67
-#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
-msgid "Form submission success"
-msgstr "Formulierinzending succesvol"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:68
-#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
-msgid "Success message for form submissions."
-msgstr "Succes bericht voor formulier inzendingen."
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:105
-#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
-msgid "Form submission error"
-msgstr "Formulierinzending fout"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form-submission-notification/index.js:106
-#: packages/pronamic/wp-pronamic-forms/blocks/form-submission-notification/index.js:1
-msgid "Error/failure message for form submissions."
-msgstr "Fout/mislukking bericht voor formulier inzendingen."
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:187
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "donation"
-msgstr "donatie"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:188
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "donate"
-msgstr "doneer"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:189
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "fundraiser"
-msgstr "fondsenwerving"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:190
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "charity"
-msgstr "goed doel"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:191
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "contribute"
-msgstr "bijdragen"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:192
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "contribution"
-msgstr "bijdrage"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:193
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "nonprofit"
-msgstr "non-profit"
-
-#: packages/pronamic/wp-pronamic-forms/blocks-src/form/index.js:194
-#: packages/pronamic/wp-pronamic-forms/blocks/form/index.js:1
-msgid "gift"
-msgstr "geschenk"
 
 #: packages/pronamic/wp-pronamic-forms/blocks-src/form-checkbox-field/block.json
 #: packages/pronamic/wp-pronamic-forms/blocks/form-checkbox-field/block.json
