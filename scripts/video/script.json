@@ -1,0 +1,159 @@
+{
+	"title": "Pronamic Pay doneren met Mollie: een donatieformulier maken",
+	"output": "pronamic-pay-doneren-met-mollie-nl",
+	"pronunciation": {
+		"pronamic.eu": "pronamic punt e u",
+		"wordpress.org": "WordPress punt org",
+		"API-sleutel": "aa-pee-ie-sleutel"
+	},
+	"scenes": [
+		{
+			"id": "intro",
+			"chapter": "Introductie",
+			"card": {
+				"title": "Een donatieformulier maken met Mollie",
+				"subtitle": "In een paar minuten online donaties ontvangen"
+			},
+			"steps": [
+				{
+					"id": "intro",
+					"text": "Met de plugin Pronamic Pay doneren met Mollie voeg je in een paar minuten een donatieformulier toe aan je WordPress-website. In deze video laten we zien hoe dat werkt."
+				}
+			]
+		},
+		{
+			"id": "plugin",
+			"chapter": "Plugin installeren",
+			"steps": [
+				{
+					"id": "plugin-menu",
+					"text": "Ga in WordPress naar Plugins en klik op Nieuwe plugin."
+				},
+				{
+					"id": "plugin-search",
+					"text": "Zoek op Doneren met Mollie."
+				},
+				{
+					"id": "plugin-install",
+					"text": "Installeer de plugin Pronamic Pay doneren met Mollie en activeer hem."
+				}
+			]
+		},
+		{
+			"id": "mollie",
+			"chapter": "Mollie koppelen",
+			"steps": [
+				{
+					"id": "mollie-menu",
+					"text": "Daarna koppel je je Mollie-account. Ga in het menu naar Betalen en dan naar Configuraties."
+				},
+				{
+					"id": "mollie-add",
+					"text": "Klik op de knop om een nieuwe configuratie toe te voegen."
+				},
+				{
+					"id": "mollie-title",
+					"text": "Geef de configuratie een naam en kies Mollie als betaalprovider."
+				},
+				{
+					"id": "mollie-key",
+					"text": "Kopieer je API-sleutel uit je Mollie-dashboard en plak die in het veld. Begin met een test-sleutel, dan kun je alles veilig uitproberen."
+				},
+				{
+					"id": "mollie-publish",
+					"text": "Klik op Publiceren. De eerste configuratie wordt automatisch de standaard."
+				}
+			]
+		},
+		{
+			"id": "form",
+			"chapter": "Donatieformulier maken",
+			"steps": [
+				{
+					"id": "form-new",
+					"text": "Nu maken we het formulier. Voeg een nieuwe pagina toe en geef die een titel, bijvoorbeeld Doneren."
+				},
+				{
+					"id": "form-inserter",
+					"text": "Open de blok-inserter, kies Patronen en daarna Pronamic formulieren."
+				},
+				{
+					"id": "form-pattern",
+					"text": "Klik op het patroon Donatieformulier. Het complete formulier staat nu op je pagina."
+				},
+				{
+					"id": "form-edit",
+					"text": "Het formulier is opgebouwd uit gewone blokken. Je past teksten, velden en opmaak dus aan zoals je dat gewend bent."
+				},
+				{
+					"id": "form-publish",
+					"text": "Klik op Publiceren en het formulier staat online."
+				}
+			]
+		},
+		{
+			"id": "donate",
+			"chapter": "Doneren op je website",
+			"steps": [
+				{
+					"id": "donate-intro",
+					"text": "Zo ziet het formulier eruit voor je bezoekers."
+				},
+				{
+					"id": "donate-details",
+					"text": "Een bezoeker vult een naam en e-mailadres in,"
+				},
+				{
+					"id": "donate-frequency",
+					"text": "kiest of het een eenmalige, maandelijkse of jaarlijkse donatie is,"
+				},
+				{
+					"id": "donate-amount",
+					"text": "vult een bedrag in en kiest een betaalmethode."
+				},
+				{
+					"id": "donate-submit",
+					"text": "Met een klik op Doneer rondt de bezoeker de betaling veilig af bij Mollie."
+				},
+				{
+					"id": "donate-mollie",
+					"mollie": true,
+					"text": "Dit is de testomgeving van Mollie. Kies een bank en daarna de status Betaald."
+				},
+				{
+					"id": "donate-return",
+					"mollie": true,
+					"text": "Daarna komt de bezoeker terug op je website, op een bedankpagina die je kiest in de instellingen van Pronamic Pay."
+				}
+			]
+		},
+		{
+			"id": "payments",
+			"chapter": "Betalingen bekijken",
+			"mollie": true,
+			"steps": [
+				{
+					"id": "payments",
+					"text": "Alle donaties en hun status zie je terug in Pronamic Pay, onder Betalingen."
+				}
+			]
+		},
+		{
+			"id": "outro",
+			"chapter": "Meer informatie",
+			"card": {
+				"title": "Zo eenvoudig is het",
+				"lines": [
+					"wordpress.org/plugins/pronamic-pay-doneren-met-mollie",
+					"pronamic.eu"
+				]
+			},
+			"steps": [
+				{
+					"id": "outro",
+					"text": "Zo eenvoudig is het. Download de plugin gratis op wordpress.org. Meer informatie en hulp vind je op pronamic.eu. Succes met je donaties!"
+				}
+			]
+		}
+	]
+}

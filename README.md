@@ -176,6 +176,28 @@ npm run screenshots
 
 The screenshots temporarily add a demo page and a Mollie configuration to the `wp-env` site, deactivate the other plugins and remove or restore everything afterwards. The raw screenshots are saved in `build/screenshots/` and then framed on an orange background into `.wordpress-org/`. To adjust only the frame, run `npm run screenshots:frame`; no WordPress needed. If `wp-env` runs on another port, set `WP_BASE_URL`, for example `WP_BASE_URL=http://localhost:8894 npm run screenshots`.
 
+### How-to video
+
+The Dutch how-to video is generated as well, see [`scripts/video/`](scripts/video/). The scenes and the narration are in [`script.json`](scripts/video/script.json). Requires `ffmpeg` and [`uv`](https://docs.astral.sh/uv/) (`brew install ffmpeg uv`).
+
+Local settings, not in Git:
+
+- `.env` with `MOLLIE_TEST_API_KEY=test_…`, so the video shows a test payment on the Mollie checkout. Without it, the video stops at the "Donate" button.
+- `.wp-env.override.json` with `{ "port": 8894 }` if `wp-env` runs on another port than 8888.
+
+```sh
+composer run build
+npx wp-env start
+npm run video
+```
+
+1. `npm run video:tts` turns the narration into speech, one audio file per step, cached until the text changes. By default with the open source [Chatterbox Multilingual](https://github.com/resemble-ai/chatterbox), locally via `uv`; the first run downloads a few GB. Whisper transcribes every take, and takes that differ too much from the text are generated again. Set `CHATTERBOX_VOICE` to a WAV file with about 10 seconds of Dutch speech to clone that voice. Other providers with `TTS_PROVIDER`: `elevenlabs` (`ELEVENLABS_API_KEY`), `openai` (`OPENAI_API_KEY`) or `say` (macOS).
+2. `npm run video:record` records each scene with Playwright, with a visible cursor and typing. Each step lasts as long as its narration.
+3. `npm run video:compose` adds the intro and outro cards, places the narration at the recorded moments and writes `build/video/pronamic-pay-doneren-met-mollie-nl.mp4`, with subtitles (`.srt`) and YouTube chapters (`-chapters.txt`).
+4. `npm run video:review` extracts a frame every 2 seconds and a contact sheet per scene in `build/video/frames/`, for a review by eye or by Claude.
+
+Like the screenshots, the recording temporarily changes the `wp-env` site (site title, a thank-you page, a Mollie configuration, a donation) and restores it afterwards. It also installs the Dutch translations of WordPress.
+
 ## Links
 
 - [WordPress.org plugin page](https://wordpress.org/plugins/pronamic-pay-doneren-met-mollie/)

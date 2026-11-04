@@ -39,6 +39,11 @@
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json",
 		"screenshots": "wp-scripts test-playwright --config scripts/screenshots/playwright.config.js && npm run screenshots:frame",
-		"screenshots:frame": "node scripts/screenshots/frame.js"
+		"screenshots:frame": "node scripts/screenshots/frame.js",
+		"video": "npm run video:tts && npm run video:record && npm run video:compose",
+		"video:tts": "node scripts/video/tts.js",
+		"video:record": "wp-scripts test-playwright --config scripts/video/playwright.config.js",
+		"video:compose": "node scripts/video/compose.js",
+		"video:review": "node scripts/video/review.js"
 	}
 }

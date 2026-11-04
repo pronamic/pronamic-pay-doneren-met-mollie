@@ -1,5 +1,9 @@
 .DS_Store
 
+# Local settings and secrets
+/.env
+/.wp-env.override.json
+
 # Build
 /build/
 
