@@ -1,7 +1,14 @@
 {
 	"core": null,
+	"config": {
+		"PRONAMIC_PAY_DEBUG": true,
+		"SAVEQUERIES": true,
+		"WP_DEBUG_LOG": true,
+		"WPLANG": "nl_NL"
+	},
+	"phpVersion": "8.3",
 	"plugins": [
-		"pronamic/wp-env-quick-login",
+		"solvebeam/solvebeam-quick-login-for-wp-env",
 		"pronamic/wp-pronamic-pay-test-helper",
 		"https://downloads.wordpress.org/plugin/code-profiler.zip",
 		"https://downloads.wordpress.org/plugin/doneren-met-mollie.zip",
@@ -15,10 +22,7 @@
 	],
 	"mappings": {
 		"wp-content/plugins/pronamic-pay-doneren-met-mollie-dev": "./",
-		"wp-content/plugins/pronamic-pay-doneren-met-mollie": "./build/stage-2/"
-	},
-	"config": {
-		"PRONAMIC_PAY_DEBUG": true
+		"wp-content/plugins/pronamic-pay-doneren-met-mollie": "./build/pronamic-pay-doneren-met-mollie/"
 	},
 	"testsEnvironment": false
 }

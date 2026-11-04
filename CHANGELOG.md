@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Modernized the plugin structure following the SolveBeam WordPress plugin boilerplate: the bootstrap code moved to `psr-4/Plugin.php`, strict types, PHPStan and Rector were added.
+
 ## [1.8.0] - 2026-11-04
 
 ### Composer

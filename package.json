@@ -33,6 +33,7 @@
 		"@wordpress/env": "^12.1.0",
 		"@wordpress/scripts": "^37.1.0"
 	},
+	"prettier": "@wordpress/prettier-config",
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json"
 	}

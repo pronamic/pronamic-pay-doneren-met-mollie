@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57545dcaa5fd26d2bee4c68c7ad5683a",
+    "content-hash": "f2f547edc87a69b4af254e71bd45bf31",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -2403,6 +2403,117 @@
             "published-time": "2013-06-26T14:49:09+00:00"
         },
         {
+            "name": "nikic/php-parser",
+            "version": "v5.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "9e33da9553fe7786f0962b35f4e4ecf01be89def"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/9e33da9553fe7786f0962b35f4e4ecf01be89def",
+                "reference": "9e33da9553fe7786f0962b35f4e4ecf01be89def",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-tokenizer": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "ircmaxell/php-yacc": "^0.0.7",
+                "phpunit/phpunit": "^9.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/nikic/PHP-Parser/issues",
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.9.0"
+            },
+            "time": "2026-09-13T18:51:52+00:00",
+            "published-time": "2026-09-13T18:53:16+00:00"
+        },
+        {
+            "name": "php-stubs/wordpress-stubs",
+            "version": "v7.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-stubs/wordpress-stubs.git",
+                "reference": "6926c5156431a3ff909d43faa16a92a0bc0c2428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/6926c5156431a3ff909d43faa16a92a0bc0c2428",
+                "reference": "6926c5156431a3ff909d43faa16a92a0bc0c2428",
+                "shasum": ""
+            },
+            "conflict": {
+                "phpdocumentor/reflection-docblock": "5.6.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "nikic/php-parser": "^5.5",
+                "php": "^7.4 || ^8.0",
+                "php-stubs/generator": "^0.9",
+                "phpdocumentor/reflection-docblock": "^6.0",
+                "phpstan/phpstan": "^2.2",
+                "phpunit/phpunit": "^9.5",
+                "symfony/polyfill-php80": "*",
+                "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": "^1.2",
+                "wp-coding-standards/wpcs": "3.4.1 as 2.3.0"
+            },
+            "suggest": {
+                "paragonie/sodium_compat": "Pure PHP implementation of libsodium",
+                "symfony/polyfill-php80": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WordPress function and class declaration stubs for static analysis.",
+            "homepage": "https://github.com/php-stubs/wordpress-stubs",
+            "keywords": [
+                "PHPStan",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
+                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v7.1.2"
+            },
+            "time": "2026-10-06T06:59:21+00:00",
+            "published-time": "2026-10-06T07:32:21+00:00"
+        },
+        {
             "name": "phpcompatibility/php-compatibility",
             "version": "9.3.5",
             "source": {
@@ -2796,6 +2907,120 @@
             "published-time": "2026-07-27T10:36:31+00:00"
         },
         {
+            "name": "phpstan/extension-installer",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/extension-installer.git",
+                "reference": "85e90b3942d06b2326fba0403ec24fe912372936"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/extension-installer/zipball/85e90b3942d06b2326fba0403ec24fe912372936",
+                "reference": "85e90b3942d06b2326fba0403ec24fe912372936",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": "^7.2 || ^8.0",
+                "phpstan/phpstan": "^1.9.0 || ^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "php-parallel-lint/php-parallel-lint": "^1.2.0",
+                "phpstan/phpstan-strict-rules": "^0.11 || ^0.12 || ^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PHPStan\\ExtensionInstaller\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPStan\\ExtensionInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Composer plugin for automatic installation of PHPStan extensions",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "issues": "https://github.com/phpstan/extension-installer/issues",
+                "source": "https://github.com/phpstan/extension-installer/tree/1.4.3"
+            },
+            "time": "2024-09-04T20:21:43+00:00",
+            "published-time": "2024-09-04T20:22:27+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "2.3.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/645a1bd6bead15fc1b8474137467961d0fa30a79",
+                "reference": "645a1bd6bead15fc1b8474137467961d0fa30a79",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ondřej Mirtes"
+                },
+                {
+                    "name": "Markus Staab"
+                },
+                {
+                    "name": "Vincent Langlet"
+                }
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-11-03T12:14:22+00:00",
+            "published-time": "2026-11-03T12:14:36+00:00"
+        },
+        {
             "name": "pronamic/changelog-md-to-wordpress-plugin-readme-txt",
             "version": "dev-main",
             "source": {
@@ -2886,43 +3111,6 @@
             "abandoned": true,
             "time": "2024-08-01T14:04:36+00:00",
             "published-time": "2024-08-01T14:05:11+00:00"
-        },
-        {
-            "name": "pronamic/pronamic-wp-i18n-text-domain-replacer",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pronamic/pronamic-wp-i18n-text-domain-replacer.git",
-                "reference": "47eb88acddc00251171dc43c1caddba5c5972d22"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/pronamic-wp-i18n-text-domain-replacer/zipball/47eb88acddc00251171dc43c1caddba5c5972d22",
-                "reference": "47eb88acddc00251171dc43c1caddba5c5972d22",
-                "shasum": ""
-            },
-            "require-dev": {
-                "pronamic/wp-coding-standards": "^2.3"
-            },
-            "default-branch": true,
-            "bin": [
-                "bin/pronamic-wp-i18n-text-domain-replacer"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Pronamic",
-                    "email": "info@pronamic.eu"
-                }
-            ],
-            "description": "A developer tool for replacing WordPress translation text domains in PHP, JavaScript, and `block.json` files.",
-            "support": {
-                "issues": "https://github.com/pronamic/pronamic-wp-i18n-text-domain-replacer/issues",
-                "source": "https://github.com/pronamic/pronamic-wp-i18n-text-domain-replacer/tree/main"
-            },
-            "time": "2025-05-19T15:06:09+00:00",
-            "published-time": "2025-08-19T15:44:08+00:00"
         },
         {
             "name": "pronamic/wp-coding-standards",
@@ -3159,6 +3347,64 @@
             ],
             "time": "2025-08-19T18:57:03+00:00",
             "published-time": "2025-08-19T19:13:36+00:00"
+        },
+        {
+            "name": "rector/rector",
+            "version": "2.8.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rectorphp/rector.git",
+                "reference": "55acbd956d7e3907f7d21aab54edd68a310609e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/55acbd956d7e3907f7d21aab54edd68a310609e6",
+                "reference": "55acbd956d7e3907f7d21aab54edd68a310609e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0",
+                "phpstan/phpstan": "^2.3.5"
+            },
+            "conflict": {
+                "rector/rector-doctrine": "*",
+                "rector/rector-downgrade-php": "*",
+                "rector/rector-phpunit": "*",
+                "rector/rector-symfony": "*"
+            },
+            "bin": [
+                "bin/rector"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Instant Upgrade and Automated Refactoring of any PHP code",
+            "homepage": "https://getrector.com/",
+            "keywords": [
+                "automation",
+                "dev",
+                "migration",
+                "refactoring"
+            ],
+            "support": {
+                "issues": "https://github.com/rectorphp/rector/issues",
+                "source": "https://github.com/rectorphp/rector/tree/2.8.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-11-03T18:48:08+00:00",
+            "published-time": "2026-11-03T18:48:15+00:00"
         },
         {
             "name": "roots/wordpress-no-content",
@@ -3464,6 +3710,67 @@
             },
             "time": "2025-09-30T22:22:48+00:00",
             "published-time": "2025-09-30T22:24:41+00:00"
+        },
+        {
+            "name": "solvebeam/wp-text-domain-replacer",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/solvebeam/wp-text-domain-replacer.git",
+                "reference": "19aff7af4966f1488a3d54e48d11048c377f3bb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/solvebeam/wp-text-domain-replacer/zipball/19aff7af4966f1488a3d54e48d11048c377f3bb8",
+                "reference": "19aff7af4966f1488a3d54e48d11048c377f3bb8",
+                "shasum": ""
+            },
+            "require": {
+                "mck89/peast": "^1.18",
+                "nikic/php-parser": "^5.8"
+            },
+            "require-dev": {
+                "pronamic/wp-coding-standards": "^2.5"
+            },
+            "suggest": {
+                "wp-coding-standards/wpcs": "Enables the --phpcs option in wptdr to verify text domain replacements using the WordPress.WP.I18n sniff."
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/wptdr"
+            ],
+            "type": "library",
+            "extra": {
+                "solvebeam-wp-text-domain-replacer": {
+                    "dir": "tests",
+                    "search": [
+                        "old",
+                        "older",
+                        "block-development-examples"
+                    ],
+                    "exclude": [
+                        "exclude"
+                    ],
+                    "replace": "new"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SolveBeam",
+                    "email": "info@solvebeam.com"
+                }
+            ],
+            "description": "A developer tool for replacing WordPress translation text domains in PHP, JavaScript, and `block.json` files.",
+            "support": {
+                "issues": "https://github.com/solvebeam/wp-text-domain-replacer/issues",
+                "source": "https://github.com/solvebeam/wp-text-domain-replacer/tree/main"
+            },
+            "time": "2026-09-17T18:29:33+00:00",
+            "published-time": "2026-09-17T18:29:37+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -4616,6 +4923,70 @@
             ],
             "time": "2026-10-23T16:51:52+00:00",
             "published-time": "2026-10-28T18:21:18+00:00"
+        },
+        {
+            "name": "szepeviktor/phpstan-wordpress",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/szepeviktor/phpstan-wordpress.git",
+                "reference": "84577e2ea1e4c2a95537fe5ea2ac8e18f4ceab1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/szepeviktor/phpstan-wordpress/zipball/84577e2ea1e4c2a95537fe5ea2ac8e18f4ceab1a",
+                "reference": "84577e2ea1e4c2a95537fe5ea2ac8e18f4ceab1a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "php-stubs/wordpress-stubs": ">=6.6.2",
+                "phpstan/phpstan": "^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.1.14",
+                "composer/semver": "^3.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.1",
+                "phpstan/phpstan-strict-rules": "^2.0",
+                "phpunit/phpunit": "^9.0",
+                "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": "^1.0",
+                "wp-coding-standards/wpcs": "3.1.0 as 2.3.0"
+            },
+            "suggest": {
+                "swissspidy/phpstan-no-private": "Detect usage of internal core functions, classes and methods"
+            },
+            "type": "phpstan-extension",
+            "extra": {
+                "phpstan": {
+                    "includes": [
+                        "extension.neon"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SzepeViktor\\PHPStan\\WordPress\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WordPress extensions for PHPStan",
+            "keywords": [
+                "PHPStan",
+                "code analyse",
+                "code analysis",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/szepeviktor/phpstan-wordpress/issues",
+                "source": "https://github.com/szepeviktor/phpstan-wordpress/tree/v2.0.4"
+            },
+            "time": "2026-05-22T16:22:09+00:00",
+            "published-time": "2026-08-28T06:48:49+00:00"
         },
         {
             "name": "wp-cli/cache-command",
@@ -7040,12 +7411,12 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "pronamic/changelog-md-to-wordpress-plugin-readme-txt": 20,
-        "pronamic/pronamic-wp-i18n-text-domain-replacer": 20
+        "solvebeam/wp-text-domain-replacer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.3"
+        "php": "^8.3"
     },
     "platform-dev": {},
     "platform-overrides": {

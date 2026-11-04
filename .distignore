@@ -1,40 +1,36 @@
-.DS_Store
-
-.git/
-
-.github/
-
-.wordpress-org/
-
 .distignore
+
+.DS_Store
 
 .editorconfig
 
+.git/
+.github/
 .gitattributes
 .gitignore
 
-.pronamic-build-ignore
+.wordpress-org/
 
 .wp-env.json
 
-.travis.yml
-
-phpcs-text-domain-fixer.xml
 phpcs.xml.dist
-
-.phpcs.dir.phpcompatibility.xml
-.phpcs.dir.xml
 
 phpstan.neon.dist
 
-phpunit.xml
+/rector.php
+
+/build/
+
+/node_modules/
 
 vendor/bin/
-
-vendor/viison/address-splitter/tests/
 
 vendor/justinrainbow/json-schema/bin/
 
 vendor/pronamic/wp-pay-logos/docs/
 
-/build/
+.travis.yml
+
+phpunit.xml
+
+vendor/viison/address-splitter/tests/

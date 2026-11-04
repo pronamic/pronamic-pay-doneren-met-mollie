@@ -1,7 +1,7 @@
 === Pronamic Pay doneren met Mollie ===
 Contributors: pronamic
 Tags: pronamic, mollie, donation, form, payment
-Requires at least: 5.9
+Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.3
 Stable tag: 1.8.0
