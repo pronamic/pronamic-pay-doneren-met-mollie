@@ -2,7 +2,7 @@
  * Frame the screenshots for wordpress.org and the README.
  *
  * Places the raw screenshots from `build/screenshots` on a canvas of a fixed
- * size with a Pronamic orange background, the plugin icon, the plugin name
+ * size with a Pronamic purple background, the plugin icon, the plugin name
  * and a title, and writes them to `.wordpress-org`. The titles are the
  * captions in the `== Screenshots ==` section of `readme.txt`. Adjust the
  * CSS variables in `style` to change the look.
@@ -34,7 +34,16 @@ const gap = 48;
  */
 const style = `
 	:root {
-		--background: #f9461c;
+		/*
+		 * Purple gradient with transparent white circles, like
+		 * https://www.pronamic.nl/wp-content/themes/pronamic-4/images/page-header.svg
+		 */
+		--circle: rgba( 255, 255, 255, 0.05 );
+		--background:
+			radial-gradient( circle 521.5px at 1226.5px 312.5px, var(--circle) 99.9%, transparent 100% ),
+			radial-gradient( circle 633.5px at 1100.5px -179.5px, var(--circle) 99.9%, transparent 100% ),
+			radial-gradient( circle 633.5px at 1567.5px 559.5px, var(--circle) 99.9%, transparent 100% ),
+			linear-gradient( to right, #321965, #21103c );
 		--padding: ${ padding }px;
 		--header-height: ${ headerHeight }px;
 		--gap: ${ gap }px;
