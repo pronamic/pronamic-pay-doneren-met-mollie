@@ -4,7 +4,7 @@ Tags: pronamic, mollie, donation, form, payment
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.8.0-rc.1
+Stable tag: 1.8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,7 +46,7 @@ This plugin provides the link between WordPress and payment provider Mollie. To 
 
 ### [Unreleased]
 
-### [1.8.0-rc.1] - 2026-11-04
+### [1.8.0] - 2026-11-04
 
 #### Composer
 
@@ -62,9 +62,9 @@ This plugin provides the link between WordPress and payment provider Mollie. To 
 - Changed `wp-pay-gateways/mollie` from `v4.21.0` to `v4.22.0`. Allowed Jetpack Autoloader 6.x and now requires `justinrainbow/json-schema` `^6.8`.
 	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.22.0
 
-Full set of changes: [`1.7.1...1.8.0-rc.1`][1.8.0-rc.1]
+Full set of changes: [`1.7.1...1.8.0`][1.8.0]
 
-[1.8.0-rc.1]: https://github.com/pronamic/pronamic-pay-doneren-met-mollie/compare/v1.7.1...v1.8.0-rc.1
+[1.8.0]: https://github.com/pronamic/pronamic-pay-doneren-met-mollie/compare/v1.7.1...v1.8.0
 
 ### [1.7.1] - 2026-11-02
 
