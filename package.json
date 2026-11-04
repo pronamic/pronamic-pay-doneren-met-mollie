@@ -30,11 +30,15 @@
 		"clsx": "^2.1.1"
 	},
 	"devDependencies": {
+		"@playwright/test": "^1.64.1",
+		"@wordpress/e2e-test-utils-playwright": "^3.2.0",
 		"@wordpress/env": "^12.1.0",
 		"@wordpress/scripts": "^37.1.0"
 	},
 	"prettier": "@wordpress/prettier-config",
 	"scripts": {
-		"lint:pkg-json": "wp-scripts lint-pkg-json"
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"screenshots": "wp-scripts test-playwright --config scripts/screenshots/playwright.config.js && npm run screenshots:frame",
+		"screenshots:frame": "node scripts/screenshots/frame.js"
 	}
 }

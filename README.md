@@ -113,9 +113,15 @@ Which payment methods are available depends on the activated payment methods in 
 
 ## Screenshots
 
-![Payment gateway configurations in the WordPress admin, with a Mollie configuration](.wordpress-org/screenshot-1.png)
+![The donation form on the frontend of a website](.wordpress-org/screenshot-1.png)
 
-![Mollie configuration with API key and a test payment](.wordpress-org/screenshot-2.png)
+![The "Donation form" pattern in the block inserter](.wordpress-org/screenshot-2.png)
+
+![The donation form in the block editor](.wordpress-org/screenshot-3.png)
+
+![Mollie configuration with API key](.wordpress-org/screenshot-4.png)
+
+![Payment gateway configurations in the WordPress admin](.wordpress-org/screenshot-5.png)
 
 ## In het Nederlands
 
@@ -157,6 +163,19 @@ composer run rector
 composer run build
 composer run make-pot
 ```
+
+### Screenshots
+
+The screenshots in [`.wordpress-org/`](.wordpress-org/) are generated with [Playwright](https://playwright.dev/), see [`scripts/screenshots/`](scripts/screenshots/). They use the build, so run `composer run build` first.
+
+```sh
+npx playwright install chromium
+composer run build
+npx wp-env start
+npm run screenshots
+```
+
+The screenshots temporarily add a demo page and a Mollie configuration to the `wp-env` site, deactivate the other plugins and remove or restore everything afterwards. The raw screenshots are saved in `build/screenshots/` and then framed on an orange background into `.wordpress-org/`. To adjust only the frame, run `npm run screenshots:frame`; no WordPress needed. If `wp-env` runs on another port, set `WP_BASE_URL`, for example `WP_BASE_URL=http://localhost:8894 npm run screenshots`.
 
 ## Links
 

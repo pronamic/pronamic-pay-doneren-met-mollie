@@ -40,11 +40,23 @@ This plugin provides the link between WordPress and payment provider Mollie. To 
 1. To install this plugin you can follow the WordPress documentation section "[Installing Plugins](https://wordpress.org/documentation/article/manage-plugins/#installing-plugins-1)".
 2. After installation you can follow the manual "[How to connect Mollie to WordPress with Pronamic Pay](https://www.pronamicpay.com/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/)".
 
+== Screenshots ==
+
+1. The donation form on the frontend of a website.
+2. The "Donation form" pattern in the block inserter.
+3. The donation form in the block editor.
+4. Mollie configuration with API key.
+5. Payment gateway configurations in the WordPress admin.
+
 == Changelog ==
 
 <!-- Start changelog -->
 
 ### [Unreleased]
+
+#### Changed
+
+- Modernized the plugin structure following the SolveBeam WordPress plugin boilerplate: the bootstrap code moved to `psr-4/Plugin.php`, strict types, PHPStan and Rector were added.
 
 ### [1.8.0] - 2026-11-04
 

@@ -34,3 +34,7 @@ vendor/pronamic/wp-pay-logos/docs/
 phpunit.xml
 
 vendor/viison/address-splitter/tests/
+
+/artifacts/
+
+/scripts/

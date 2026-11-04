@@ -9,3 +9,4 @@
 /phpcs.xml.dist     export-ignore
 /phpstan.neon.dist  export-ignore
 /rector.php         export-ignore
+/scripts/           export-ignore
