@@ -114,11 +114,20 @@ final class Plugin {
 	 * @return array<AbstractGatewayIntegration>
 	 */
 	private function add_gateways( array $gateways ): array {
-		$gateways[] = new MollieIntegration(
-			[
-				'manual_url' => \__( 'https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/', 'pronamic-pay-doneren-met-mollie' ),
-			]
+		$integration = new MollieIntegration();
+
+		/*
+		 * Pronamic Pay applies this filter before `init`, translating here
+		 * triggers a `_load_textdomain_just_in_time` notice.
+		 */
+		\add_action(
+			'init',
+			static function () use ( $integration ): void {
+				$integration->set_manual_url( \__( 'https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/', 'pronamic-pay-doneren-met-mollie' ) );
+			}
 		);
+
+		$gateways[] = $integration;
 
 		return $gateways;
 	}

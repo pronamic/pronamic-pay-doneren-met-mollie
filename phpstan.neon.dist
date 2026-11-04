@@ -3,9 +3,3 @@ parameters:
     paths:
         - psr-4/
         - pronamic-pay-doneren-met-mollie.php
-    ignoreErrors:
-        # The `$args` docblock of the Mollie integration constructor is too strict, it also accepts string values.
-        -
-            identifier: argument.type
-            message: '#^Parameter \#1 \$args of class Pronamic\\WordPress\\Pay\\Gateways\\Mollie\\Integration constructor#'
-            path: psr-4/Plugin.php
