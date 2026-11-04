@@ -2,7 +2,6 @@
 
 [![WordPress.org version](https://img.shields.io/wordpress/plugin/v/pronamic-pay-doneren-met-mollie?label=WordPress.org&logo=wordpress)](https://wordpress.org/plugins/pronamic-pay-doneren-met-mollie/)
 [![Latest release](https://img.shields.io/github/v/release/pronamic/pronamic-pay-doneren-met-mollie?label=Release)](https://github.com/pronamic/pronamic-pay-doneren-met-mollie/releases/latest)
-[![Active installs](https://img.shields.io/wordpress/plugin/installs/pronamic-pay-doneren-met-mollie?label=Active%20installs)](https://wordpress.org/plugins/pronamic-pay-doneren-met-mollie/)
 [![PHP 8.3+](https://img.shields.io/badge/PHP-8.3%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![WordPress 6.6+](https://img.shields.io/badge/WordPress-6.6%2B-21759B?logo=wordpress&logoColor=white)](https://wordpress.org/)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
