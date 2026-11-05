@@ -16,6 +16,8 @@ A modern WordPress block-based plugin for creating flexible and customizable don
 
 Looking for a modern successor to the “Doneren met Mollie” plugin by wobbie.nl / Nick Dijkstra? Look no further. The “Pronamic Pay doneren met Mollie” plugin is the new, modern solution for accepting donations with Mollie. It is built entirely with the WordPress block editor (Gutenberg), giving you complete flexibility and control. You can easily customize your donation forms using standard WordPress blocks like groups, rows, and columns. Add unlimited fields, adjust the layout to match your design, and create responsive donation forms that fit seamlessly into your website without writing any code.
 
+https://youtu.be/VbTfgCmgAOw
+
 ### Features
 
 This plugin is developed from the idea that online payments should be easy. Some of the features:

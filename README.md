@@ -28,9 +28,14 @@ Looking for a modern successor to the “[Doneren met Mollie](https://wordpress.
 - 🌍 **Multilingual.** Available in English and Dutch (Nederlands), and ready for translation.
 - 🆓 **Free and open source.** GPL licensed, developed in the open on GitHub and maintained by [Pronamic](https://www.pronamic.eu/), the team behind Pronamic Pay.
 
+## Video
+
+[![Donatieformulier maken in WordPress met Mollie (gratis plugin)](https://img.youtube.com/vi/VbTfgCmgAOw/maxresdefault.jpg)](https://youtu.be/VbTfgCmgAOw)
+
 ## Table of contents
 
 - [Why Pronamic Pay doneren met Mollie?](#why-pronamic-pay-doneren-met-mollie)
+- [Video](#video)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Create a donation form](#create-a-donation-form)
