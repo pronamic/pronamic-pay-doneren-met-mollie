@@ -2,9 +2,9 @@
 	"title": "Pronamic Pay doneren met Mollie: een donatieformulier maken",
 	"output": "pronamic-pay-doneren-met-mollie-nl",
 	"pronunciation": {
-		"pronamic.eu": "pronamic punt e u",
+		"pronamicpay.com": "pronamic pay punt com",
 		"wordpress.org": "WordPress punt org",
-		"API-sleutel": "aa-pee-ie-sleutel"
+		"API-sleutel": "eej-pie-aai-sleutel"
 	},
 	"scenes": [
 		{
@@ -27,7 +27,7 @@
 			"steps": [
 				{
 					"id": "plugin-menu",
-					"text": "Ga in WordPress naar Plugins en klik op Nieuwe plugin."
+					"text": "Ga in WordPress naar Plugins en klik op Plugin toevoegen."
 				},
 				{
 					"id": "plugin-search",
@@ -145,13 +145,13 @@
 				"title": "Zo eenvoudig is het",
 				"lines": [
 					"wordpress.org/plugins/pronamic-pay-doneren-met-mollie",
-					"pronamic.eu"
+					"pronamicpay.com"
 				]
 			},
 			"steps": [
 				{
 					"id": "outro",
-					"text": "Zo eenvoudig is het. Download de plugin gratis op wordpress.org. Meer informatie en hulp vind je op pronamic.eu. Succes met je donaties!"
+					"text": "Zo eenvoudig is het. Download de plugin gratis op wordpress.org. Meer informatie en hulp vind je op pronamicpay.com. Succes met je donaties!"
 				}
 			]
 		}

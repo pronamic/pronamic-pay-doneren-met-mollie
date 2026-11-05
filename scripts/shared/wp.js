@@ -138,7 +138,6 @@ async function openEditor(
 	corePreferences = {}
 ) {
 	if ( null === postId ) {
-		// A new post, not a page, to skip the starter patterns modal.
 		await admin.createNewPost( { fullscreenMode: true } );
 	} else {
 		await admin.editPost( postId );

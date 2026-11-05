@@ -105,6 +105,11 @@ test.describe( 'Video', () => {
 		// The site language of `.wp-env.json`: Dutch, with the translations.
 		await setUserLocale( requestUtils, '' );
 
+		// No starter patterns modal for new posts and pages.
+		await requestUtils.setPreferences( 'core', {
+			enableChoosePatternModal: false,
+		} );
+
 		wpCli( 'language', 'core', 'install', 'nl_NL' );
 		wpCli( 'language', 'theme', 'install', '--all', 'nl_NL' );
 
@@ -185,6 +190,10 @@ test.describe( 'Video', () => {
 		}
 
 		await restorePlugins( requestUtils, deactivatedPlugins );
+
+		await requestUtils.setPreferences( 'core', {
+			enableChoosePatternModal: true,
+		} );
 	} );
 
 	test( 'plugin', async ( { admin, page } ) => {
@@ -288,19 +297,6 @@ test.describe( 'Video', () => {
 		await admin.createNewPost( { postType: 'page', fullscreenMode: true } );
 
 		await editor.setPreferences( 'core', { fixedToolbar: false } );
-
-		// The starter patterns modal of new pages, it opens with a delay.
-		const modal = page.locator( '.editor-start-page-options__modal' );
-
-		const hasModal = await modal
-			.waitFor( { timeout: 5000 } )
-			.then( () => true )
-			.catch( () => false );
-
-		if ( hasModal ) {
-			await page.keyboard.press( 'Escape' );
-			await modal.waitFor( { state: 'hidden' } );
-		}
 
 		await director.step( 'form-new', async () => {
 			await director.type(

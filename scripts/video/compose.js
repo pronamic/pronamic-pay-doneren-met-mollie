@@ -82,13 +82,18 @@ function audioFilter( steps, firstInput, duration ) {
 /**
  * Video fade in and out.
  *
- * @param {number} duration Segment duration.
+ * The first segment starts without a fade in, so the first frame of the
+ * video shows the intro instead of black.
+ *
+ * @param {number}  duration Segment duration.
+ * @param {boolean} first    Whether this is the first segment.
  * @return {string} Filter.
  */
-const fades = ( duration ) =>
-	`fade=t=in:st=0:d=${ fade },fade=t=out:st=${ ( duration - fade ).toFixed(
-		3
-	) }:d=${ fade }`;
+const fades = ( duration, first ) =>
+	[
+		...( first ? [] : [ `fade=t=in:st=0:d=${ fade }` ] ),
+		`fade=t=out:st=${ ( duration - fade ).toFixed( 3 ) }:d=${ fade }`,
+	].join( ',' );
 
 /**
  * Segment of a title card.
@@ -96,9 +101,10 @@ const fades = ( duration ) =>
  * @param {Object}                scene     Scene.
  * @param {Object<string,number>} durations Narration durations.
  * @param {string}                file      Output file.
+ * @param {boolean}               first     Whether this is the first segment.
  * @return {Object[]} Steps with offsets.
  */
-function cardSegment( scene, durations, file ) {
+function cardSegment( scene, durations, file, first ) {
 	let offset = cardLead;
 
 	const steps = scene.steps.map( ( step ) => {
@@ -128,7 +134,7 @@ function cardSegment( scene, durations, file ) {
 			path.join( dirs.audio, `${ step.id }.wav` ),
 		] ),
 		'-filter_complex',
-		`[0:v]${ fades( duration ) }[v];${ audioFilter( steps, 1, duration ) }`,
+		`[0:v]${ fades( duration, first ) }[v];${ audioFilter( steps, 1, duration ) }`,
 		'-map',
 		'[v]',
 		'-map',
@@ -143,12 +149,13 @@ function cardSegment( scene, durations, file ) {
 /**
  * Segment of a recorded scene.
  *
- * @param {Object} scene    Scene.
- * @param {Object} timeline Timeline written by the recording.
- * @param {string} file     Output file.
+ * @param {Object}  scene    Scene.
+ * @param {Object}  timeline Timeline written by the recording.
+ * @param {string}  file     Output file.
+ * @param {boolean} first    Whether this is the first segment.
  * @return {Object[]} Steps with offsets.
  */
-function recordedSegment( scene, timeline, file ) {
+function recordedSegment( scene, timeline, file, first ) {
 	const start = Math.max( 0, timeline.steps[ 0 ].at - sceneLead );
 	const duration = timeline.end - start;
 
@@ -178,7 +185,10 @@ function recordedSegment( scene, timeline, file ) {
 				3
 			) },setpts=PTS-STARTPTS,fps=${ output.fps },scale=${
 				output.width
-			}:${ output.height }:flags=lanczos,${ fades( duration ) }[v]`,
+			}:${ output.height }:flags=lanczos,${ fades(
+				duration,
+				first
+			) }[v]`,
 			audioFilter( steps, 1, duration ),
 		].join( ';' ),
 		'-map',
@@ -268,7 +278,12 @@ function cues( text, start, duration ) {
 		let steps;
 
 		if ( scene.card ) {
-			steps = cardSegment( scene, durations, file );
+			steps = cardSegment(
+				scene,
+				durations,
+				file,
+				0 === segments.length
+			);
 		} else {
 			const timelineFile = path.join( dirs.scenes, `${ scene.id }.json` );
 
@@ -290,7 +305,12 @@ function cues( text, start, duration ) {
 				continue;
 			}
 
-			steps = recordedSegment( scene, timeline, file );
+			steps = recordedSegment(
+				scene,
+				timeline,
+				file,
+				0 === segments.length
+			);
 		}
 
 		process.stdout.write( `Segment ${ scene.id }\n` );

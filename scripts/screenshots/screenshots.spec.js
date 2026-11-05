@@ -71,6 +71,11 @@ test.describe( 'Screenshots', () => {
 		// Screenshots in English, `.wp-env.json` sets the site to Dutch.
 		await setUserLocale( requestUtils, 'en_US' );
 
+		// No starter patterns modal for new posts and pages.
+		await requestUtils.setPreferences( 'core', {
+			enableChoosePatternModal: false,
+		} );
+
 		const content = readContent( 'donation-form.html' ).replace(
 			/<!-- wp:pattern \{"slug":"pronamic\/([^"]+)"\} \/-->/g,
 			( match, slug ) => patternContent( slug )
@@ -96,6 +101,10 @@ test.describe( 'Screenshots', () => {
 
 		// Back to the site language.
 		await setUserLocale( requestUtils, '' );
+
+		await requestUtils.setPreferences( 'core', {
+			enableChoosePatternModal: true,
+		} );
 	} );
 
 	test.describe( 'Frontend', () => {
